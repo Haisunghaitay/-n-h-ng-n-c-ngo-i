@@ -515,6 +515,20 @@ async def cb_back_to_list(callback: CallbackQuery):
 async def handle_ping(request):
     return web.Response(text="Bot is running!")
 
+async def self_ping():
+    """Tự động ping chính URL của mình trên Render để giữ máy chủ không bị ngủ (10 phút 1 lần)"""
+    url = os.environ.get("RENDER_EXTERNAL_URL")
+    if not url:
+        return
+    while True:
+        try:
+            await asyncio.sleep(600)  # Ngủ 10 phút
+            async with httpx.AsyncClient() as client:
+                await client.get(url)
+                print(f"[SYSTEM] Tự động Ping đánh thức máy chủ ({url}) thành công.")
+        except Exception as e:
+            print(f"[SYSTEM] Lỗi tự vệ Ping: {e}")
+
 async def start_web_server():
     app = web.Application()
     app.router.add_get('/', handle_ping)
@@ -525,6 +539,9 @@ async def start_web_server():
     site = web.TCPSite(runner, '0.0.0.0', port)
     await site.start()
     print(f"[SYSTEM] Web Server giả lập đang mở rào cổng {port} để tương thích với dịch vụ Render!")
+    
+    # Kích hoạt self ping ngầm
+    asyncio.create_task(self_ping())
 
 async def main():
     admin_id_file = 'admin_id.txt'
