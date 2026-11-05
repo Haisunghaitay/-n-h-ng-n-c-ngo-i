@@ -1,0 +1,16 @@
+{
+  "name": "laos-order-tracking",
+  "displayName": "Theo Dõi Vận Đơn Lào (Anousith & HAL)",
+  "version": "1.0.0",
+  "description": "Tự động đồng bộ đơn hàng xuất khẩu Lào từ Thái Dương FFM (LAO162), tra cứu hành trình trực tiếp từ Anousith Express & HAL Logistics, so khớp Google Maps thông minh và hỗ trợ gửi tin WhatsApp.",
+  "author": {
+    "name": "Haisunghaitay",
+    "url": "https://github.com/Haisunghaitay/-n-h-ng-n-c-ngo-i"
+  },
+  "repository": "https://github.com/Haisunghaitay/-n-h-ng-n-c-ngo-i",
+  "suggestedPrompts": [
+    "Đồng bộ vận đơn Lào hôm nay từ Thái Dương FFM",
+    "Kiểm tra các đơn Anousith và HAL đã về đến trạm đích",
+    "Mở Dashboard Theo Dõi Vận Đơn Lào trên trình duyệt"
+  ]
+}

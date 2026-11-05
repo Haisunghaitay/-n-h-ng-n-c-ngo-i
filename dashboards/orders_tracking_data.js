@@ -1,0 +1,10124 @@
+window.__ORDERS_TRACKING_DATA__ = {
+  "stats": {
+    "total_orders": 157,
+    "total_with_code": 144,
+    "completed": 131,
+    "ready_for_pickup": 0,
+    "in_transit": 3,
+    "return_warning": 0,
+    "pending": 23,
+    "total_cod_kip": 85888000.0,
+    "collected_cod_kip": 74067000.0,
+    "pending_cod_kip": 998000.0,
+    "last_updated": "05/11/2026 15:08:03",
+    "delivery_rate": 83.4
+  },
+  "orders": [
+    {
+      "stt": 1,
+      "order_uid": "LAO162_20261104_1",
+      "shipping_order_code": null,
+      "carrier": "Anousith Express",
+      "buyer_name": "Phêrô Siêng",
+      "buyer_phone": "+8562097828737",
+      "buyer_phone_raw": "+856 20 97 828 737",
+      "buyer_address": "ສາຂາ ວຽງຈະເລີນ(ໄຊເສດຖາ)\nນະຄອນຫຼວງວຽງຈັນ\nບ້ານ ວຽງຈະເລີນ , ເມືອງ ໄຊເສດຖາ\nGIAO ANOUSITH",
+      "dest_branch": "ສາຂາ ວຽງຈະເລີນ(ໄຊເສດຖາ)",
+      "matched_branch_name": "ສາຂາ ວຽງຈະເລີນ(ໄຊເສດຖາ)",
+      "cod_amount": 424000.0,
+      "created_at": "2026-11-04T09:10:36.803Z",
+      "status": {
+        "code": "PENDING",
+        "text": "Chờ bàn giao vận chuyển",
+        "badge_class": "badge-secondary",
+        "action_needed": "Xuất kho đóng gói",
+        "color": "#64748b"
+      },
+      "items": [],
+      "latest_scan_desc": "Chưa có dữ liệu quét",
+      "latest_scan_time": "",
+      "timeline": [],
+      "google_maps_link": "https://maps.app.goo.gl/fJdM1QKdxhDgAyeSA",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 2,
+      "order_uid": "LAO162_20261102_3",
+      "shipping_order_code": "8263072039944",
+      "carrier": "Anousith Express",
+      "buyer_name": "Nguyễn Ngọc Thạnh",
+      "buyer_phone": "+8562098199333",
+      "buyer_phone_raw": "+8562098199333",
+      "buyer_address": "ສາຂາ ຫຼັກ2 giao Anousith",
+      "dest_branch": "ສາຂາ ຫຼັກ2",
+      "matched_branch_name": "ຫຼັກ21(ໄຟແດງຫຼັກ21)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-11-02T07:07:10.890Z",
+      "status": {
+        "code": "PENDING",
+        "text": "Chờ bàn giao vận chuyển",
+        "badge_class": "badge-secondary",
+        "action_needed": "Xuất kho đóng gói",
+        "color": "#64748b"
+      },
+      "items": [],
+      "latest_scan_desc": "ສູນປາກຊັນ (Hub Paksan): Quét xuất kho [ ສູນປາກຊັນ ] ➔ Đi tiếp: [ ສູນນາປົ່ງ ]",
+      "latest_scan_time": "04-11-2026, 21:19",
+      "timeline": [
+        {
+          "time": "04-11-2026, 21:19",
+          "location": "ສູນປາກຊັນ (Hub Paksan)",
+          "description": "Quét xuất kho [ ສູນປາກຊັນ ] ➔ Đi tiếp: [ ສູນນາປົ່ງ ]",
+          "status": "SCAN_OUT"
+        },
+        {
+          "time": "04-11-2026, 21:17",
+          "location": "ສູນປາກຊັນ (Hub Paksan)",
+          "description": "Quét xuất kho [ ສູນປາກຊັນ ] ➔ Đi tiếp: [ ສູນ ເຊກອງ ]",
+          "status": "SCAN_OUT"
+        },
+        {
+          "time": "04-11-2026, 21:07",
+          "location": "ສູນປາກຊັນ (Hub Paksan)",
+          "description": "Quét nhập kho [ ສູນປາກຊັນ ]",
+          "status": "SCAN_IN"
+        },
+        {
+          "time": "03-11-2026, 14:32",
+          "location": "ສາຂາ ນາສົ້ມມໍ ຫຼັກ9(ປາກຊັນ)",
+          "description": "Quét xuất kho [ ສາຂາ ນາສົ້ມມໍ ຫຼັກ9 ] ➔ Đi tiếp: [ ສູນປາກຊັນ ]",
+          "status": "SCAN_OUT"
+        },
+        {
+          "time": "03-11-2026, 10:05",
+          "location": "ສາຂາ ນາສົ້ມມໍ ຫຼັກ9",
+          "description": "Tiếp nhận kiện hàng tại bưu cục gửi",
+          "status": "RECEIVED"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=18.074628427568,102.74555787451",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8263072039944&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 3,
+      "order_uid": "LAO162_20261102_2",
+      "shipping_order_code": "8263074574724",
+      "carrier": "Anousith Express",
+      "buyer_name": "Như Hiep Ngo",
+      "buyer_phone": "+8562099199688",
+      "buyer_phone_raw": "+8562099199688",
+      "buyer_address": "ໂພນປາເປົ້າ2 (ວິຈິດສິນ) giao Anousith",
+      "dest_branch": "ໂພນປາເປົ້າ2 (ວິຈິດສິນ)",
+      "matched_branch_name": "ໂພນປາເປົ້າ2 (ວິຈິດສິນ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-11-02T07:04:46.408Z",
+      "status": {
+        "code": "IN_TRANSIT",
+        "text": "Đang vận chuyển trung chuyển",
+        "badge_class": "badge-info",
+        "action_needed": "Theo dõi tiến độ xe",
+        "color": "#3b82f6"
+      },
+      "items": [],
+      "latest_scan_desc": "Tuyến liên tỉnh: Đang trên xe tải di chuyển đến bưu cục nhận",
+      "latest_scan_time": "Đang vận chuyển",
+      "timeline": [
+        {
+          "time": "Đang vận chuyển",
+          "location": "Tuyến liên tỉnh",
+          "description": "Đang trên xe tải di chuyển đến bưu cục nhận",
+          "status": "IN_TRANSIT"
+        },
+        {
+          "time": "Đã xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=17.949074870278,102.64097126882",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8263074574724&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 4,
+      "order_uid": "LAO162_20261102_1",
+      "shipping_order_code": "PXE46905477845",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Ha Tran",
+      "buyer_phone": "+8562099296989",
+      "buyer_phone_raw": "02099296989",
+      "buyer_address": "ນາຄ່ອນ giao HAL",
+      "dest_branch": "ນາຄ່ອນ",
+      "matched_branch_name": "ນາຄ່ອນ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-11-02T06:55:24.664Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-11-02 16:48:42",
+      "timeline": [
+        {
+          "time": "2026-11-02 16:48:42",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-11-02 16:48:43",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-11-02 16:50:45",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-11-02 16:50:47",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-11-02 16:50:50",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-11-02 20:36:53",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-11-03 07:04:42",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=19.068713448893,103.95361755858",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE46905477845?lang=la"
+    },
+    {
+      "stt": 5,
+      "order_uid": "LAO162_20261026_5",
+      "shipping_order_code": "8263002255015",
+      "carrier": "Anousith Express",
+      "buyer_name": "le",
+      "buyer_phone": "+8562092466222",
+      "buyer_phone_raw": "02092466222",
+      "buyer_address": "ສາຂາ ທາດຫຼວງ(ໄຊເສດຖາ)",
+      "dest_branch": "ສາຂາ ທາດຫຼວງ(ໄຊເສດຖາ)",
+      "matched_branch_name": "ສາຂາ ທາດຫຼວງ(ໄຊເສດຖາ)",
+      "cod_amount": 460000.0,
+      "created_at": "2026-10-26T14:22:53.835Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ທາດຫຼວງ(ໄຊເສດຖາ): Khách hàng đã nhận kiện hàng thành công & nộp tiền COD (460,000 KIP)",
+      "latest_scan_time": "02-11-2026, 18:04",
+      "timeline": [
+        {
+          "time": "02-11-2026, 18:04",
+          "location": "ສາຂາ ທາດຫຼວງ(ໄຊເສດຖາ)",
+          "description": "Khách hàng đã nhận kiện hàng thành công & nộp tiền COD (460,000 KIP)",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "29-10-2026, 10:36",
+          "location": "ສາຂາ ທາດຫຼວງ(ໄຊເສດຖາ)",
+          "description": "Quét nhập kho trạm đích [ ສາຂາ ທາດຫຼວງ ] (NV: ວຸ້ນ)",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "29-10-2026, 08:41",
+          "location": "ສູນຄັດແຍກໂຊກໃຫຍ່ (Hub Sokyai)",
+          "description": "Quét xuất kho [ ສູນຄັດແຍກໂຊກໃຫຍ່ ] ➔ Đi tiếp trạm đích (NV: ນາງ ບົວຂາວ)",
+          "status": "SCAN_OUT"
+        },
+        {
+          "time": "28-10-2026, 13:54",
+          "location": "ສູນຄັດແຍກໂຊກໃຫຍ່ (Hub Sokyai)",
+          "description": "Quét nhập kho [ ສູນຄັດແຍກໂຊກໃຫຍ່ ] (NV: ນາງ ລັດສະໝີ)",
+          "status": "SCAN_IN"
+        },
+        {
+          "time": "27-10-2026, 21:04",
+          "location": "ສູນປາກຊັນ (Hub Paksan)",
+          "description": "Quét xuất kho [ ສູນປາກຊັນ ] ➔ Đi tiếp: [ ສູນຄັດແຍກໂຊກໃຫຍ່ ] (NV: ນາງຈູມມາລີ)",
+          "status": "SCAN_OUT"
+        },
+        {
+          "time": "27-10-2026, 21:03",
+          "location": "ສູນປາກຊັນ (Hub Paksan)",
+          "description": "Quét nhập kho [ ສູນປາກຊັນ ] (NV: ນາງ ພູເຟືອງ)",
+          "status": "SCAN_IN"
+        },
+        {
+          "time": "27-10-2026, 14:32",
+          "location": "ສາຂາ ນາສົ້ມມໍ ຫຼັກ9(ປາກຊັນ)",
+          "description": "Quét xuất kho [ ສາຂາ ນາສົ້ມມໍ ຫຼັກ9 ] ➔ Đi tiếp: [ ສູນປາກຊັນ ] (NV: ນາງ ແອນນາ)",
+          "status": "SCAN_OUT"
+        },
+        {
+          "time": "27-10-2026, 10:57",
+          "location": "ສາຂາ ນາສົ້ມມໍ ຫຼັກ9",
+          "description": "Tiếp nhận kiện hàng tại bưu cục gửi",
+          "status": "RECEIVED"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/XioqMj1g7yAQrnec7",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8263002255015&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 6,
+      "order_uid": "LAO162_20261026_4",
+      "shipping_order_code": "8263003342623",
+      "carrier": "Anousith Express",
+      "buyer_name": "Nguyễn Đại",
+      "buyer_phone": "+8562091291818",
+      "buyer_phone_raw": "02091291818",
+      "buyer_address": "ສາຂາ ຕະຫຼາດຫຼັກ3(ທ່າແખກ)",
+      "dest_branch": "ສາຂາ ຕະຫຼາດຫຼັກ3(ທ່າແખກ)",
+      "matched_branch_name": "ສາຂາ ຕະຫຼາດຫຼັກ3(ທ່າແખກ)",
+      "cod_amount": 359000.0,
+      "created_at": "2026-10-26T08:08:57.845Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ຕະຫຼາດຫຼັກ3(ທ່າແખກ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ຕະຫຼາດຫຼັກ3(ທ່າແખກ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ຕະຫຼາດຫຼັກ3(ທ່າແખກ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.google.com/?q=%E0%BA%AA%E0%BA%B2%E0%BA%82%E0%BA%B2+%E0%BA%95%E0%BA%B0%E0%BA%AB%E0%BA%BC%E0%BA%B2%E0%BA%94%E0%BA%AB%E0%BA%BC%E0%BA%B1%E0%BA%813%28%E0%BA%97%E0%BB%88%E0%BA%B2%E0%BB%81%E0%AA%96%E0%BA%81%29%2C+Laos",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8263003342623&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 7,
+      "order_uid": "LAO162_20261026_3",
+      "shipping_order_code": "8263076668038",
+      "carrier": "Anousith Express",
+      "buyer_name": "Chu Văn Sỹ",
+      "buyer_phone": "+8562095719084",
+      "buyer_phone_raw": "02095719084",
+      "buyer_address": "ສາຂາ ປາກກະດິງ(ເມືອງປາກກະດິງ)",
+      "dest_branch": "ສາຂາ ປາກກະດິງ(ເມືອງປາກກະດິງ)",
+      "matched_branch_name": "ສາຂາ ປາກກະດິງ(ເມືອງປາກກະດິງ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-10-26T07:22:19.450Z",
+      "status": {
+        "code": "IN_TRANSIT",
+        "text": "Đang vận chuyển trung chuyển",
+        "badge_class": "badge-info",
+        "action_needed": "Theo dõi tiến độ xe",
+        "color": "#3b82f6"
+      },
+      "items": [],
+      "latest_scan_desc": "Tuyến liên tỉnh: Đang trên xe tải di chuyển đến bưu cục nhận",
+      "latest_scan_time": "Đang vận chuyển",
+      "timeline": [
+        {
+          "time": "Đang vận chuyển",
+          "location": "Tuyến liên tỉnh",
+          "description": "Đang trên xe tải di chuyển đến bưu cục nhận",
+          "status": "IN_TRANSIT"
+        },
+        {
+          "time": "Đã xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/n9uUHB9HjLvVda8z6",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8263076668038&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 8,
+      "order_uid": "LAO162_20261026_2",
+      "shipping_order_code": "8263006017096",
+      "carrier": "Anousith Express",
+      "buyer_name": "Tinh Bach Sy",
+      "buyer_phone": "+8562099399778",
+      "buyer_phone_raw": "02099399778",
+      "buyer_address": "ສາຂາ ສີ່ແຍກໄຟແດງຕານມີໄຊ",
+      "dest_branch": "ສາຂາ ສີ່ແຍກໄຟແດງຕານມີໄຊ",
+      "matched_branch_name": "ສາຂາ ສີ່ແຍກໄຟແດງຕານມີໄຊ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-10-26T07:17:58.477Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ສີ່ແຍກໄຟແດງຕານມີໄຊ: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ສີ່ແຍກໄຟແດງຕານມີໄຊ",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ສີ່ແຍກໄຟແດງຕານມີໄຊ",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/9gRGtbXuGip1fbpM8",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8263006017096&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 9,
+      "order_uid": "LAO162_20261026_1",
+      "shipping_order_code": "8263008417515",
+      "carrier": "Anousith Express",
+      "buyer_name": "Phong Độ",
+      "buyer_phone": "+8562099577565",
+      "buyer_phone_raw": "02099577565",
+      "buyer_address": "ສາຂາ ໂຮມໄຊ(ເມືອງນາໝໍ້) Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ໂຮມໄຊ(ເມືອງນາໝໍ້)",
+      "matched_branch_name": "ສາຂາ ໂຮມໄຊ(ເມືອງນາໝໍ້)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-10-26T05:07:17.041Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ໂຮມໄຊ(ເມືອງນາໝໍ້): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ໂຮມໄຊ(ເມືອງນາໝໍ້)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ໂຮມໄຊ(ເມືອງນາໝໍ້)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/xCJU4V8Q8JjW6wum8",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8263008417515&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 10,
+      "order_uid": "LAO162_20261025_1",
+      "shipping_order_code": "8262998122319",
+      "carrier": "Anousith Express",
+      "buyer_name": "Ngọc Hòa",
+      "buyer_phone": "+8562052211112",
+      "buyer_phone_raw": "+8562052211112",
+      "buyer_address": "ສາຂາ ໜອງພະຍາ(ໜ້າຫ້ອງການບ້ານ)",
+      "dest_branch": "ສາຂາ ໜອງພະຍາ(ໜ້າຫ້ອງການບ້ານ)",
+      "matched_branch_name": "ສາຂາ ໜອງພະຍາ(ໜ້າຫ້ອງການບ້ານ)",
+      "cod_amount": 400000.0,
+      "created_at": "2026-10-25T12:58:54.119Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ໜອງພະຍາ(ໜ້າຫ້ອງການບ້ານ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ໜອງພະຍາ(ໜ້າຫ້ອງການບ້ານ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ໜອງພະຍາ(ໜ້າຫ້ອງການບ້ານ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/y2SNf4d2v2nGj5yU9",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262998122319&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 11,
+      "order_uid": "LAO162_20261024_1",
+      "shipping_order_code": null,
+      "carrier": "HAL Logistics",
+      "buyer_name": "Thủy Nguyễn",
+      "buyer_phone": "+8562078623531",
+      "buyer_phone_raw": "+8562078623531",
+      "buyer_address": "ໂນນແກ້ວ Giao HAL",
+      "dest_branch": "ໂນນແກ້ວ Giao HAL",
+      "matched_branch_name": "ໂນນແກ້ວ",
+      "cod_amount": 315000.0,
+      "created_at": "2026-10-24T01:59:28.097Z",
+      "status": {
+        "code": "PENDING",
+        "text": "Chờ bàn giao vận chuyển",
+        "badge_class": "badge-secondary",
+        "action_needed": "Xuất kho đóng gói",
+        "color": "#64748b"
+      },
+      "items": [],
+      "latest_scan_desc": "Chưa có dữ liệu quét",
+      "latest_scan_time": "",
+      "timeline": [],
+      "google_maps_link": "https://www.google.com/maps?q=17.989135652104,102.52797056281",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 12,
+      "order_uid": "LAO162_20261021_1",
+      "shipping_order_code": "8262944674495",
+      "carrier": "Anousith Express",
+      "buyer_name": "Hung",
+      "buyer_phone": "+8562095075458",
+      "buyer_phone_raw": "9507 5458",
+      "buyer_address": "ສາຂາ ຫຼັງຕະຫຼາດໃໝ່(ປາກຊັນ) Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ຫຼັງຕະຫຼາດໃໝ່(ປາກຊັນ)",
+      "matched_branch_name": "ສາຂາ ຫຼັງຕະຫຼາດໃໝ່(ປາກຊັນ)",
+      "cod_amount": 1099000.0,
+      "created_at": "2026-10-21T07:13:42.937Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ຫຼັງຕະຫຼາດໃໝ່(ປາກຊັນ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ຫຼັງຕະຫຼາດໃໝ່(ປາກຊັນ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ຫຼັງຕະຫຼາດໃໝ່(ປາກຊັນ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/GfafA4K2qHJbqpze6",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262944674495&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 13,
+      "order_uid": "LAO162_20261017_1",
+      "shipping_order_code": "PXE20423034361",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Suong Tran",
+      "buyer_phone": "+8562097556868",
+      "buyer_phone_raw": "02097556868",
+      "buyer_address": "ດອນກອຍ Giao HAL",
+      "dest_branch": "ດອນກອຍ",
+      "matched_branch_name": "ດອນກອຍ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-10-17T03:20:20.653Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-10-17 14:30:43",
+      "timeline": [
+        {
+          "time": "2026-10-17 14:30:43",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-10-17 14:30:44",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-17 15:57:18",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-17 15:57:21",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-17 15:58:29",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-17 20:20:18",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-18 09:24:10",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-18 16:12:15",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-18 16:12:15",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-19 11:49:34",
+          "location": "ສາຂາ ດອນກອຍ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-10-20 15:09:34",
+          "location": "ສາຂາ ດອນກອຍ",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=17.929138703499,102.65141092941",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE20423034361?lang=la"
+    },
+    {
+      "stt": 14,
+      "order_uid": "LAO162_20261014_2",
+      "shipping_order_code": "8262887101053",
+      "carrier": "Anousith Express",
+      "buyer_name": "Luat Huynh",
+      "buyer_phone": "+8562097020678",
+      "buyer_phone_raw": "02097020678",
+      "buyer_address": "ສາຂາ ນາເຊັງ(ນະຄອນໄກສອນ)  Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ນາເຊັງ(ນະຄອນໄກສອນ)",
+      "matched_branch_name": "ສາຂາ ນາເຊັງ(ນະຄອນໄກສອນ)",
+      "cod_amount": 765000.0,
+      "created_at": "2026-10-14T05:12:01.382Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາເຊັງ(ນະຄອນໄກສອນ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ນາເຊັງ(ນະຄອນໄກສອນ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ນາເຊັງ(ນະຄອນໄກສອນ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/pTaitS37QrP7dMx69",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262887101053&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 15,
+      "order_uid": "LAO162_20261014_1",
+      "shipping_order_code": "8262875375366",
+      "carrier": "Anousith Express",
+      "buyer_name": "Đức Lộc",
+      "buyer_phone": "+8562092653147",
+      "buyer_phone_raw": "02092653147",
+      "buyer_address": "ສາຂາ ແກ້ງກອກ(ເມືອງ ຈຳພອນ) Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ແກ້ງກອກ(ເມືອງ ຈຳພອນ)",
+      "matched_branch_name": "ສາຂາ ແກ້ງກອກ(ເມືອງ ຈຳພອນ)",
+      "cod_amount": 450000.0,
+      "created_at": "2026-10-14T04:12:31.236Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ແກ້ງກອກ(ເມືອງ ຈຳພອນ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ແກ້ງກອກ(ເມືອງ ຈຳພອນ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ແກ້ງກອກ(ເມືອງ ຈຳພອນ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/YhuWon9z5p4fhxZp8",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262875375366&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 16,
+      "order_uid": "LAO162_20261013_1",
+      "shipping_order_code": "8262871734162",
+      "carrier": "Anousith Express",
+      "buyer_name": "Quốc Quyền ‪",
+      "buyer_phone": "+856 20 56 822 268‬",
+      "buyer_phone_raw": "+856 20 56 822 268‬",
+      "buyer_address": "ສະຫວ່າງ",
+      "dest_branch": "ສະຫວ່າງ",
+      "matched_branch_name": "ສະຫວ່າງ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-10-13T06:49:41.652Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສະຫວ່າງ: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສະຫວ່າງ",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສະຫວ່າງ",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=17.985209370495,102.61276852017",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262871734162&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 17,
+      "order_uid": "LAO162_20261012_2",
+      "shipping_order_code": "PXE83672583272",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Minh Tien",
+      "buyer_phone": "+8562056178989",
+      "buyer_phone_raw": "+856 20 56 178 989",
+      "buyer_address": "ສົມສະຫງ່າ(ຕະຫຼາດນ້ອຍ) giao Hal",
+      "dest_branch": "ສົມສະຫງ່າ(ຕະຫຼາດນ້ອຍ)",
+      "matched_branch_name": "ສົມສະຫງ່າ(ຕະຫຼາດນ້ອຍ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-10-12T14:38:07.054Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-10-13 10:05:15",
+      "timeline": [
+        {
+          "time": "2026-10-13 10:05:15",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-10-13 10:05:16",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-13 16:02:52",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-13 16:02:55",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-13 16:03:14",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-13 20:53:35",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-14 14:51:49",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-14 15:56:12",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-14 18:50:54",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-15 11:14:03",
+          "location": "ສາຂາ ສົມສະຫງ່າ(ຕະຫຼາດນ້ອຍ)",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-10-17 17:42:26",
+          "location": "ສາຂາ ສົມສະຫງ່າ(ຕະຫຼາດນ້ອຍ)",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=17.959572033342,102.68567768221",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE83672583272?lang=la"
+    },
+    {
+      "stt": 18,
+      "order_uid": "LAO162_20261012_1",
+      "shipping_order_code": "8262897344949",
+      "carrier": "Anousith Express",
+      "buyer_name": "Công Năm",
+      "buyer_phone": "+8562094423994",
+      "buyer_phone_raw": "02094423994",
+      "buyer_address": "ນາເລົ່າ(ເມືອງໄກສອນ)",
+      "dest_branch": "ນາເລົ່າ(ເມືອງໄກສອນ)",
+      "matched_branch_name": "ນາເລົ່າ(ເມືອງໄກສອນ)",
+      "cod_amount": 350000.0,
+      "created_at": "2026-10-12T02:34:39.759Z",
+      "status": {
+        "code": "PENDING",
+        "text": "Chờ bàn giao vận chuyển",
+        "badge_class": "badge-secondary",
+        "action_needed": "Xuất kho đóng gói",
+        "color": "#64748b"
+      },
+      "items": [],
+      "latest_scan_desc": "Chưa có dữ liệu quét",
+      "latest_scan_time": "",
+      "timeline": [],
+      "google_maps_link": "https://www.google.com/maps?q=16.567798614502,104.7621307373",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262897344949&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 19,
+      "order_uid": "LAO162_20261011_1",
+      "shipping_order_code": null,
+      "carrier": "Anousith Express",
+      "buyer_name": "Công Năm",
+      "buyer_phone": "+8562094423994",
+      "buyer_phone_raw": "02094423994",
+      "buyer_address": "ນາເລົ່າ(ເມືອງໄກສອນ)",
+      "dest_branch": "ນາເລົ່າ(ເມືອງໄກສອນ)",
+      "matched_branch_name": "ນາເລົ່າ(ເມືອງໄກສອນ)",
+      "cod_amount": 350000.0,
+      "created_at": "2026-10-11T09:43:12.791Z",
+      "status": {
+        "code": "PENDING",
+        "text": "Chờ bàn giao vận chuyển",
+        "badge_class": "badge-secondary",
+        "action_needed": "Xuất kho đóng gói",
+        "color": "#64748b"
+      },
+      "items": [],
+      "latest_scan_desc": "Chưa có dữ liệu quét",
+      "latest_scan_time": "",
+      "timeline": [],
+      "google_maps_link": "https://www.google.com/maps?q=16.567798614502,104.7621307373",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 20,
+      "order_uid": "LAO162_20261009_1",
+      "shipping_order_code": "8262826151325",
+      "carrier": "Anousith Express",
+      "buyer_name": "Phương Tráng",
+      "buyer_phone": "+8562092982948",
+      "buyer_phone_raw": "02092982948",
+      "buyer_address": "ສາຂາ ປະຕູໂຂງເຂດພັດທະນາ  giao ANOUSITH",
+      "dest_branch": "ສາຂາ ປະຕູໂຂງເຂດພັດທະນາ",
+      "matched_branch_name": "ສາຂາ ປະຕູໂຂງເຂດພັດທະນາ",
+      "cod_amount": 459000.0,
+      "created_at": "2026-10-09T04:34:43.967Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ປະຕູໂຂງເຂດພັດທະນາ: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ປະຕູໂຂງເຂດພັດທະນາ",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ປະຕູໂຂງເຂດພັດທະນາ",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/nzNxUiir99nDb37t5",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262826151325&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 21,
+      "order_uid": "LAO162_20261008_1",
+      "shipping_order_code": "8262819462997",
+      "carrier": "Anousith Express",
+      "buyer_name": "Bounsap BC",
+      "buyer_phone": "+8562097694888",
+      "buyer_phone_raw": "02097694888",
+      "buyer_address": "ສາຂາ ວົງວຽນບ້ານສາມັກຄີ giao ANOUSITH",
+      "dest_branch": "ສາຂາ ວົງວຽນບ້ານສາມັກຄີ",
+      "matched_branch_name": "ສາຂາ ວົງວຽນບ້ານສາມັກຄີ",
+      "cod_amount": 490000.0,
+      "created_at": "2026-10-08T05:53:34.059Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ວົງວຽນບ້ານສາມັກຄີ: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ວົງວຽນບ້ານສາມັກຄີ",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ວົງວຽນບ້ານສາມັກຄີ",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/wk6YByeo7LepzK7x6",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262819462997&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 22,
+      "order_uid": "LAO162_20261007_2",
+      "shipping_order_code": "8262815194278",
+      "carrier": "Anousith Express",
+      "buyer_name": "Bài Tuyến",
+      "buyer_phone": "+8562092455589",
+      "buyer_phone_raw": "02092455589",
+      "buyer_address": "ໜອງຄ້າງ, ຊຳເໜືອ, ຫົວພັນ",
+      "dest_branch": "ໜອງຄ້າງ, ຊຳເໜືອ, ຫົວພັນ",
+      "matched_branch_name": "ໜອງຄ້າງ, ຊຳເໜືອ, ຫົວພັນ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-10-07T06:55:20.734Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ໜອງຄ້າງ, ຊຳເໜືອ, ຫົວພັນ: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ໜອງຄ້າງ, ຊຳເໜືອ, ຫົວພັນ",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ໜອງຄ້າງ, ຊຳເໜືອ, ຫົວພັນ",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.google.com/?q=%E0%BB%9C%E0%BA%AD%E0%BA%87%E0%BA%84%E0%BB%89%E0%BA%B2%E0%BA%87%2C+%E0%BA%8A%E0%BA%B3%E0%BB%80%E0%BB%9C%E0%BA%B7%E0%BA%AD%2C+%E0%BA%AB%E0%BA%BB%E0%BA%A7%E0%BA%9E%E0%BA%B1%E0%BA%99%2C+Laos",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262815194278&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 23,
+      "order_uid": "LAO162_20261007_1",
+      "shipping_order_code": "8262834502750",
+      "carrier": "Anousith Express",
+      "buyer_name": "Canh Cong",
+      "buyer_phone": "+8562096820668",
+      "buyer_phone_raw": "02096820668",
+      "buyer_address": "ສາຂາ ຫຼັກ14(ເມືອງບາຈຽງ)  Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ຫຼັກ14(ເມືອງບາຈຽງ)",
+      "matched_branch_name": "ສາຂາ ຫຼັກ14(ເມືອງບາຈຽງ)",
+      "cod_amount": 490000.0,
+      "created_at": "2026-10-07T01:06:12.388Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ຫຼັກ14(ເມືອງບາຈຽງ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ຫຼັກ14(ເມືອງບາຈຽງ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ຫຼັກ14(ເມືອງບາຈຽງ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/v7C2vXZorbn3mB3R8",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262834502750&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 24,
+      "order_uid": "LAO162_20261006_3",
+      "shipping_order_code": "PXE07087067757",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Cao Kim",
+      "buyer_phone": "+8562029572989",
+      "buyer_phone_raw": "02029572989",
+      "buyer_address": "ຊັງຈຽງ Giao HAL",
+      "dest_branch": "ຊັງຈຽງ",
+      "matched_branch_name": "ຊັງຈຽງ",
+      "cod_amount": 490000.0,
+      "created_at": "2026-10-06T01:19:10.554Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-10-06 12:53:58",
+      "timeline": [
+        {
+          "time": "2026-10-06 12:53:58",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-10-06 12:53:59",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-06 14:56:25",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-06 14:56:29",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-06 14:59:33",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-06 20:34:20",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-07 07:55:58",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-07 18:16:31",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-07 20:36:29",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-08 10:53:35",
+          "location": "ສາຂາ ຊັງຈຽງ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-10-13 16:24:44",
+          "location": "ສາຂາ ຊັງຈຽງ",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=17.974065454307,102.58058287956",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE07087067757?lang=la"
+    },
+    {
+      "stt": 25,
+      "order_uid": "LAO162_20261006_2",
+      "shipping_order_code": "PXE58108278719",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Thanh",
+      "buyer_phone": "+8562099330666",
+      "buyer_phone_raw": "+856 20 99 330 666",
+      "buyer_address": "จุดบริการ ทางแบ่งบ้านเจียง giao HAL",
+      "dest_branch": "ທາງແບ່ງບ້ານຈຽງ",
+      "matched_branch_name": "ທາງແບ່ງບ້ານຈຽງ",
+      "cod_amount": 988000.0,
+      "created_at": "2026-10-06T01:10:25.766Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-10-06 12:52:49",
+      "timeline": [
+        {
+          "time": "2026-10-06 12:52:49",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-10-06 12:52:50",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-06 14:56:28",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-06 14:56:32",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-06 14:58:39",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-06 20:32:34",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-07 07:55:48",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-07 16:41:24",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-07 21:11:44",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-08 04:15:31",
+          "location": "ສູນຄັດແຍກແຂວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-08 07:51:06",
+          "location": "ສູນຄັດແຍກແຂວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-08 14:09:30",
+          "location": "ສາງສາຂາທາງແບ່ງບ້ານຈຽງ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-08 14:09:33",
+          "location": "ສາງສາຂາທາງແບ່ງບ້ານຈຽງ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-08 14:09:34",
+          "location": "ສາຂາ ທາງແບ່ງບ້ານຈຽງ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-10-09 13:37:21",
+          "location": "ສາຂາ ທາງແບ່ງບ້ານຈຽງ",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=19.151234205826,102.21257953373",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE58108278719?lang=la"
+    },
+    {
+      "stt": 26,
+      "order_uid": "LAO162_20261006_1",
+      "shipping_order_code": "PXE70332993434",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Cuong Pham",
+      "buyer_phone": "+8562099757577",
+      "buyer_phone_raw": "02099757577",
+      "buyer_address": "ສາຂາ ວົງສຳພັນ(ເມືອງພູວົງ)  Giao ANOUSITH",
+      "dest_branch": "ວົງສຳພັນ(ເມືອງພູວົງ)",
+      "matched_branch_name": "ວົງສຳພັນ(ເມືອງພູວົງ)",
+      "cod_amount": 1099000.0,
+      "created_at": "2026-10-06T01:07:59.313Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-10-06 12:37:33",
+      "timeline": [
+        {
+          "time": "2026-10-06 12:37:33",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-10-06 12:37:34",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-06 14:57:15",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-06 14:57:17",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-06 14:57:50",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-06 20:33:16",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-07 07:55:44",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-08 20:57:27",
+          "location": "ສູນຄັດແຍກປາກເຊ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-08 20:57:27",
+          "location": "ສູນຄັດແຍກປາກເຊ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-09 10:33:12",
+          "location": "ສາງສາຂາວົງສຳພັນ(ເມືອງພູວົງ)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-09 10:33:15",
+          "location": "ສາງສາຂາວົງສຳພັນ(ເມືອງພູວົງ)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-09 10:33:17",
+          "location": "ສາຂາ ວົງສຳພັນ(ເມືອງພູວົງ)",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-10-09 16:15:11",
+          "location": "ສາຂາ ວົງສຳພັນ(ເມືອງພູວົງ)",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=14.6937125,106.8487344",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE70332993434?lang=la"
+    },
+    {
+      "stt": 27,
+      "order_uid": "LAO162_20261004_1",
+      "shipping_order_code": "8262782278482",
+      "carrier": "Anousith Express",
+      "buyer_name": "Son Nguyen",
+      "buyer_phone": "+8562098982223",
+      "buyer_phone_raw": "+856 20 98 982 223",
+      "buyer_address": "ສາຂາ ບ້ານກ້ອນຕື່ນ   Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ບ້ານກ້ອນຕື່ນ",
+      "matched_branch_name": "ສາຂາ ບ້ານກ້ອນຕື່ນ",
+      "cod_amount": 765000.0,
+      "created_at": "2026-10-04T05:38:52.258Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ບ້ານກ້ອນຕື່ນ: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ບ້ານກ້ອນຕື່ນ",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ບ້ານກ້ອນຕື່ນ",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/JNQuMvHo2NqVbjQWA",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262782278482&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 28,
+      "order_uid": "LAO162_20260928_2",
+      "shipping_order_code": "PXE42661564512",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Tuấn Anh 🇻🇳",
+      "buyer_phone": "+8562099544612",
+      "buyer_phone_raw": "+8562099544612",
+      "buyer_address": "ໂຮງງານເກືອ (ດົງໃຕ້)  GIAO HAL",
+      "dest_branch": "ນາສົ້ມມໍ(ຫຼັກ9)",
+      "matched_branch_name": "ນາສົ້ມມໍ(ຫຼັກ9)",
+      "cod_amount": 600000.0,
+      "created_at": "2026-09-28T01:55:26.047Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-09-28 15:35:30",
+      "timeline": [
+        {
+          "time": "2026-09-28 15:35:30",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-09-28 15:35:31",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-28 15:54:06",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-28 15:54:09",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-28 15:55:59",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-28 20:59:56",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-29 07:12:16",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-29 07:20:28",
+          "location": "ສູນຄັດແຍກຄຳມ່ວນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-29 10:37:29",
+          "location": "ສູນຄັດແຍກຄຳມ່ວນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-30 15:29:37",
+          "location": "ສາງສາຂາໂຮງງານເກືອ(ດົງໃຕ້)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-30 15:29:39",
+          "location": "ສາງສາຂາໂຮງງານເກືອ(ດົງໃຕ້)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-30 15:29:40",
+          "location": "ສາຂາ ໂຮງງານເກືອ (ດົງໃຕ້)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-11 14:05:49",
+          "location": "ສາຂາ ໂຮງງານເກືອ (ດົງໃຕ້)",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Customer request to return"
+        },
+        {
+          "time": "2026-10-11 17:09:28",
+          "location": "ສາຂາ ໂຮງງານເກືອ (ດົງໃຕ້)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-11 17:09:30",
+          "location": "ສາງສາຂາໂຮງງານເກືອ(ດົງໃຕ້)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-11 17:10:55",
+          "location": "ສາງສາຂາໂຮງງານເກືອ(ດົງໃຕ້)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-11 21:53:24",
+          "location": "ສູນຄັດແຍກຄຳມ່ວນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-12 03:23:28",
+          "location": "ສູນຄັດແຍກຄຳມ່ວນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-12 21:38:41",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-13 08:34:59",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-13 10:22:38",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-13 10:22:41",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-13 10:22:42",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-10-13 10:23:53",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=18.376979745217,103.73180602485",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE42661564512?lang=la"
+    },
+    {
+      "stt": 29,
+      "order_uid": "LAO162_20260928_1",
+      "shipping_order_code": "8262711924508",
+      "carrier": "Anousith Express",
+      "buyer_name": "Phan Thanh",
+      "buyer_phone": "+8562092156314",
+      "buyer_phone_raw": "92156314",
+      "buyer_address": "ສາຂາ ສົມສະອາດ(ທ່າແຂກ)  Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ສົມສະອາດ(ທ່າແຂກ)",
+      "matched_branch_name": "ສາຂາ ສົມສະອາດ(ທ່າແຂກ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-09-28T01:30:25.122Z",
+      "status": {
+        "code": "PENDING",
+        "text": "Chờ bàn giao vận chuyển",
+        "badge_class": "badge-secondary",
+        "action_needed": "Xuất kho đóng gói",
+        "color": "#64748b"
+      },
+      "items": [],
+      "latest_scan_desc": "Chưa có dữ liệu quét",
+      "latest_scan_time": "",
+      "timeline": [],
+      "google_maps_link": "https://maps.app.goo.gl/XR7ZB1HMD4GxBp1A6",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262711924508&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 30,
+      "order_uid": "LAO162_20260927_1",
+      "shipping_order_code": "8262719528506",
+      "carrier": "Anousith Express",
+      "buyer_name": "Ý Tchương Hà",
+      "buyer_phone": "+8562054404455",
+      "buyer_phone_raw": "02054404455",
+      "buyer_address": "ສາຂາ ບ້ານຂາມງອຍ  Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ບ້ານຂາມງອຍ",
+      "matched_branch_name": "ສາຂາ ບ້ານຂາມງອຍ",
+      "cod_amount": 1200000.0,
+      "created_at": "2026-09-27T00:55:54.700Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ບ້ານຂາມງອຍ: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ບ້ານຂາມງອຍ",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ບ້ານຂາມງອຍ",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/VTF4iG8wHbaMCXJP8",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262719528506&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 31,
+      "order_uid": "LAO162_20260926_1",
+      "shipping_order_code": "PXE84907022078",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Truong van Hong",
+      "buyer_phone": "+8562091297220",
+      "buyer_phone_raw": "02091297220",
+      "buyer_address": "ດົງນາທອງ Giao HAL.",
+      "dest_branch": "ດົງນາທອງ",
+      "matched_branch_name": "ດົງນາທອງ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-09-26T01:41:59.645Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-09-28 09:39:00",
+      "timeline": [
+        {
+          "time": "2026-09-28 09:39:00",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-09-28 09:39:01",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-28 14:59:12",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-28 14:59:15",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-28 15:03:14",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-28 20:56:10",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-29 07:14:18",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-29 16:41:32",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-29 21:52:06",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-30 10:00:29",
+          "location": "ສາຂາ ດົງນາທອງ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-10-01 08:57:01",
+          "location": "ສາຂາ ດົງນາທອງ",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=18.0025251,102.5578021",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE84907022078?lang=la"
+    },
+    {
+      "stt": 32,
+      "order_uid": "LAO162_20260925_1",
+      "shipping_order_code": null,
+      "carrier": "HAL Logistics",
+      "buyer_name": "Thanh",
+      "buyer_phone": "+8562099330666",
+      "buyer_phone_raw": "+856 20 99 330 666",
+      "buyer_address": "จุดบริการ ทางแบ่งบ้านเจียง giao HAL",
+      "dest_branch": "จุดบริการ ทางแบ่งบ้านเจียง giao HAL",
+      "matched_branch_name": "จุดบริการ ทางแบ่งบ้านเจียง giao HAL",
+      "cod_amount": 1089000.0,
+      "created_at": "2026-09-25T04:45:27.361Z",
+      "status": {
+        "code": "PENDING",
+        "text": "Chờ bàn giao vận chuyển",
+        "badge_class": "badge-secondary",
+        "action_needed": "Xuất kho đóng gói",
+        "color": "#64748b"
+      },
+      "items": [],
+      "latest_scan_desc": "Chưa có dữ liệu quét",
+      "latest_scan_time": "",
+      "timeline": [],
+      "google_maps_link": "https://maps.google.com/?q=%E0%B8%88%E0%B8%B8%E0%B8%94%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3+%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%9A%E0%B9%88%E0%B8%87%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%88%E0%B8%B5%E0%B8%A2%E0%B8%87%2C+Laos",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 33,
+      "order_uid": "LAO162_20260923_3",
+      "shipping_order_code": "8262676017120",
+      "carrier": "Anousith Express",
+      "buyer_name": "Van Phan Danh",
+      "buyer_phone": "+8562076002467",
+      "buyer_phone_raw": "02076002467",
+      "buyer_address": "ສາຂາ ທ່າບັກ(ເມືອງຄຳເກີດ)",
+      "dest_branch": "ສາຂາ ທ່າບັກ(ເມືອງຄຳເກີດ)",
+      "matched_branch_name": "ສາຂາ ທ່າບັກ(ເມືອງຄຳເກີດ)",
+      "cod_amount": 329000.0,
+      "created_at": "2026-09-23T13:47:18.658Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ທ່າບັກ(ເມືອງຄຳເກີດ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ທ່າບັກ(ເມືອງຄຳເກີດ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ທ່າບັກ(ເມືອງຄຳເກີດ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/C3kLNp8dv7QKCFM29",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262676017120&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 34,
+      "order_uid": "LAO162_20260923_2",
+      "shipping_order_code": "8262675247555",
+      "carrier": "Anousith Express",
+      "buyer_name": "Son Duong",
+      "buyer_phone": "+8562098672126",
+      "buyer_phone_raw": "02098672126",
+      "buyer_address": "ສາຂາ ບ້ານຄັນລາຍ(ເມືອງ ບາຈຽງຈະເລີນສຸກ)  Giao Anousith",
+      "dest_branch": "ສາຂາ ບ້ານຄັນລາຍ(ເມືອງ ບາຈຽງຈະເລີນສຸກ)",
+      "matched_branch_name": "ສາຂາ ບ້ານຄັນລາຍ(ເມືອງ ບາຈຽງຈະເລີນສຸກ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-09-23T08:47:37.691Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ບ້ານຄັນລາຍ(ເມືອງ ບາຈຽງຈະເລີນສຸກ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ບ້ານຄັນລາຍ(ເມືອງ ບາຈຽງຈະເລີນສຸກ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ບ້ານຄັນລາຍ(ເມືອງ ບາຈຽງຈະເລີນສຸກ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/H1HFvhuZhEGbrmc79",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262675247555&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 35,
+      "order_uid": "LAO162_20260923_1",
+      "shipping_order_code": "8262677921385",
+      "carrier": "Anousith Express",
+      "buyer_name": "Tuân Duy",
+      "buyer_phone": "+8562099696666",
+      "buyer_phone_raw": "02099696666",
+      "buyer_address": "ສາຂາ ນາເລົ່າ1( ອຸດົມໄຊ ) Giao Anousith",
+      "dest_branch": "ສາຂາ ນາເລົ່າ1( ອຸດົມໄຊ )",
+      "matched_branch_name": "ສາຂາ ນາເລົ່າ1( ອຸດົມໄຊ )",
+      "cod_amount": 499000.0,
+      "created_at": "2026-09-23T08:32:50.620Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາເລົ່າ1( ອຸດົມໄຊ ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ນາເລົ່າ1( ອຸດົມໄຊ )",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ນາເລົ່າ1( ອຸດົມໄຊ )",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/Sp21Uq11BgaZE5Ym7",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262677921385&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 36,
+      "order_uid": "LAO162_20260922_3",
+      "shipping_order_code": null,
+      "carrier": "Anousith Express",
+      "buyer_name": "Ngoc Bé",
+      "buyer_phone": "+8562059955412",
+      "buyer_phone_raw": "59955412",
+      "buyer_address": "ສາຂາ ເຊໂນ Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ເຊໂນ",
+      "matched_branch_name": "ເຊໂນ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-09-22T08:26:40.174Z",
+      "status": {
+        "code": "PENDING",
+        "text": "Chờ bàn giao vận chuyển",
+        "badge_class": "badge-secondary",
+        "action_needed": "Xuất kho đóng gói",
+        "color": "#64748b"
+      },
+      "items": [],
+      "latest_scan_desc": "Chưa có dữ liệu quét",
+      "latest_scan_time": "",
+      "timeline": [],
+      "google_maps_link": "https://www.google.com/maps?q=16.672573,104.95845",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 37,
+      "order_uid": "LAO162_20260922_2",
+      "shipping_order_code": "PXE21030274609",
+      "carrier": "HAL Logistics",
+      "buyer_name": "VuCuong Tran",
+      "buyer_phone": "+8562095989334",
+      "buyer_phone_raw": "02095989334",
+      "buyer_address": "ບ້ານຂົວທີ່ 1 Giao HAL",
+      "dest_branch": "ນາສົ້ມມໍ(ຫຼັກ9)",
+      "matched_branch_name": "ນາສົ້ມມໍ(ຫຼັກ9)",
+      "cod_amount": 1499000.0,
+      "created_at": "2026-09-22T04:21:39.023Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-09-22 15:59:28",
+      "timeline": [
+        {
+          "time": "2026-09-22 15:59:28",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-09-22 15:59:29",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-22 16:07:30",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-22 16:07:33",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-22 16:12:13",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-22 20:12:28",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-23 06:21:44",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-23 09:45:30",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-23 22:42:13",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-26 09:08:25",
+          "location": "ສູນຄັດແຍກຫຼວງພະບາງ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-26 12:26:55",
+          "location": "ສູນຄັດແຍກຫຼວງພະບາງ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-26 13:44:19",
+          "location": "ສາງສາຂາຂົວທີ1",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-26 13:44:23",
+          "location": "ສາງສາຂາຂົວທີ1",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-26 13:44:24",
+          "location": "ສາຂາ ຂົວທີ1",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-07 09:07:08",
+          "location": "ສາຂາ ຂົວທີ1",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Customer request to return"
+        },
+        {
+          "time": "2026-10-07 09:18:50",
+          "location": "ສາຂາ ຂົວທີ1",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-07 09:18:54",
+          "location": "ສາງສາຂາຂົວທີ1",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-07 09:19:17",
+          "location": "ສາງສາຂາຂົວທີ1",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-07 16:08:40",
+          "location": "ສູນຄັດແຍກຫຼວງພະບາງ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-08 07:52:25",
+          "location": "ສູນຄັດແຍກຫຼວງພະບາງ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-08 11:33:36",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-08 20:39:07",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-09 06:41:01",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-09 09:06:05",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-09 10:31:44",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-10-09 10:31:46",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-10-09 10:31:47",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-10-09 10:32:55",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=18.376979745217,103.73180602485",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE21030274609?lang=la"
+    },
+    {
+      "stt": 38,
+      "order_uid": "LAO162_20260922_1",
+      "shipping_order_code": "8262673258283",
+      "carrier": "Anousith Express",
+      "buyer_name": "Tuấn Kiệt",
+      "buyer_phone": "+8562057401568",
+      "buyer_phone_raw": "57401568",
+      "buyer_address": "ສາຂາ ນາເລົ່າ1( ອຸດົມໄຊ ) Giao Anousith",
+      "dest_branch": "ສາຂາ ນາເລົ່າ1( ອຸດົມໄຊ )",
+      "matched_branch_name": "ສາຂາ ນາເລົ່າ1( ອຸດົມໄຊ )",
+      "cod_amount": 499000.0,
+      "created_at": "2026-09-22T00:46:25.489Z",
+      "status": {
+        "code": "PENDING",
+        "text": "Chờ bàn giao vận chuyển",
+        "badge_class": "badge-secondary",
+        "action_needed": "Xuất kho đóng gói",
+        "color": "#64748b"
+      },
+      "items": [],
+      "latest_scan_desc": "Chưa có dữ liệu quét",
+      "latest_scan_time": "",
+      "timeline": [],
+      "google_maps_link": "https://maps.app.goo.gl/Sp21Uq11BgaZE5Ym7",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262673258283&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 39,
+      "order_uid": "LAO162_20260921_2",
+      "shipping_order_code": "8262649117612",
+      "carrier": "Anousith Express",
+      "buyer_name": "Thiện Lê",
+      "buyer_phone": "+8562099120808",
+      "buyer_phone_raw": "02099120808",
+      "buyer_address": "ບ້ານຫົວເມືອງໃຕ້   Giao HAL",
+      "dest_branch": "ບ້ານຫົວເມືອງໃຕ້   Giao HAL",
+      "matched_branch_name": "ບ້ານຫົວເມືອງໃຕ້",
+      "cod_amount": 499000.0,
+      "created_at": "2026-09-21T05:24:54.600Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ບ້ານຫົວເມືອງໃຕ້   Giao HAL: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ບ້ານຫົວເມືອງໃຕ້   Giao HAL",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ບ້ານຫົວເມືອງໃຕ້   Giao HAL",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=16.577384908854,104.75198691594",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262649117612&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 40,
+      "order_uid": "LAO162_20260921_1",
+      "shipping_order_code": "8262643733844",
+      "carrier": "Anousith Express",
+      "buyer_name": "vanxay",
+      "buyer_phone": "+8562094157994",
+      "buyer_phone_raw": "+8562094157994",
+      "buyer_address": "ສາຂາ ສີດຳດວນ (ເມືອງ ຈັນທະບູລີ)  Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ສີດຳດວນ (ເມືອງ ຈັນທະບູລີ)",
+      "matched_branch_name": "ສາຂາ ສີດຳດວນ(ເມືອງ ຈັນທະບູລີ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-09-21T04:09:48.808Z",
+      "status": {
+        "code": "PENDING",
+        "text": "Chờ bàn giao vận chuyển",
+        "badge_class": "badge-secondary",
+        "action_needed": "Xuất kho đóng gói",
+        "color": "#64748b"
+      },
+      "items": [],
+      "latest_scan_desc": "Chưa có dữ liệu quét",
+      "latest_scan_time": "",
+      "timeline": [],
+      "google_maps_link": "https://maps.app.goo.gl/KYcSpqN1XVGjJR2G7",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262643733844&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 41,
+      "order_uid": "LAO162_20260915_1",
+      "shipping_order_code": "PXE66827472837",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Ngọc Lợi Nguyễn",
+      "buyer_phone": "+8562099310317",
+      "buyer_phone_raw": "02099310317",
+      "buyer_address": "ຈອມແກ້ວ(ສະຫວັນນະເຂດ)  Giao HAL",
+      "dest_branch": "ຈອມແກ້ວ(ສະຫວັນນະເຂດ)",
+      "matched_branch_name": "ຈອມແກ້ວ(ສະຫວັນນະເຂດ)",
+      "cod_amount": 659000.0,
+      "created_at": "2026-09-15T07:59:01.263Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-09-16 11:01:45",
+      "timeline": [
+        {
+          "time": "2026-09-16 11:01:45",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-09-16 11:01:46",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-16 15:19:53",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-16 15:19:56",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-16 15:21:47",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-16 20:41:15",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-17 08:03:16",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-17 09:32:50",
+          "location": "ສູນຄັດແຍກເຊໂນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-17 14:15:07",
+          "location": "ສູນຄັດແຍກເຊໂນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-17 15:33:16",
+          "location": "ສາງສາຂາຈອມແກ້ວ(ສະຫວັນນະເຂດ)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-17 15:33:20",
+          "location": "ສາງສາຂາຈອມແກ້ວ(ສະຫວັນນະເຂດ)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-17 15:33:21",
+          "location": "ສາຂາ ຈອມແກ້ວ(ສະຫວັນນະເຂດ)",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-09-18 17:20:03",
+          "location": "ສາຂາ ຈອມແກ້ວ(ສະຫວັນນະເຂດ)",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=16.569471,104.748093",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE66827472837?lang=la"
+    },
+    {
+      "stt": 42,
+      "order_uid": "LAO162_20260914_1",
+      "shipping_order_code": "PXE02467843851",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Canh Cong",
+      "buyer_phone": "+8562055777755",
+      "buyer_phone_raw": "02055777755",
+      "buyer_address": "ດົງສ້າງຫີນ (ຫຼັກ15) Giao HAL",
+      "dest_branch": "ດົງສ້າງຫີນ (ຫຼັກ15)",
+      "matched_branch_name": "ດົງສ້າງຫີນ (ຫຼັກ15)",
+      "cod_amount": 1089000.0,
+      "created_at": "2026-09-14T12:46:06.488Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-09-15 11:39:54",
+      "timeline": [
+        {
+          "time": "2026-09-15 11:39:54",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-09-15 11:39:55",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-15 15:43:53",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-15 15:43:55",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-15 15:44:21",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-15 21:07:26",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-16 06:38:20",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-16 10:21:45",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-16 12:08:50",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-16 16:24:42",
+          "location": "ສາຂາ ດົງສ້າງຫີນ (ຫຼັກ15)",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-09-17 11:16:46",
+          "location": "ສາຂາ ດົງສ້າງຫີນ (ຫຼັກ15)",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=18.058617338148,102.68703662318",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE02467843851?lang=la"
+    },
+    {
+      "stt": 43,
+      "order_uid": "LAO162_20260913_3",
+      "shipping_order_code": "8262624432358",
+      "carrier": "Anousith Express",
+      "buyer_name": "Canh Cong",
+      "buyer_phone": "+8562096820668",
+      "buyer_phone_raw": "02096820668",
+      "buyer_address": "ສາຂາ ຫຼັກ14(ເມືອງບາຈຽງ)  Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ຫຼັກ14(ເມືອງບາຈຽງ)",
+      "matched_branch_name": "ສາຂາ ຫຼັກ14(ເມືອງບາຈຽງ)",
+      "cod_amount": 359000.0,
+      "created_at": "2026-09-13T04:39:45.101Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ຫຼັກ14(ເມືອງບາຈຽງ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ຫຼັກ14(ເມືອງບາຈຽງ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ຫຼັກ14(ເມືອງບາຈຽງ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/v7C2vXZorbn3mB3R8",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262624432358&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 44,
+      "order_uid": "LAO162_20260913_2",
+      "shipping_order_code": "8262573682820",
+      "carrier": "Anousith Express",
+      "buyer_name": "Phong NguyenHong",
+      "buyer_phone": "+8562099517789",
+      "buyer_phone_raw": "02099517789",
+      "buyer_address": "ສາຂາ ໃໝ່ຫົວເມືອງ 4 ແຍກນ້ຳປະປາ (ເມືອງລະມາມ)  Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ໃໝ່ຫົວເມືອງ 4 ແຍກນ້ຳປະປາ (ເມືອງລະມາມ)",
+      "matched_branch_name": "ສາຂາ ໃໝ່ຫົວເມືອງ 4 ແຍກນ້ຳປະປາ (ເມືອງລະມາມ)",
+      "cod_amount": 1200000.0,
+      "created_at": "2026-09-13T01:57:39.300Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ໃໝ່ຫົວເມືອງ 4 ແຍກນ້ຳປະປາ (ເມືອງລະມາມ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ໃໝ່ຫົວເມືອງ 4 ແຍກນ້ຳປະປາ (ເມືອງລະມາມ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ໃໝ່ຫົວເມືອງ 4 ແຍກນ້ຳປະປາ (ເມືອງລະມາມ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/UZHWJvi4YrDgz46X9",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262573682820&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 45,
+      "order_uid": "LAO162_20260913_1",
+      "shipping_order_code": "PXE76707205574",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Nguyễn Hồng",
+      "buyer_phone": "+8562096704706",
+      "buyer_phone_raw": "02096704706",
+      "buyer_address": "ຄັງວຽງ  Giao HAL",
+      "dest_branch": "ຄັງວຽງ",
+      "matched_branch_name": "ຄັງວຽງ",
+      "cod_amount": 1200000.0,
+      "created_at": "2026-09-13T01:56:07.152Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-09-14 11:10:51",
+      "timeline": [
+        {
+          "time": "2026-09-14 11:10:51",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-09-14 11:10:52",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-14 14:47:03",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-14 14:47:05",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-14 14:49:09",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-14 20:33:31",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-15 08:13:45",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-15 15:59:29",
+          "location": "ສູນຄັດແຍກຊຽງຂວາງ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-16 19:53:37",
+          "location": "ສູນຄັດແຍກຊຽງຂວາງ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-19 15:39:48",
+          "location": "ສາງສາຂາຄັງວຽງ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-19 15:39:52",
+          "location": "ສາງສາຂາຄັງວຽງ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-19 15:39:53",
+          "location": "ສາຂາ ຄັງວຽງ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-09-22 16:17:08",
+          "location": "ສາຂາ ຄັງວຽງ",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=18.9286749352,103.9938609295",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE76707205574?lang=la"
+    },
+    {
+      "stt": 46,
+      "order_uid": "LAO162_20260912_2",
+      "shipping_order_code": "PXE41592822844",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Chân Thiện Nhẫn",
+      "buyer_phone": "+8562058478668",
+      "buyer_phone_raw": "02058478668",
+      "buyer_address": "ຮ່ອງຄະຍອມ Giao HAL",
+      "dest_branch": "ຮ່ອງຄະຍອມ",
+      "matched_branch_name": "ຮ່ອງຄະຍອມ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-09-12T09:36:08.025Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-09-14 11:09:14",
+      "timeline": [
+        {
+          "time": "2026-09-14 11:09:14",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-09-14 11:09:15",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-14 14:47:31",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-14 14:47:34",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-14 14:48:40",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-14 20:34:22",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-15 08:13:31",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-15 16:54:01",
+          "location": "ສູນຄັດແຍກປາກເຊ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-15 16:54:01",
+          "location": "ສູນຄັດແຍກປາກເຊ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-16 09:31:44",
+          "location": "ສາງສາຂາຮ່ອງຄະຍອມ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-16 09:31:48",
+          "location": "ສາງສາຂາຮ່ອງຄະຍອມ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-16 09:31:49",
+          "location": "ສາຂາ ຮ່ອງຄະຍອມ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-09-20 09:17:53",
+          "location": "ສາຂາ ຮ່ອງຄະຍອມ",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=15.117913,105.807762",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE41592822844?lang=la"
+    },
+    {
+      "stt": 47,
+      "order_uid": "LAO162_20260912_1",
+      "shipping_order_code": "8262551773414",
+      "carrier": "Anousith Express",
+      "buyer_name": "Chieu Cong Tran",
+      "buyer_phone": "+8562055640054",
+      "buyer_phone_raw": "8562055640054",
+      "buyer_address": "ສາຂາ ໂນນສະອາດ(ໄຊທານີ) Giao Anousith",
+      "dest_branch": "ສາຂາ ໂນນສະອາດ(ໄຊທານີ)",
+      "matched_branch_name": "ສາຂາ ໂນນສະອາດ(ໄຊທານີ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-09-12T04:51:01.779Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ໂນນສະອາດ(ໄຊທານີ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ໂນນສະອາດ(ໄຊທານີ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ໂນນສະອາດ(ໄຊທານີ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/1oX5zTu5aicg2WL2A",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262551773414&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 48,
+      "order_uid": "LAO162_20260905_1",
+      "shipping_order_code": "8262480908328",
+      "carrier": "Anousith Express",
+      "buyer_name": "Phước Lê",
+      "buyer_phone": "+8562091384338",
+      "buyer_phone_raw": "02091384338",
+      "buyer_address": "ສາຂາ ນາຫີນ(ຄູນຄຳ)",
+      "dest_branch": "ສາຂາ ນາຫີນ(ຄູນຄຳ)",
+      "matched_branch_name": "ສາຂາ ນາຫີນ(ຄູນຄຳ)",
+      "cod_amount": 359000.0,
+      "created_at": "2026-09-05T06:22:31.098Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາຫີນ(ຄູນຄຳ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ນາຫີນ(ຄູນຄຳ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ນາຫີນ(ຄູນຄຳ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/dABRXDy3m2fwbaho6",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262480908328&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 49,
+      "order_uid": "LAO162_20260904_1",
+      "shipping_order_code": "PXE38589820600",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Tiến Phan",
+      "buyer_phone": "+8562091473209",
+      "buyer_phone_raw": "8562091473209",
+      "buyer_address": "ສາຍລົມ HC01-01-0020 giao HAL",
+      "dest_branch": "ສາຍລົມ",
+      "matched_branch_name": "ສາຍລົມ",
+      "cod_amount": 619000.0,
+      "created_at": "2026-09-04T03:20:48.919Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-09-04 11:16:19",
+      "timeline": [
+        {
+          "time": "2026-09-04 11:16:19",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-09-04 11:16:20",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-04 15:37:11",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-04 15:37:15",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-04 15:39:52",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-04 20:40:30",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-05 07:32:44",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-05 16:17:27",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-05 19:49:06",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-06 11:41:57",
+          "location": "ສາຂາ ສາຍລົມ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-09-07 16:42:11",
+          "location": "ສາຂາ ສາຍລົມ",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=17.967993946251,102.61061294299",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE38589820600?lang=la"
+    },
+    {
+      "stt": 50,
+      "order_uid": "LAO162_20260901_1",
+      "shipping_order_code": "PXE70805396229",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Trịnh Xuân Ba",
+      "buyer_phone": "+8562096981059",
+      "buyer_phone_raw": "02096981059",
+      "buyer_address": "ດາກຈຶງ  giao HAL \nHC15-03-0617",
+      "dest_branch": "ດາກຈຶງ",
+      "matched_branch_name": "ດາກຈຶງ",
+      "cod_amount": 1060000.0,
+      "created_at": "2026-09-01T08:24:16.576Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-09-02 11:45:55",
+      "timeline": [
+        {
+          "time": "2026-09-02 11:45:55",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-09-02 11:45:56",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-02 15:39:19",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-02 15:39:22",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-02 15:41:15",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-02 20:29:34",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-03 06:06:18",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-03 18:55:54",
+          "location": "ສູນຄັດແຍກສາລະວັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-03 21:33:41",
+          "location": "ສູນຄັດແຍກສາລະວັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-04 13:32:38",
+          "location": "ສາງສາຂາດາກຈຶງ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-04 13:32:42",
+          "location": "ສາງສາຂາດາກຈຶງ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-04 13:32:43",
+          "location": "ສາຂາ ດາກຈຶງ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-09-06 09:43:53",
+          "location": "ສາຂາ ດາກຈຶງ",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=15.463989900926,107.26971386494",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE70805396229?lang=la"
+    },
+    {
+      "stt": 51,
+      "order_uid": "LAO162_20260831_1",
+      "shipping_order_code": null,
+      "carrier": "HAL Logistics",
+      "buyer_name": "Phúc Xuân Lê",
+      "buyer_phone": "+8562051757598",
+      "buyer_phone_raw": "51757598",
+      "buyer_address": "ຈອມທອງ (ຈຸດແຈກຢາຍ) giao HAL \nHC12-01-0482",
+      "dest_branch": "ຈອມທອງ (ຈຸດແຈກຢາຍ) giao HAL",
+      "matched_branch_name": "ຈອມທອງ (ຈຸດແຈກຢາຍ)",
+      "cod_amount": 180000.0,
+      "created_at": "2026-08-31T04:15:25.068Z",
+      "status": {
+        "code": "PENDING",
+        "text": "Chờ bàn giao vận chuyển",
+        "badge_class": "badge-secondary",
+        "action_needed": "Xuất kho đóng gói",
+        "color": "#64748b"
+      },
+      "items": [],
+      "latest_scan_desc": "Chưa có dữ liệu quét",
+      "latest_scan_time": "",
+      "timeline": [],
+      "google_maps_link": "https://www.google.com/maps?q=17.399870414227,104.8183228353",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 52,
+      "order_uid": "LAO162_20260830_3",
+      "shipping_order_code": "8262430063946",
+      "carrier": "Anousith Express",
+      "buyer_name": "Trọng Cán",
+      "buyer_phone": "+8562098217918",
+      "buyer_phone_raw": "98217918",
+      "buyer_address": "ສາຂາ ຫວ້ຍຊາຍ(ທ່າແຕ່ງ) giao ANOUSITH",
+      "dest_branch": "ສາຂາ ຫວ້ຍຊາຍ(ທ່າແຕ່ງ)",
+      "matched_branch_name": "ສາຂາ ຫວ້ຍຊາຍ(ທ່າແຕ່ງ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-08-30T15:53:33.106Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ຫວ້ຍຊາຍ(ທ່າແຕ່ງ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ຫວ້ຍຊາຍ(ທ່າແຕ່ງ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ຫວ້ຍຊາຍ(ທ່າແຕ່ງ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.google.com/?q=%E0%BA%AA%E0%BA%B2%E0%BA%82%E0%BA%B2+%E0%BA%AB%E0%BA%A7%E0%BB%89%E0%BA%8D%E0%BA%8A%E0%BA%B2%E0%BA%8D%28%E0%BA%97%E0%BB%88%E0%BA%B2%E0%BB%81%E0%BA%95%E0%BB%88%E0%BA%87%29%2C+Laos",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262430063946&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 53,
+      "order_uid": "LAO162_20260830_2",
+      "shipping_order_code": "8262436754546",
+      "carrier": "Anousith Express",
+      "buyer_name": "Tung Xu",
+      "buyer_phone": "+8562095668222",
+      "buyer_phone_raw": "95668222",
+      "buyer_address": "ສາຂາ ແດນສະຫວັນ(ເຊໂປນ)   giao ANOUSITH",
+      "dest_branch": "ສາຂາ ແດນສະຫວັນ(ເຊໂປນ)",
+      "matched_branch_name": "ສາຂາ ແດນສະຫວັນ(ເຊໂປນ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-08-30T12:13:13.151Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ແດນສະຫວັນ(ເຊໂປນ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ແດນສະຫວັນ(ເຊໂປນ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ແດນສະຫວັນ(ເຊໂປນ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/k1Wvsuy6iCMvEPmG9",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262436754546&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 54,
+      "order_uid": "LAO162_20260830_1",
+      "shipping_order_code": "8262430974859",
+      "carrier": "Anousith Express",
+      "buyer_name": "Lưu Bị",
+      "buyer_phone": "+8562095629789",
+      "buyer_phone_raw": "+8562095629789",
+      "buyer_address": "ສາຂາ ຕະຫຼາດໜອງໄຣ   giao ANOUSITH",
+      "dest_branch": "ສາຂາ ຕະຫຼາດໜອງໄຣ",
+      "matched_branch_name": "ສາຂາ ຕະຫຼາດໜອງໄຣ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-08-30T01:44:46.587Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ຕະຫຼາດໜອງໄຣ: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ຕະຫຼາດໜອງໄຣ",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ຕະຫຼາດໜອງໄຣ",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.google.com/?q=%E0%BA%AA%E0%BA%B2%E0%BA%82%E0%BA%B2+%E0%BA%95%E0%BA%B0%E0%BA%AB%E0%BA%BC%E0%BA%B2%E0%BA%94%E0%BB%9C%E0%BA%AD%E0%BA%87%E0%BB%84%E0%BA%A3%2C+Laos",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262430974859&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 55,
+      "order_uid": "LAO162_20260829_3",
+      "shipping_order_code": "8262434266304",
+      "carrier": "Anousith Express",
+      "buyer_name": "Nguyen Dai",
+      "buyer_phone": "+8562091291818",
+      "buyer_phone_raw": "02091291818",
+      "buyer_address": "ສາຂາ ຕະຫຼາດຫຼັກ3(ທ່າແຂກ)  giao ANOUSITH",
+      "dest_branch": "ສາຂາ ຕະຫຼາດຫຼັກ3(ທ່າແຂກ)",
+      "matched_branch_name": "ສາຂາ ຕະຫຼາດຫຼັກ3(ທ່າແຂກ)",
+      "cod_amount": 441000.0,
+      "created_at": "2026-08-29T14:45:38.723Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ຕະຫຼາດຫຼັກ3(ທ່າແຂກ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ຕະຫຼາດຫຼັກ3(ທ່າແຂກ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ຕະຫຼາດຫຼັກ3(ທ່າແຂກ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/pSGmTaYcP6FaUHw56",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262434266304&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 56,
+      "order_uid": "LAO162_20260829_2",
+      "shipping_order_code": "8262434229177",
+      "carrier": "Anousith Express",
+      "buyer_name": "Bạch Hưng Thông",
+      "buyer_phone": "+8562099659999",
+      "buyer_phone_raw": "02099659999",
+      "buyer_address": "ສາຂາ ສາມັກຄີໄຊ  giao ANOUSITH",
+      "dest_branch": "ສາຂາ ສາມັກຄີໄຊ",
+      "matched_branch_name": "ສາຂາ ສາມັກຄີໄຊ",
+      "cod_amount": 1009000.0,
+      "created_at": "2026-08-29T08:29:21.964Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ສາມັກຄີໄຊ: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ສາມັກຄີໄຊ",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ສາມັກຄີໄຊ",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/YTZAXXvNbnHVvSaU7",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262434229177&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 57,
+      "order_uid": "LAO162_20260829_1",
+      "shipping_order_code": "PXE90729317995",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Thanh",
+      "buyer_phone": "+8562099330666",
+      "buyer_phone_raw": "+856 20 99 330 666",
+      "buyer_address": "จุดบริการ ทางแบ่งบ้านเจียง giao HAL",
+      "dest_branch": "ທາງແບ່ງບ້ານຈຽງ",
+      "matched_branch_name": "ທາງແບ່ງບ້ານຈຽງ",
+      "cod_amount": 579000.0,
+      "created_at": "2026-08-29T05:00:59.588Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-08-29 14:41:21",
+      "timeline": [
+        {
+          "time": "2026-08-29 14:41:21",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-08-29 14:41:22",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-29 15:44:43",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-29 15:44:45",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-29 15:45:16",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-29 21:12:44",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-30 06:54:19",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-30 15:37:32",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-30 22:28:17",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-31 02:53:49",
+          "location": "ສູນຄັດແຍກແຂວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-31 04:48:48",
+          "location": "ສູນຄັດແຍກແຂວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-31 11:37:30",
+          "location": "ສາງສາຂາທາງແບ່ງບ້ານຈຽງ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-31 11:37:33",
+          "location": "ສາງສາຂາທາງແບ່ງບ້ານຈຽງ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-31 11:37:33",
+          "location": "ສາຂາ ທາງແບ່ງບ້ານຈຽງ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-09-01 13:27:28",
+          "location": "ສາຂາ ທາງແບ່ງບ້ານຈຽງ",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=19.151234205826,102.21257953373",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE90729317995?lang=la"
+    },
+    {
+      "stt": 58,
+      "order_uid": "LAO162_20260828_3",
+      "shipping_order_code": "8262412942259",
+      "carrier": "Anousith Express",
+      "buyer_name": "Hoàng Hải",
+      "buyer_phone": "+8562091706868",
+      "buyer_phone_raw": "02091706868",
+      "buyer_address": "ນາແຄ",
+      "dest_branch": "ນາແຄ",
+      "matched_branch_name": "ນາແຄ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-08-28T09:26:02.328Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ນາແຄ: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ນາແຄ",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ນາແຄ",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=18.029395332024,102.66526556576",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262412942259&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 59,
+      "order_uid": "LAO162_20260828_2",
+      "shipping_order_code": "8262403693196",
+      "carrier": "Anousith Express",
+      "buyer_name": "Tôn Nhị",
+      "buyer_phone": "+8562076903387",
+      "buyer_phone_raw": "02076903387",
+      "buyer_address": "ສາຂາ ພະລານໄຊ (ເມືອງ ພະລານໄຊ)  GIAO ANOUSITH",
+      "dest_branch": "ສາຂາ ພະລານໄຊ (ເມືອງ ພະລານໄຊ)",
+      "matched_branch_name": "ສາຂາ ພະລານໄຊ (ເມືອງ ພະລານໄຊ)",
+      "cod_amount": 359000.0,
+      "created_at": "2026-08-28T06:29:28.379Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ພະລານໄຊ (ເມືອງ ພະລານໄຊ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ພະລານໄຊ (ເມືອງ ພະລານໄຊ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ພະລານໄຊ (ເມືອງ ພະລານໄຊ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/Z2YVZ1HPWJRkMp2h9",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262403693196&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 60,
+      "order_uid": "LAO162_20260828_1",
+      "shipping_order_code": "8262405523354",
+      "carrier": "Anousith Express",
+      "buyer_name": "Trần Quang Lợi",
+      "buyer_phone": "+8562097908485",
+      "buyer_phone_raw": "02097908485",
+      "buyer_address": "ສາຂາ ໂພນສີນວນ  GIAO ANOUSITH",
+      "dest_branch": "ສາຂາ ໂພນສີນວນ",
+      "matched_branch_name": "ສາຂາ ໂພນສີນວນ",
+      "cod_amount": 450000.0,
+      "created_at": "2026-08-28T06:06:19.500Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ໂພນສີນວນ: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ໂພນສີນວນ",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ໂພນສີນວນ",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/PP1Dxn669suUP4mk8",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262405523354&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 61,
+      "order_uid": "LAO162_20260825_1",
+      "shipping_order_code": "8262377953568",
+      "carrier": "Anousith Express",
+      "buyer_name": "Tô Minh",
+      "buyer_phone": "+8562095003459",
+      "buyer_phone_raw": "02095003459",
+      "buyer_address": "ສາຂາ ຍົມມະລາດ  GIAO ANOUSITH",
+      "dest_branch": "ສາຂາ ຍົມມະລາດ",
+      "matched_branch_name": "ຍົມມະລາດ(ໂພນຄຳ)",
+      "cod_amount": 359000.0,
+      "created_at": "2026-08-25T04:17:00.587Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ຍົມມະລາດ: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ຍົມມະລາດ",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ຍົມມະລາດ",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=17.560270495829,105.17515338973",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262377953568&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 62,
+      "order_uid": "LAO162_20260823_1",
+      "shipping_order_code": "8262366920818",
+      "carrier": "Anousith Express",
+      "buyer_name": "Thach Themanh",
+      "buyer_phone": "+8562023514444",
+      "buyer_phone_raw": "+8562023514444",
+      "buyer_address": "ສາຂາ ໂພນໂຮງ1 GIAO ANOUSITH",
+      "dest_branch": "ສາຂາ ໂພນໂຮງ1",
+      "matched_branch_name": "ສາຂາ ໂພນໂຮງ1",
+      "cod_amount": 450000.0,
+      "created_at": "2026-08-23T07:40:48.625Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ໂພນໂຮງ1: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ໂພນໂຮງ1",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ໂພນໂຮງ1",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/eJGtyaPQjKfp9HwL6",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262366920818&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 63,
+      "order_uid": "LAO162_20260822_2",
+      "shipping_order_code": null,
+      "carrier": "Anousith Express",
+      "buyer_name": "Van Dinh Dinh",
+      "buyer_phone": "+8562097090194",
+      "buyer_phone_raw": "02097090194",
+      "buyer_address": "ສາຂາ ນ້ຳຢ້າງ(ເມືອງວຽງທອງ) GIAO ANOUISTH",
+      "dest_branch": "ສາຂາ ນ້ຳຢ້າງ(ເມືອງວຽງທອງ) GIAO ANOUISTH",
+      "matched_branch_name": "ນ້ຳຢ້າງ (ເມືອງວຽງທອງ)",
+      "cod_amount": 450000.0,
+      "created_at": "2026-08-22T10:50:04.601Z",
+      "status": {
+        "code": "PENDING",
+        "text": "Chờ bàn giao vận chuyển",
+        "badge_class": "badge-secondary",
+        "action_needed": "Xuất kho đóng gói",
+        "color": "#64748b"
+      },
+      "items": [],
+      "latest_scan_desc": "Chưa có dữ liệu quét",
+      "latest_scan_time": "",
+      "timeline": [],
+      "google_maps_link": "https://www.google.com/maps?q=18.51722994158,104.44654168214",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 64,
+      "order_uid": "LAO162_20260822_1",
+      "shipping_order_code": "8262369492077",
+      "carrier": "Anousith Express",
+      "buyer_name": "Ggv Tam",
+      "buyer_phone": "+8562055642741",
+      "buyer_phone_raw": "02055642741",
+      "buyer_address": "ສາຂາ ປາກພາງ(ເມືອງ ຊະນະຄາມ) GIAO ANOUSITH",
+      "dest_branch": "ສາຂາ ປາກພາງ(ເມືອງ ຊະນະຄາມ)",
+      "matched_branch_name": "ສາຂາ ປາກພາງ(ເມືອງ ຊະນະຄາມ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-08-22T09:36:03.506Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ປາກພາງ(ເມືອງ ຊະນະຄາມ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ປາກພາງ(ເມືອງ ຊະນະຄາມ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ປາກພາງ(ເມືອງ ຊະນະຄາມ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/LSAawL74PL3FZj5H9",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262369492077&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 65,
+      "order_uid": "LAO162_20260821_1",
+      "shipping_order_code": "PXE67334790482",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Thành Lào",
+      "buyer_phone": "+8562097985559",
+      "buyer_phone_raw": "02097985559",
+      "buyer_address": "ບ້ານວັດຫຼວງ(ມ.ປາກຊ່ອງ)  GIAO HAL",
+      "dest_branch": "ບ້ານວັດຫຼວງ(ມ.ປາກຊ່ອງ)",
+      "matched_branch_name": "ບ້ານວັດຫຼວງ(ມ.ປາກຊ່ອງ)",
+      "cod_amount": 579000.0,
+      "created_at": "2026-08-21T05:32:35.172Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-08-21 14:23:28",
+      "timeline": [
+        {
+          "time": "2026-08-21 14:23:28",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-08-21 14:23:29",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-21 15:03:17",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-21 15:03:21",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-21 15:20:07",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-21 20:23:22",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-22 05:55:48",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-23 13:57:53",
+          "location": "ສູນຄັດແຍກປາກເຊ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-23 16:08:58",
+          "location": "ສູນຄັດແຍກປາກເຊ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-24 11:59:42",
+          "location": "ສາງສາຂາບ້ານວັດຫຼວງ(ມ.ປາກຊ່ອງ)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-24 11:59:44",
+          "location": "ສາງສາຂາບ້ານວັດຫຼວງ(ມ.ປາກຊ່ອງ)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-24 11:59:45",
+          "location": "ສາຂາ ບ້ານວັດຫຼວງ(ມ.ປາກຊ່ອງ)",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-08-27 10:29:21",
+          "location": "ສາຂາ ບ້ານວັດຫຼວງ(ມ.ປາກຊ່ອງ)",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=15.179377826088,106.2233075043",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE67334790482?lang=la"
+    },
+    {
+      "stt": 66,
+      "order_uid": "LAO162_20260820_1",
+      "shipping_order_code": "PXE07060110614",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Đoàn Văn Hiểu",
+      "buyer_phone": "62096398689",
+      "buyer_phone_raw": "62096398689",
+      "buyer_address": "ນາປົ່ງ  GIAO HAL",
+      "dest_branch": "ນາສົ້ມມໍ(ຫຼັກ9)",
+      "matched_branch_name": "ນາສົ້ມມໍ(ຫຼັກ9)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-08-20T15:16:11.555Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-08-21 10:03:12",
+      "timeline": [
+        {
+          "time": "2026-08-21 10:03:12",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-08-21 10:03:13",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-21 15:05:31",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-21 15:05:33",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-21 15:20:19",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-21 20:20:21",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-22 05:55:59",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-22 16:56:22",
+          "location": "ສູນຄັດແຍກສາລະວັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-22 18:28:32",
+          "location": "ສູນຄັດແຍກສາລະວັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-23 10:55:52",
+          "location": "ສາງສາຂານາປົ່ງ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-23 10:55:55",
+          "location": "ສາງສາຂານາປົ່ງ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-23 10:55:56",
+          "location": "ສາຂາ ນາປົ່ງ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-03 08:17:48",
+          "location": "ສາຂາ ນາປົ່ງ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Customer request to return"
+        },
+        {
+          "time": "2026-09-03 08:19:17",
+          "location": "ສາຂາ ນາປົ່ງ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-03 08:19:21",
+          "location": "ສາງສາຂານາປົ່ງ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-03 08:19:46",
+          "location": "ສາງສາຂານາປົ່ງ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-03 20:07:35",
+          "location": "ສູນຄັດແຍກສາລະວັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-03 20:44:07",
+          "location": "ສູນຄັດແຍກສາລະວັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-04 21:07:35",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-05 09:49:40",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-05 10:43:42",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-09-05 10:43:45",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-09-05 10:43:47",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-09-16 10:02:19",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=18.376979745217,103.73180602485",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE07060110614?lang=la"
+    },
+    {
+      "stt": 67,
+      "order_uid": "LAO162_20260819_1",
+      "shipping_order_code": "PXE18420550888",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Denkham",
+      "buyer_phone": "+8562095021234",
+      "buyer_phone_raw": "02095021234",
+      "buyer_address": "ດອນເງິນ(ໄຊຍະບູລີ)  GIAO HAL",
+      "dest_branch": "ດອນເງິນ(ໄຊຍະບູລີ)",
+      "matched_branch_name": "ດອນເງິນ(ໄຊຍະບູລີ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-08-19T13:37:43.751Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-08-20 10:31:59",
+      "timeline": [
+        {
+          "time": "2026-08-20 10:31:59",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-08-20 10:32:00",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-20 15:49:16",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-20 15:49:18",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-20 15:50:53",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-20 21:11:43",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-21 06:05:27",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-21 11:11:41",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-21 20:21:12",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-22 11:06:25",
+          "location": "ສູນຄັດແຍກໄຊຍະບູລີ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-22 12:35:33",
+          "location": "ສູນຄັດແຍກໄຊຍະບູລີ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-22 13:46:47",
+          "location": "ສາງສາຂາດອນເງິນ(ໄຊຍະບູລີ)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-22 13:46:49",
+          "location": "ສາງສາຂາດອນເງິນ(ໄຊຍະບູລີ)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-22 13:46:50",
+          "location": "ສາຂາ ດອນເງິນ(ໄຊຍະບູລີ)",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-08-24 10:30:28",
+          "location": "ສາຂາ ດອນເງິນ(ໄຊຍະບູລີ)",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=19.252926,101.706323",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE18420550888?lang=la"
+    },
+    {
+      "stt": 68,
+      "order_uid": "LAO162_20260815_1",
+      "shipping_order_code": "8262276331977",
+      "carrier": "Anousith Express",
+      "buyer_name": "Đinh Viết Bình",
+      "buyer_phone": "+8562091392269",
+      "buyer_phone_raw": "02091392269",
+      "buyer_address": "ສາຂາ ບ້ານຂາມງອຍ GIAO ANOUSITH",
+      "dest_branch": "ສາຂາ ບ້ານຂາມງອຍ",
+      "matched_branch_name": "ສາຂາ ບ້ານຂາມງອຍ",
+      "cod_amount": 1200000.0,
+      "created_at": "2026-08-15T05:33:42.303Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ບ້ານຂາມງອຍ: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ບ້ານຂາມງອຍ",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ບ້ານຂາມງອຍ",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/VTF4iG8wHbaMCXJP8",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262276331977&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 69,
+      "order_uid": "LAO162_20260814_2",
+      "shipping_order_code": "8262272252673",
+      "carrier": "Anousith Express",
+      "buyer_name": "Bảo Quốc",
+      "buyer_phone": "+8562098392553",
+      "buyer_phone_raw": "98392553",
+      "buyer_address": "ສາຂາ ສີ່ແຍກຫ້ວຍແພັກ  Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ສີ່ແຍກຫ້ວຍແພັກ",
+      "matched_branch_name": "ສາຂາ ສີ່ແຍກຫ້ວຍແພັກ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-08-14T10:30:27.848Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ສີ່ແຍກຫ້ວຍແພັກ: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ສີ່ແຍກຫ້ວຍແພັກ",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ສີ່ແຍກຫ້ວຍແພັກ",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/RR5PiwUmoMKTqbUr5",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262272252673&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 70,
+      "order_uid": "LAO162_20260814_1",
+      "shipping_order_code": "8262277743836",
+      "carrier": "Anousith Express",
+      "buyer_name": "Lý Đạt",
+      "buyer_phone": "+8562099616999",
+      "buyer_phone_raw": "99616999",
+      "buyer_address": "ສາຂາ ຕະຫຼາດຫຼັກ20(ຄຳເກີດ) Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ຕະຫຼາດຫຼັກ20(ຄຳເກີດ)",
+      "matched_branch_name": "ສາຂາ ຕະຫຼາດຫຼັກ20(ຄຳເກີດ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-08-14T08:28:19.217Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ຕະຫຼາດຫຼັກ20(ຄຳເກີດ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ຕະຫຼາດຫຼັກ20(ຄຳເກີດ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ຕະຫຼາດຫຼັກ20(ຄຳເກີດ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/5ZXDkx3HkPFwnui5A",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262277743836&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 71,
+      "order_uid": "LAO162_20260809_1",
+      "shipping_order_code": "8262256803265",
+      "carrier": "Anousith Express",
+      "buyer_name": "Danh BM",
+      "buyer_phone": "+856309952659",
+      "buyer_phone_raw": "+856309952659",
+      "buyer_address": "ສາຂາ ຫຼັກ40(ເມືອງປະທຸມພອນ) Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ຫຼັກ40(ເມືອງປະທຸມພອນ)",
+      "matched_branch_name": "ສາຂາ ຫຼັກ40(ເມືອງປະທຸມພອນ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-08-09T05:02:23.742Z",
+      "status": {
+        "code": "PENDING",
+        "text": "Chờ bàn giao vận chuyển",
+        "badge_class": "badge-secondary",
+        "action_needed": "Xuất kho đóng gói",
+        "color": "#64748b"
+      },
+      "items": [],
+      "latest_scan_desc": "Chưa có dữ liệu quét",
+      "latest_scan_time": "",
+      "timeline": [],
+      "google_maps_link": "https://maps.app.goo.gl/oTvdSW6698BoB3PD9",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262256803265&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 72,
+      "order_uid": "LAO162_20260808_5",
+      "shipping_order_code": "PXE81919433729",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Nguyễn Văn Hoan",
+      "buyer_phone": "+8562094056927",
+      "buyer_phone_raw": "+8562094056927",
+      "buyer_address": "ອານຸວົງ Giao HAL",
+      "dest_branch": "ນາສົ້ມມໍ(ຫຼັກ9)",
+      "matched_branch_name": "ອານຸວົງ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-08-08T10:40:15.843Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-08-10 13:53:49",
+      "timeline": [
+        {
+          "time": "2026-08-10 13:53:49",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-08-10 13:53:50",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-10 16:10:16",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-10 16:10:18",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-10 16:10:39",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-10 20:44:03",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-11 07:34:19",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-11 15:24:48",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-11 20:59:30",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-12 11:33:36",
+          "location": "ສາງສາຂາອານຸວົງ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-12 11:33:38",
+          "location": "ສາງສາຂາອານຸວົງ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-12 11:33:39",
+          "location": "ສາຂາ ອານຸວົງ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-23 09:43:13",
+          "location": "ສາຂາ ອານຸວົງ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Customer request to return"
+        },
+        {
+          "time": "2026-08-23 09:48:55",
+          "location": "ສາຂາ ອານຸວົງ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-23 09:48:58",
+          "location": "ສາງສາຂາອານຸວົງ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-23 09:49:10",
+          "location": "ສາງສາຂາອານຸວົງ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-24 19:52:36",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-25 00:16:32",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-25 03:47:48",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-25 08:52:30",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-25 09:53:21",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-25 09:53:23",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-25 09:53:24",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-08-25 09:54:50",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=18.8986453456,103.09127423464",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE81919433729?lang=la"
+    },
+    {
+      "stt": 73,
+      "order_uid": "LAO162_20260808_4",
+      "shipping_order_code": "8262224954623",
+      "carrier": "Anousith Express",
+      "buyer_name": "Thin Soph",
+      "buyer_phone": "+8562093039752",
+      "buyer_phone_raw": "93039752",
+      "buyer_address": "ສາຂາ ປາກຊ່ອງແດນໜາວ Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ປາກຊ່ອງແດນໜາວ",
+      "matched_branch_name": "ສາຂາ ປາກຊ່ອງແດນໜາວ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-08-08T08:18:33.648Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ປາກຊ່ອງແດນໜາວ: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ປາກຊ່ອງແດນໜາວ",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ປາກຊ່ອງແດນໜາວ",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/AbnuqRJQJs4Lzcjq8",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262224954623&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 74,
+      "order_uid": "LAO162_20260808_3",
+      "shipping_order_code": "PXE05506098282",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Sơn Vũ",
+      "buyer_phone": "0309059202",
+      "buyer_phone_raw": "0309059202",
+      "buyer_address": "ເຊທ່າມວກ  Giao HAL",
+      "dest_branch": "ເຊທ່າມວກ",
+      "matched_branch_name": "ເຊທ່າມວກ",
+      "cod_amount": 490000.0,
+      "created_at": "2026-08-08T07:59:12.525Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-08-10 13:55:26",
+      "timeline": [
+        {
+          "time": "2026-08-10 13:55:26",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-08-10 13:55:27",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-10 16:10:04",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-10 16:10:06",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-10 16:10:42",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-10 20:41:20",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-11 07:33:49",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-11 10:18:13",
+          "location": "ສູນຄັດແຍກເຊໂນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-11 12:39:13",
+          "location": "ສູນຄັດແຍກເຊໂນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-11 17:02:09",
+          "location": "ສາງສາຂາເຊທ່າມວກ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-11 17:02:11",
+          "location": "ສາງສາຂາເຊທ່າມວກ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-11 17:02:12",
+          "location": "ສາຂາ ເຊທ່າມວກ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-08-12 11:27:54",
+          "location": "ສາຂາ ເຊທ່າມວກ",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=16.569187862815,105.92312463188",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE05506098282?lang=la"
+    },
+    {
+      "stt": 75,
+      "order_uid": "LAO162_20260808_2",
+      "shipping_order_code": "PXE21300331280",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Tran Van Dai",
+      "buyer_phone": "+8562097356888",
+      "buyer_phone_raw": "+8562097356888",
+      "buyer_address": "ເມືອງຮຸນ (ນາຝາງ) giao HAL",
+      "dest_branch": "ເມືອງຮຸນ (ນາຝາງ)",
+      "matched_branch_name": "ເມືອງຮຸນ (ນາຝາງ)",
+      "cod_amount": 700000.0,
+      "created_at": "2026-08-08T02:11:46.542Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-08-10 13:54:39",
+      "timeline": [
+        {
+          "time": "2026-08-10 13:54:39",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-08-10 13:54:40",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-10 16:10:10",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-10 16:10:13",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-10 16:11:02",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-10 20:43:39",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-11 07:34:18",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-11 15:26:04",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-12 01:01:14",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-13 08:44:04",
+          "location": "ສູນຄັດແຍກອຸດົມໄຊ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-14 08:15:55",
+          "location": "ສູນຄັດແຍກອຸດົມໄຊ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-14 09:57:11",
+          "location": "ສາງສາຂາເມືອງຮຸນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-14 09:57:14",
+          "location": "ສາງສາຂາເມືອງຮຸນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-14 09:57:15",
+          "location": "ສາຂາ ເມືອງຮຸນ (ນາຝາງ)",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-08-15 15:16:39",
+          "location": "ສາຂາ ເມືອງຮຸນ (ນາຝາງ)",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=20.145958043111,101.46010214736",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE21300331280?lang=la"
+    },
+    {
+      "stt": 76,
+      "order_uid": "LAO162_20260808_1",
+      "shipping_order_code": "8262236496356",
+      "carrier": "Anousith Express",
+      "buyer_name": "ໂຮ່ ວັນ ອອດ",
+      "buyer_phone": "+8562098888045",
+      "buyer_phone_raw": "02098888045",
+      "buyer_address": "ບ້ານ ສາມັກຄີ ເມືອງ ສາມັກຄີໄຊ ແຂວງ ອັດຕະປື  Giao UNITEL",
+      "dest_branch": "ບ້ານ ສາມັກຄີ ເມືອງ ສາມັກຄີໄຊ ແຂວງ ອັດຕະປື  Giao UNITEL",
+      "matched_branch_name": "ສາຂາ ສາມັກຄີໄຊ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-08-08T02:10:10.804Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ບ້ານ ສາມັກຄີ ເມືອງ ສາມັກຄີໄຊ ແຂວງ ອັດຕະປື  Giao UNITEL: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ບ້ານ ສາມັກຄີ ເມືອງ ສາມັກຄີໄຊ ແຂວງ ອັດຕະປື  Giao UNITEL",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ບ້ານ ສາມັກຄີ ເມືອງ ສາມັກຄີໄຊ ແຂວງ ອັດຕະປື  Giao UNITEL",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/YTZAXXvNbnHVvSaU7",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262236496356&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 77,
+      "order_uid": "LAO162_20260805_1",
+      "shipping_order_code": "8262188472449",
+      "carrier": "Anousith Express",
+      "buyer_name": "Chau Le",
+      "buyer_phone": "+8562094496789",
+      "buyer_phone_raw": "02094496789",
+      "buyer_address": "ສາຂາ ໂພນສະຫວ່າງໃຕ້  Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ໂພນສະຫວ່າງໃຕ້",
+      "matched_branch_name": "ສະຫວ່າງ",
+      "cod_amount": 800000.0,
+      "created_at": "2026-08-05T08:02:30.694Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ໂພນສະຫວ່າງໃຕ້: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ໂພນສະຫວ່າງໃຕ້",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ໂພນສະຫວ່າງໃຕ້",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=17.985209370495,102.61276852017",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262188472449&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 78,
+      "order_uid": "LAO162_20260803_2",
+      "shipping_order_code": "8262164903915",
+      "carrier": "Anousith Express",
+      "buyer_name": "Trần Tú Gara Ôtô",
+      "buyer_phone": "+8562099934441",
+      "buyer_phone_raw": "02099934441",
+      "buyer_address": "ສາຂາ ຕະຫຼາດໃຫຍ່(ນະຄອນໄກສອນ)   Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ຕະຫຼາດໃຫຍ່(ນະຄອນໄກສອນ)",
+      "matched_branch_name": "ສາຂາ ຕະຫຼາດໃຫຍ່(ນະຄອນໄກສອນ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-08-03T11:11:25.647Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ຕະຫຼາດໃຫຍ່(ນະຄອນໄກສອນ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ຕະຫຼາດໃຫຍ່(ນະຄອນໄກສອນ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ຕະຫຼາດໃຫຍ່(ນະຄອນໄກສອນ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/Q7Y2VCxFChtX1qii9",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262164903915&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 79,
+      "order_uid": "LAO162_20260803_1",
+      "shipping_order_code": "PXE01276106892",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Long Thành",
+      "buyer_phone": "+8562097466272",
+      "buyer_phone_raw": "02097466272",
+      "buyer_address": "ໄຊເສດຖາ (ຝັ່ງແດງ) Giao HAL",
+      "dest_branch": "ໄຊເສດຖາ (ຝັ່ງແດງ)",
+      "matched_branch_name": "ໄຊເສດຖາ (ຝັ່ງແດງ)",
+      "cod_amount": 359000.0,
+      "created_at": "2026-08-03T08:15:48.052Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-08-04 13:21:10",
+      "timeline": [
+        {
+          "time": "2026-08-04 13:21:10",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-08-04 13:21:11",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-04 15:50:52",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-04 15:50:54",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-04 15:52:24",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-04 20:51:50",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-05 07:49:42",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-05 23:50:03",
+          "location": "ສູນຄັດແຍກປາກເຊ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-05 23:50:03",
+          "location": "ສູນຄັດແຍກປາກເຊ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-06 14:05:56",
+          "location": "ສາງສາຂາໄຊເສດຖາ(ຝັ່ງແດງ)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-08-06 14:05:58",
+          "location": "ສາງສາຂາໄຊເສດຖາ(ຝັ່ງແດງ)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-08-06 14:05:59",
+          "location": "ສາຂາ ໄຊເສດຖາ (ຝັ່ງແດງ)",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-08-09 12:54:39",
+          "location": "ສາຂາ ໄຊເສດຖາ (ຝັ່ງແດງ)",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=14.813398419579,106.93506843804",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE01276106892?lang=la"
+    },
+    {
+      "stt": 80,
+      "order_uid": "LAO162_20260802_1",
+      "shipping_order_code": "8262150013721",
+      "carrier": "Anousith Express",
+      "buyer_name": "Duyatb Nguyen",
+      "buyer_phone": "+8562099404904",
+      "buyer_phone_raw": "02099404904",
+      "buyer_address": "ສາຂາ ຫຼັກ21 (ໄຊທານີ)  Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ຫຼັກ21 (ໄຊທານີ)",
+      "matched_branch_name": "ສາຂາ ຫຼັກ21(ໄຊທານີ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-08-02T07:31:34.660Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ຫຼັກ21 (ໄຊທານີ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ຫຼັກ21 (ໄຊທານີ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ຫຼັກ21 (ໄຊທານີ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/Y1E33ocG6qwkhxp4A",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262150013721&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 81,
+      "order_uid": "LAO162_20260801_2",
+      "shipping_order_code": "8262158691572",
+      "carrier": "Anousith Express",
+      "buyer_name": "ຮ້ານສັກລາຍ",
+      "buyer_phone": "+8562097245780",
+      "buyer_phone_raw": "97245780",
+      "buyer_address": "ສາຂາ ບ້ານຄວາ້ນສາມຫຼ່ຽມຄໍາ Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ບ້ານຄວາ້ນສາມຫຼ່ຽມຄໍາ",
+      "matched_branch_name": "ສາຂາ ບ້ານຄວາ້ນສາມຫຼ່ຽມຄໍາ",
+      "cod_amount": 490000.0,
+      "created_at": "2026-08-01T15:06:26.010Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ບ້ານຄວາ້ນສາມຫຼ່ຽມຄໍາ: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ບ້ານຄວາ້ນສາມຫຼ່ຽມຄໍາ",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ບ້ານຄວາ້ນສາມຫຼ່ຽມຄໍາ",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/CpEX1d67tCkEgQTS8",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262158691572&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 82,
+      "order_uid": "LAO162_20260801_1",
+      "shipping_order_code": "8262135592085",
+      "carrier": "Anousith Express",
+      "buyer_name": "Đỗ Mạnh Hải",
+      "buyer_phone": "+8562092968327",
+      "buyer_phone_raw": "02092968327",
+      "buyer_address": "ສາຂາ ຫຼັກ14(ເມືອງບາຈຽງ) Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ຫຼັກ14(ເມືອງບາຈຽງ)",
+      "matched_branch_name": "ສາຂາ ຫຼັກ14(ເມືອງບາຈຽງ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-08-01T07:13:01.998Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ຫຼັກ14(ເມືອງບາຈຽງ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ຫຼັກ14(ເມືອງບາຈຽງ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ຫຼັກ14(ເມືອງບາຈຽງ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/v7C2vXZorbn3mB3R8",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262135592085&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 83,
+      "order_uid": "LAO162_20260731_1",
+      "shipping_order_code": "8262135245372",
+      "carrier": "Anousith Express",
+      "buyer_name": "Soulivanh Xayadeth",
+      "buyer_phone": "+8562091738030",
+      "buyer_phone_raw": "02091738030",
+      "buyer_address": "ສາຂາ ໜອງກອກ ( ບາຈຽງ ) Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ໜອງກອກ ( ບາຈຽງ )",
+      "matched_branch_name": "ສາຂາ ໜອງກອກ ( ບາຈຽງ )",
+      "cod_amount": 499000.0,
+      "created_at": "2026-07-31T12:10:21.465Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ໜອງກອກ ( ບາຈຽງ ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ໜອງກອກ ( ບາຈຽງ )",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ໜອງກອກ ( ບາຈຽງ )",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/7VGBYQ4Prc32wCkHA",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262135245372&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 84,
+      "order_uid": "LAO162_20260729_2",
+      "shipping_order_code": "8262128140459",
+      "carrier": "Anousith Express",
+      "buyer_name": "MạnhThem Ngân",
+      "buyer_phone": "+8562097725668",
+      "buyer_phone_raw": "02097725668",
+      "buyer_address": "ສາຂາ ພະລານໄຊ (ເມືອງ ພະລານໄຊ) Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ພະລານໄຊ (ເມືອງ ພະລານໄຊ)",
+      "matched_branch_name": "ສາຂາ ພະລານໄຊ (ເມືອງ ພະລານໄຊ)",
+      "cod_amount": 490000.0,
+      "created_at": "2026-07-29T09:55:54.759Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ພະລານໄຊ (ເມືອງ ພະລານໄຊ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ພະລານໄຊ (ເມືອງ ພະລານໄຊ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ພະລານໄຊ (ເມືອງ ພະລານໄຊ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/Z2YVZ1HPWJRkMp2h9",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262128140459&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 85,
+      "order_uid": "LAO162_20260729_1",
+      "shipping_order_code": "8262109362425",
+      "carrier": "Anousith Express",
+      "buyer_name": "Linh Tu",
+      "buyer_phone": "+8562091915789",
+      "buyer_phone_raw": "+8562091915789",
+      "buyer_address": "ສາຂາ ຝັ່ງແດງ(ເມືອງ ໄຊເສດຖາ) Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ຝັ່ງແດງ(ເມືອງ ໄຊເສດຖາ)",
+      "matched_branch_name": "ສາຂາ ຝັ່ງແດງ(ເມືອງ ໄຊເສດຖາ)",
+      "cod_amount": 450000.0,
+      "created_at": "2026-07-29T06:21:46.277Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ຝັ່ງແດງ(ເມືອງ ໄຊເສດຖາ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ຝັ່ງແດງ(ເມືອງ ໄຊເສດຖາ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ຝັ່ງແດງ(ເມືອງ ໄຊເສດຖາ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/Eh3gcL9VQZiPyFmT7",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262109362425&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 86,
+      "order_uid": "LAO162_20260727_1",
+      "shipping_order_code": "PXE16152323166",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Võ Anh Khoa",
+      "buyer_phone": "+8562057862808",
+      "buyer_phone_raw": "+8562057862808",
+      "buyer_address": "ຈຸດບໍລິການ ບານຫລັກລາວ Giao HAL",
+      "dest_branch": "ນາມະລາດ",
+      "matched_branch_name": "ນາມະລາດ",
+      "cod_amount": 800000.0,
+      "created_at": "2026-07-27T05:18:48.502Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-07-28 14:47:43",
+      "timeline": [
+        {
+          "time": "2026-07-28 14:47:43",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-07-28 14:47:44",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-28 16:12:50",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-28 16:12:53",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-28 16:16:35",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-28 21:00:30",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-29 06:30:51",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-29 07:13:20",
+          "location": "ສູນຄັດແຍກຄຳມ່ວນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-29 10:15:58",
+          "location": "ສູນຄັດແຍກຄຳມ່ວນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-29 12:42:34",
+          "location": "ສາງສາຂານາມະລາດ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-29 12:42:36",
+          "location": "ສາງສາຂານາມະລາດ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-29 12:42:37",
+          "location": "ສາຂາ ນາມະລາດ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-07-30 13:14:11",
+          "location": "ສາຂາ ນາມະລາດ",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://maps.google.com/?q=%E0%BA%99%E0%BA%B2%E0%BA%A1%E0%BA%B0%E0%BA%A5%E0%BA%B2%E0%BA%94%2C+Laos",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE16152323166?lang=la"
+    },
+    {
+      "stt": 87,
+      "order_uid": "LAO162_20260726_3",
+      "shipping_order_code": "8262081039131",
+      "carrier": "Anousith Express",
+      "buyer_name": "Hoàng Ngọc Long",
+      "buyer_phone": "+8562051505379",
+      "buyer_phone_raw": "+856 20 51 505 379",
+      "buyer_address": "ສາຂາ ຫຼັງຕະຫຼາດໃໝ່(ປາກຊັນ) Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ຫຼັງຕະຫຼາດໃໝ່(ປາກຊັນ)",
+      "matched_branch_name": "ສາຂາ ຫຼັງຕະຫຼາດໃໝ່(ປາກຊັນ)",
+      "cod_amount": 650000.0,
+      "created_at": "2026-07-26T16:41:32.269Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ຫຼັງຕະຫຼາດໃໝ່(ປາກຊັນ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ຫຼັງຕະຫຼາດໃໝ່(ປາກຊັນ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ຫຼັງຕະຫຼາດໃໝ່(ປາກຊັນ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/GfafA4K2qHJbqpze6",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262081039131&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 88,
+      "order_uid": "LAO162_20260726_2",
+      "shipping_order_code": "8262080988509",
+      "carrier": "Anousith Express",
+      "buyer_name": "Bắc Việt",
+      "buyer_phone": "+8562099283939",
+      "buyer_phone_raw": "02099283939",
+      "buyer_address": "ສາຂາ ເວີນແຄນ(ເມືອງມຸນ)  Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ເວີນແຄນ(ເມືອງມຸນ)",
+      "matched_branch_name": "ສາຂາ ເວີນແຄນ(ເມືອງມຸນ)",
+      "cod_amount": 490000.0,
+      "created_at": "2026-07-26T08:33:53.200Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ເວີນແຄນ(ເມືອງມຸນ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ເວີນແຄນ(ເມືອງມຸນ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ເວີນແຄນ(ເມືອງມຸນ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.google.com/?q=%E0%BA%AA%E0%BA%B2%E0%BA%82%E0%BA%B2+%E0%BB%80%E0%BA%A7%E0%BA%B5%E0%BA%99%E0%BB%81%E0%BA%84%E0%BA%99%28%E0%BB%80%E0%BA%A1%E0%BA%B7%E0%BA%AD%E0%BA%87%E0%BA%A1%E0%BA%B8%E0%BA%99%29%2C+Laos",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262080988509&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 89,
+      "order_uid": "LAO162_20260726_1",
+      "shipping_order_code": "8262083753540",
+      "carrier": "Anousith Express",
+      "buyer_name": "Quê Xa",
+      "buyer_phone": "+8562099913815",
+      "buyer_phone_raw": "02099913815",
+      "buyer_address": "ສາຂາ ຫຼັກ36(ເມືອງ ໄຊທານີ) GIAO Anousith",
+      "dest_branch": "ສາຂາ ຫຼັກ36(ເມືອງ ໄຊທານີ)",
+      "matched_branch_name": "ສາຂາ ຫຼັກ36(ເມືອງ ໄຊທານີ)",
+      "cod_amount": 540000.0,
+      "created_at": "2026-07-26T07:26:01.907Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ຫຼັກ36(ເມືອງ ໄຊທານີ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ຫຼັກ36(ເມືອງ ໄຊທານີ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ຫຼັກ36(ເມືອງ ໄຊທານີ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/maSizvN3uYRA37Yv6",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262083753540&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 90,
+      "order_uid": "LAO162_20260724_4",
+      "shipping_order_code": "PXE87219597158",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Thành Văn",
+      "buyer_phone": "+8562095555579",
+      "buyer_phone_raw": "02095555579",
+      "buyer_address": "ສະພັງເມິກ(ຮຮ ພອນສະຫວັນ) Giao HAL",
+      "dest_branch": "ສະພັງເມິກ(ຮຮ ພອນສະຫວັນ)",
+      "matched_branch_name": "ສະພັງເມິກ(ຮຮ ພອນສະຫວັນ)",
+      "cod_amount": 899000.0,
+      "created_at": "2026-07-24T12:05:40.519Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-07-25 13:42:51",
+      "timeline": [
+        {
+          "time": "2026-07-25 13:42:51",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-07-25 13:42:52",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-25 15:56:43",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-25 15:56:47",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-25 15:57:47",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-25 20:39:38",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-26 05:42:25",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-26 11:49:56",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-26 12:17:10",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-26 16:29:14",
+          "location": "ສາຂາ ສະພັງເມິກ(ຮຮ ພອນສະຫວັນ)",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-07-28 11:16:29",
+          "location": "ສາຂາ ສະພັງເມິກ(ຮຮ ພອນສະຫວັນ)",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=18.033104,102.638695",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE87219597158?lang=la"
+    },
+    {
+      "stt": 91,
+      "order_uid": "LAO162_20260724_3",
+      "shipping_order_code": "8262067335293",
+      "carrier": "Anousith Express",
+      "buyer_name": "Hồ Sỹ Tâm",
+      "buyer_phone": "+8562099884498",
+      "buyer_phone_raw": "02099884498",
+      "buyer_address": "ສາຂາ ໂພນສະຫວ່າງໃຕ້(ນະຄອນໄກສອນ)  Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ໂພນສະຫວ່າງໃຕ້(ນະຄອນໄກສອນ)",
+      "matched_branch_name": "ສາຂາ ໂພນສະຫວ່າງໃຕ້(ນະຄອນໄກສອນ)",
+      "cod_amount": 500000.0,
+      "created_at": "2026-07-24T11:02:43.465Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ໂພນສະຫວ່າງໃຕ້(ນະຄອນໄກສອນ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ໂພນສະຫວ່າງໃຕ້(ນະຄອນໄກສອນ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ໂພນສະຫວ່າງໃຕ້(ນະຄອນໄກສອນ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/xkC3gEwAHLvQHw346",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262067335293&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 92,
+      "order_uid": "LAO162_20260724_2",
+      "shipping_order_code": "8262060955282",
+      "carrier": "Anousith Express",
+      "buyer_name": "Phong Độ",
+      "buyer_phone": "+8562099577565",
+      "buyer_phone_raw": "02099577565",
+      "buyer_address": "ສາຂາ ໂຮມໄຊ(ເມືອງນາໝໍ້) Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ໂຮມໄຊ(ເມືອງນາໝໍ້)",
+      "matched_branch_name": "ສາຂາ ໂຮມໄຊ(ເມືອງນາໝໍ້)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-07-24T10:38:24.419Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ໂຮມໄຊ(ເມືອງນາໝໍ້): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ໂຮມໄຊ(ເມືອງນາໝໍ້)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ໂຮມໄຊ(ເມືອງນາໝໍ້)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/xCJU4V8Q8JjW6wum8",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262060955282&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 93,
+      "order_uid": "LAO162_20260724_1",
+      "shipping_order_code": "PXE63192287596",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Thanh Điền Thanh Điền",
+      "buyer_phone": "+8562095910075",
+      "buyer_phone_raw": "02095910075",
+      "buyer_address": "ວົງສຳພັນ(ເມືອງພູວົງ) Giao HAL",
+      "dest_branch": "ວົງສຳພັນ(ເມືອງພູວົງ)",
+      "matched_branch_name": "ວົງສຳພັນ(ເມືອງພູວົງ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-07-24T05:35:29.382Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-07-24 14:50:03",
+      "timeline": [
+        {
+          "time": "2026-07-24 14:50:03",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-07-24 14:50:04",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-24 15:40:25",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-24 15:40:29",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-24 15:43:35",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-24 20:33:09",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-25 09:22:12",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-25 14:57:44",
+          "location": "ສູນຄັດແຍກປາກເຊ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-25 20:56:33",
+          "location": "ສູນຄັດແຍກປາກເຊ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-26 14:49:25",
+          "location": "ສາງສາຂາວົງສຳພັນ(ເມືອງພູວົງ)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-26 14:49:27",
+          "location": "ສາງສາຂາວົງສຳພັນ(ເມືອງພູວົງ)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-26 14:49:28",
+          "location": "ສາຂາ ວົງສຳພັນ(ເມືອງພູວົງ)",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-07-31 10:20:24",
+          "location": "ສາຂາ ວົງສຳພັນ(ເມືອງພູວົງ)",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=14.6937125,106.8487344",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE63192287596?lang=la"
+    },
+    {
+      "stt": 94,
+      "order_uid": "LAO162_20260723_1",
+      "shipping_order_code": "PXE42328330513",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Vinh Chanthasouk",
+      "buyer_phone": "+8562022273888",
+      "buyer_phone_raw": "02022273888",
+      "buyer_address": "ທ່າຫີນ Giao HAL",
+      "dest_branch": "ທ່າຫີນ",
+      "matched_branch_name": "ທ່າຫີນ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-07-23T09:06:20.567Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-07-24 15:03:16",
+      "timeline": [
+        {
+          "time": "2026-07-24 15:03:16",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-07-24 15:03:17",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-24 15:40:44",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-24 15:40:48",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-24 15:43:18",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-24 20:33:28",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-25 09:22:11",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-25 15:01:21",
+          "location": "ສູນຄັດແຍກປາກເຊ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-25 18:21:34",
+          "location": "ສູນຄັດແຍກປາກເຊ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-26 10:01:55",
+          "location": "ສາງສາຂາທ່າຫີນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-26 10:01:57",
+          "location": "ສາງສາຂາທ່າຫີນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-26 10:01:58",
+          "location": "ສາຂາ ທ່າຫີນ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-07-26 10:36:45",
+          "location": "ສາຂາ ທ່າຫີນ",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=15.123735686817,105.79041830549",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE42328330513?lang=la"
+    },
+    {
+      "stt": 95,
+      "order_uid": "LAO162_20260721_2",
+      "shipping_order_code": "8262039464611",
+      "carrier": "Anousith Express",
+      "buyer_name": "Hung",
+      "buyer_phone": "+8562095075458",
+      "buyer_phone_raw": "9507 5458",
+      "buyer_address": "ສາຂາ ຫຼັງຕະຫຼາດໃໝ່(ປາກຊັນ) Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ຫຼັງຕະຫຼາດໃໝ່(ປາກຊັນ)",
+      "matched_branch_name": "ສາຂາ ຫຼັງຕະຫຼາດໃໝ່(ປາກຊັນ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-07-21T09:58:57.108Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ຫຼັງຕະຫຼາດໃໝ່(ປາກຊັນ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ຫຼັງຕະຫຼາດໃໝ່(ປາກຊັນ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ຫຼັງຕະຫຼາດໃໝ່(ປາກຊັນ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/GfafA4K2qHJbqpze6",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262039464611&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 96,
+      "order_uid": "LAO162_20260721_1",
+      "shipping_order_code": "8262038479157",
+      "carrier": "Anousith Express",
+      "buyer_name": "Cao Thang",
+      "buyer_phone": "+8562097257174",
+      "buyer_phone_raw": "02097257174",
+      "buyer_address": "ສາຂາ ບ້ານຫາດຍາວ(ເມືອງ ສະໜາມໄຊ)  Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ບ້ານຫາດຍາວ(ເມືອງ ສະໜາມໄຊ)",
+      "matched_branch_name": "ສາຂາ ບ້ານຫາດຍາວ(ເມືອງ ສະໜາມໄຊ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-07-21T07:49:33.149Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ບ້ານຫາດຍາວ(ເມືອງ ສະໜາມໄຊ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ບ້ານຫາດຍາວ(ເມືອງ ສະໜາມໄຊ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ບ້ານຫາດຍາວ(ເມືອງ ສະໜາມໄຊ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/RBcgStm8foTEHyzr7",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262038479157&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 97,
+      "order_uid": "LAO162_20260719_1",
+      "shipping_order_code": "8262015889350",
+      "carrier": "Anousith Express",
+      "buyer_name": "Nguyễn Xuân Hảo",
+      "buyer_phone": "+8562097673555",
+      "buyer_phone_raw": "02097673555",
+      "buyer_address": "ສາຂາ ໜອງໄຮໂຄກ  Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ໜອງໄຮໂຄກ",
+      "matched_branch_name": "ໜອງໄຮໂຄກ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-07-19T10:29:16.713Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ໜອງໄຮໂຄກ: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ໜອງໄຮໂຄກ",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ໜອງໄຮໂຄກ",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=15.141715,105.62019",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8262015889350&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 98,
+      "order_uid": "LAO162_20260717_2",
+      "shipping_order_code": "8261990357309",
+      "carrier": "Anousith Express",
+      "buyer_name": "ປ່າຈົງ ຈະ",
+      "buyer_phone": "+8562091974529",
+      "buyer_phone_raw": "91974529",
+      "buyer_address": "ສາຂາ ສຸນັນທາ  Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ສຸນັນທາ",
+      "matched_branch_name": "ສຸນັນທາ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-07-17T06:24:09.828Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ສຸນັນທາ: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ສຸນັນທາ",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ສຸນັນທາ",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=16.562741206949,104.75634714421",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261990357309&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 99,
+      "order_uid": "LAO162_20260717_1",
+      "shipping_order_code": "PXE21458407406",
+      "carrier": "HAL Logistics",
+      "buyer_name": "🅂🅃🅁🄾🄼 lào/425",
+      "buyer_phone": "+8562099696798",
+      "buyer_phone_raw": "02099696798",
+      "buyer_address": "🏬ທົ່ງຂັນຄຳ \n🏙️ Tỉnh: GIAO HAL",
+      "dest_branch": "ທົ່ງຂັນຄຳ",
+      "matched_branch_name": "ທົ່ງຂັນຄຳ",
+      "cod_amount": 0.0,
+      "created_at": "2026-07-17T01:23:46.662Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-07-17 11:41:19",
+      "timeline": [
+        {
+          "time": "2026-07-17 11:41:19",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-07-17 11:41:20",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-17 16:03:04",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-17 16:03:07",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-17 16:04:20",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-17 20:40:34",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-18 08:09:39",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-18 10:03:21",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-18 12:13:08",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-18 15:49:27",
+          "location": "ສາຂາ ທົ່ງຂັນຄຳ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-07-19 09:56:30",
+          "location": "ສາຂາ ທົ່ງຂັນຄຳ",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=17.975000237755,102.60802190496",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE21458407406?lang=la"
+    },
+    {
+      "stt": 100,
+      "order_uid": "LAO162_20260716_2",
+      "shipping_order_code": "8261989732616",
+      "carrier": "Anousith Express",
+      "buyer_name": "Hùng Nok",
+      "buyer_phone": "+8562051517692",
+      "buyer_phone_raw": "51517692",
+      "buyer_address": "ສາຂາ ທ່າສະໂນ(ນະຄອນໄກສອນ) GIAO ANOUSITH",
+      "dest_branch": "ສາຂາ ທ່າສະໂນ(ນະຄອນໄກສອນ)",
+      "matched_branch_name": "ສາຂາ ທ່າສະໂນ(ນະຄອນໄກສອນ)",
+      "cod_amount": 800000.0,
+      "created_at": "2026-07-16T14:53:55.101Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ທ່າສະໂນ(ນະຄອນໄກສອນ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ທ່າສະໂນ(ນະຄອນໄກສອນ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ທ່າສະໂນ(ນະຄອນໄກສອນ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/yBo1EVybSHLWiz278",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261989732616&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 101,
+      "order_uid": "LAO162_20260716_1",
+      "shipping_order_code": "8261979676474",
+      "carrier": "Anousith Express",
+      "buyer_name": "Văn Tới Nguyễn",
+      "buyer_phone": "+8562097669696",
+      "buyer_phone_raw": "97669696",
+      "buyer_address": "ສາຂາ ປາກຊ່ອງແດນໜາວ  Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ປາກຊ່ອງແດນໜາວ",
+      "matched_branch_name": "ສາຂາ ປາກຊ່ອງແດນໜາວ",
+      "cod_amount": 490000.0,
+      "created_at": "2026-07-16T01:38:23.665Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ປາກຊ່ອງແດນໜາວ: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ປາກຊ່ອງແດນໜາວ",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ປາກຊ່ອງແດນໜາວ",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/AbnuqRJQJs4Lzcjq8",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261979676474&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 102,
+      "order_uid": "LAO162_20260714_1",
+      "shipping_order_code": "PXE78345128876",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Rin Tran",
+      "buyer_phone": "+8562059952209",
+      "buyer_phone_raw": "+8562059952209",
+      "buyer_address": "🏬ຮ່ອງໄກ່ແກ້ວ\n🏙️ Tỉnh: GIAO HAL",
+      "dest_branch": "ຮ່ອງໄກ່ແກ້ວ",
+      "matched_branch_name": "ຮ່ອງໄກ່ແກ້ວ",
+      "cod_amount": 599000.0,
+      "created_at": "2026-07-14T15:45:38.222Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-07-15 12:02:49",
+      "timeline": [
+        {
+          "time": "2026-07-15 12:02:49",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-07-15 12:02:50",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-15 15:25:38",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-15 15:25:41",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-15 15:26:28",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-15 21:07:40",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-16 07:24:50",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-16 11:32:34",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-16 12:47:23",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-16 16:28:17",
+          "location": "ສາຂາ ຮ່ອງໄກ່ແກ້ວ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-07-17 12:50:44",
+          "location": "ສາຂາ ຮ່ອງໄກ່ແກ້ວ",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=17.985862361573,102.62245957106",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE78345128876?lang=la"
+    },
+    {
+      "stt": 103,
+      "order_uid": "LAO162_20260713_4",
+      "shipping_order_code": "8261951864064",
+      "carrier": "Anousith Express",
+      "buyer_name": "NGười Kể CHuyện",
+      "buyer_phone": "+8562096386868",
+      "buyer_phone_raw": "02096386868",
+      "buyer_address": "ສາຂາ ຕະຫຼາດຫຼັກ20(ຄຳເກີດ) Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ຕະຫຼາດຫຼັກ20(ຄຳເກີດ)",
+      "matched_branch_name": "ສາຂາ ຕະຫຼາດຫຼັກ20(ຄຳເກີດ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-07-13T14:36:50.205Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ຕະຫຼາດຫຼັກ20(ຄຳເກີດ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ຕະຫຼາດຫຼັກ20(ຄຳເກີດ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ຕະຫຼາດຫຼັກ20(ຄຳເກີດ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/5ZXDkx3HkPFwnui5A",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261951864064&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 104,
+      "order_uid": "LAO162_20260713_3",
+      "shipping_order_code": "8261951209464",
+      "carrier": "Anousith Express",
+      "buyer_name": "Chau Le",
+      "buyer_phone": "+8562094496789",
+      "buyer_phone_raw": "02094496789",
+      "buyer_address": "ສາຂາ ໂພນສະຫວ່າງໃຕ້  Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ໂພນສະຫວ່າງໃຕ້",
+      "matched_branch_name": "ສະຫວ່າງ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-07-13T14:27:55.049Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ໂພນສະຫວ່າງໃຕ້: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ໂພນສະຫວ່າງໃຕ້",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ໂພນສະຫວ່າງໃຕ້",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=17.985209370495,102.61276852017",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261951209464&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 105,
+      "order_uid": "LAO162_20260713_2",
+      "shipping_order_code": "8261948138188",
+      "carrier": "Anousith Express",
+      "buyer_name": "Ty Nu",
+      "buyer_phone": "+8562055570429",
+      "buyer_phone_raw": "55570429",
+      "buyer_address": "ສາຂາ ບ້ານທາດຫຼວງ(ນະຄອນຫຼວງພະບາງ) Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ບ້ານທາດຫຼວງ(ນະຄອນຫຼວງພະບາງ)",
+      "matched_branch_name": "ສາຂາ ບ້ານທາດຫຼວງ(ນະຄອນຫຼວງພະບາງ)",
+      "cod_amount": 1799000.0,
+      "created_at": "2026-07-13T06:00:25.292Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ບ້ານທາດຫຼວງ(ນະຄອນຫຼວງພະບາງ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ບ້ານທາດຫຼວງ(ນະຄອນຫຼວງພະບາງ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ບ້ານທາດຫຼວງ(ນະຄອນຫຼວງພະບາງ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/HruFhETC2bF12G2e9",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261948138188&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 106,
+      "order_uid": "LAO162_20260713_1",
+      "shipping_order_code": "8261944418314",
+      "carrier": "Anousith Express",
+      "buyer_name": "Văn Trường",
+      "buyer_phone": "+8562059027889",
+      "buyer_phone_raw": "+8562059027889",
+      "buyer_address": "ສາຂາ ນາສາລາ(ເມືອງໄຊທານີ)",
+      "dest_branch": "ສາຂາ ນາສາລາ(ເມືອງໄຊທານີ)",
+      "matched_branch_name": "ສາຂາ ນາສາລາ(ເມືອງໄຊທານີ)",
+      "cod_amount": 359000.0,
+      "created_at": "2026-07-13T03:30:53.760Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສາລາ(ເມືອງໄຊທານີ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ນາສາລາ(ເມືອງໄຊທານີ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ນາສາລາ(ເມືອງໄຊທານີ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/VsWDGT9jQZdx9EgZ7",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261944418314&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 107,
+      "order_uid": "LAO162_20260710_1",
+      "shipping_order_code": "PXE24161552341",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Bẹp Kim Sơn",
+      "buyer_phone": "+8562091628668",
+      "buyer_phone_raw": "02091628668",
+      "buyer_address": "🏬 ທ່າແຕງ\n🏙️ Tỉnh: GIAO HAL",
+      "dest_branch": "ທ່າແຕງ",
+      "matched_branch_name": "ທ່າແຕງ",
+      "cod_amount": 269000.0,
+      "created_at": "2026-07-10T01:37:45.029Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-07-10 13:06:54",
+      "timeline": [
+        {
+          "time": "2026-07-10 13:06:54",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-07-10 13:06:55",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-10 16:03:54",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-10 16:03:56",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-10 16:04:59",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-10 20:47:04",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-11 06:32:42",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-11 14:36:32",
+          "location": "ສູນຄັດແຍກສາລະວັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-11 15:55:43",
+          "location": "ສູນຄັດແຍກສາລະວັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-11 17:24:03",
+          "location": "ສາງສາຂາທ່າແຕງ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-11 17:24:05",
+          "location": "ສາງສາຂາທ່າແຕງ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-11 17:24:06",
+          "location": "ສາຂາ ທ່າແຕງ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-07-15 09:41:54",
+          "location": "ສາຂາ ທ່າແຕງ",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=15.425993411698,106.38079195026",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE24161552341?lang=la"
+    },
+    {
+      "stt": 108,
+      "order_uid": "LAO162_20260702_1",
+      "shipping_order_code": "8261842720741",
+      "carrier": "Anousith Express",
+      "buyer_name": "Văn Lợi",
+      "buyer_phone": "+8562091639472",
+      "buyer_phone_raw": "02091639472",
+      "buyer_address": "ສາຂາ ໜອງກອກ ( ບາຈຽງ ) Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ໜອງກອກ ( ບາຈຽງ )",
+      "matched_branch_name": "ສາຂາ ໜອງກອກ ( ບາຈຽງ )",
+      "cod_amount": 499000.0,
+      "created_at": "2026-07-02T07:23:10.403Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ໜອງກອກ ( ບາຈຽງ ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ໜອງກອກ ( ບາຈຽງ )",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ໜອງກອກ ( ບາຈຽງ )",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/7VGBYQ4Prc32wCkHA",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261842720741&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 109,
+      "order_uid": "LAO162_20260701_3",
+      "shipping_order_code": "PXE37349605195",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Duy Truong",
+      "buyer_phone": "+8562095598989",
+      "buyer_phone_raw": "+8562095598989",
+      "buyer_address": "🏬ທົ່ງຂັນຄຳ\n🏙️ Tỉnh: GIAO HAL",
+      "dest_branch": "ທົ່ງຂັນຄຳ",
+      "matched_branch_name": "ທົ່ງຂັນຄຳ",
+      "cod_amount": 619000.0,
+      "created_at": "2026-07-01T12:22:51.083Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-07-02 11:22:07",
+      "timeline": [
+        {
+          "time": "2026-07-02 11:22:07",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-07-02 11:22:08",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-02 15:42:40",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-02 15:42:43",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-02 15:43:59",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-02 20:42:32",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-03 06:28:46",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-04 04:13:30",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-04 16:11:56",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-05 13:42:50",
+          "location": "ສາຂາ ທົ່ງຂັນຄຳ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-07-07 10:42:17",
+          "location": "ສາຂາ ທົ່ງຂັນຄຳ",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=17.975000237755,102.60802190496",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE37349605195?lang=la"
+    },
+    {
+      "stt": 110,
+      "order_uid": "LAO162_20260701_2",
+      "shipping_order_code": null,
+      "carrier": "Anousith Express",
+      "buyer_name": "Son Dung",
+      "buyer_phone": "+8562096058456",
+      "buyer_phone_raw": "+8562096058456",
+      "buyer_address": "ສາຂາ ບ້ານປາກຊັນ (ເມືອງ ປາກຊັນ)  Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ບ້ານປາກຊັນ (ເມືອງ ປາກຊັນ)",
+      "matched_branch_name": "ສາຂາ ບ້ານປາກຊັນ (ເມືອງ ປາກຊັນ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-07-01T05:16:39.775Z",
+      "status": {
+        "code": "PENDING",
+        "text": "Chờ bàn giao vận chuyển",
+        "badge_class": "badge-secondary",
+        "action_needed": "Xuất kho đóng gói",
+        "color": "#64748b"
+      },
+      "items": [],
+      "latest_scan_desc": "Chưa có dữ liệu quét",
+      "latest_scan_time": "",
+      "timeline": [],
+      "google_maps_link": "https://maps.app.goo.gl/YXfDLzfLcVfDhKFv8",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 111,
+      "order_uid": "LAO162_20260701_1",
+      "shipping_order_code": "8261828471968",
+      "carrier": "Anousith Express",
+      "buyer_name": "Quốc Huy Võ",
+      "buyer_phone": "+8562096481354",
+      "buyer_phone_raw": "96481354",
+      "buyer_address": "ສາຂາ ບຸ່ງຄຳ(ວິລະບູລີ) Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ບຸ່ງຄຳ(ວິລະບູລີ)",
+      "matched_branch_name": "ບຸ່ງຄຳ(ວິລະບູລີ)",
+      "cod_amount": 440000.0,
+      "created_at": "2026-07-01T05:15:48.786Z",
+      "status": {
+        "code": "PENDING",
+        "text": "Chờ bàn giao vận chuyển",
+        "badge_class": "badge-secondary",
+        "action_needed": "Xuất kho đóng gói",
+        "color": "#64748b"
+      },
+      "items": [],
+      "latest_scan_desc": "Chưa có dữ liệu quét",
+      "latest_scan_time": "",
+      "timeline": [],
+      "google_maps_link": "https://www.google.com/maps?q=16.971209,105.944336",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261828471968&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 112,
+      "order_uid": "LAO162_20260629_2",
+      "shipping_order_code": "PXE08431582338",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Hồ Thành",
+      "buyer_phone": "+8562098900666",
+      "buyer_phone_raw": "02098900666",
+      "buyer_address": "ຈຸດບໍລິການ ນາຊອນ giao HAL",
+      "dest_branch": "ນາຊອນ",
+      "matched_branch_name": "ນາຊອນ",
+      "cod_amount": 600000.0,
+      "created_at": "2026-06-29T11:28:31.149Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-07-02 16:00:50",
+      "timeline": [
+        {
+          "time": "2026-07-02 16:00:50",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-07-02 16:00:51",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-02 16:17:32",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-02 16:17:34",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-02 16:17:39",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-02 20:43:15",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-03 06:28:46",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-04 04:30:55",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-04 18:23:14",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-05 12:14:37",
+          "location": "ສາຂາ ນາຊອນ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-07-07 11:28:39",
+          "location": "ສາຂາ ນາຊອນ",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=18.075341163177,102.98133344162",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE08431582338?lang=la"
+    },
+    {
+      "stt": 113,
+      "order_uid": "LAO162_20260629_1",
+      "shipping_order_code": "8261828052983",
+      "carrier": "Anousith Express",
+      "buyer_name": "Đức Lộc",
+      "buyer_phone": "+8562092653147",
+      "buyer_phone_raw": "02092653147",
+      "buyer_address": "ສາຂາ ແກ້ງກອກ(ເມືອງ ຈຳພອນ) Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ແກ້ງກອກ(ເມືອງ ຈຳພອນ)",
+      "matched_branch_name": "ສາຂາ ແກ້ງກອກ(ເມືອງ ຈຳພອນ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-29T11:20:40.923Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ແກ້ງກອກ(ເມືອງ ຈຳພອນ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ແກ້ງກອກ(ເມືອງ ຈຳພອນ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ແກ້ງກອກ(ເມືອງ ຈຳພອນ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/YhuWon9z5p4fhxZp8",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261828052983&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 114,
+      "order_uid": "LAO162_20260628_1",
+      "shipping_order_code": null,
+      "carrier": "Anousith Express",
+      "buyer_name": "Hoàng Huy",
+      "buyer_phone": "+8562094948777",
+      "buyer_phone_raw": "94948777",
+      "buyer_address": "ສາຂາ ເຊທ່າມວກ  Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ເຊທ່າມວກ",
+      "matched_branch_name": "ເຊທ່າມວກ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-28T12:28:44.649Z",
+      "status": {
+        "code": "PENDING",
+        "text": "Chờ bàn giao vận chuyển",
+        "badge_class": "badge-secondary",
+        "action_needed": "Xuất kho đóng gói",
+        "color": "#64748b"
+      },
+      "items": [],
+      "latest_scan_desc": "Chưa có dữ liệu quét",
+      "latest_scan_time": "",
+      "timeline": [],
+      "google_maps_link": "https://www.google.com/maps?q=16.569187862815,105.92312463188",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 115,
+      "order_uid": "LAO162_20260627_6",
+      "shipping_order_code": "8261808688461",
+      "carrier": "Anousith Express",
+      "buyer_name": "Son Dung",
+      "buyer_phone": "+8562096058456",
+      "buyer_phone_raw": "+8562096058456",
+      "buyer_address": "ສາຂາ ບ້ານປາກຊັນ (ເມືອງ ປາກຊັນ)  Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ບ້ານປາກຊັນ (ເມືອງ ປາກຊັນ)",
+      "matched_branch_name": "ສາຂາ ບ້ານປາກຊັນ (ເມືອງ ປາກຊັນ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-27T12:25:34.403Z",
+      "status": {
+        "code": "PENDING",
+        "text": "Chờ bàn giao vận chuyển",
+        "badge_class": "badge-secondary",
+        "action_needed": "Xuất kho đóng gói",
+        "color": "#64748b"
+      },
+      "items": [],
+      "latest_scan_desc": "Chưa có dữ liệu quét",
+      "latest_scan_time": "",
+      "timeline": [],
+      "google_maps_link": "https://maps.app.goo.gl/YXfDLzfLcVfDhKFv8",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261808688461&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 116,
+      "order_uid": "LAO162_20260627_5",
+      "shipping_order_code": "8261801626863",
+      "carrier": "Anousith Express",
+      "buyer_name": "Hoàng Huy",
+      "buyer_phone": "+8562094948777",
+      "buyer_phone_raw": "94948777",
+      "buyer_address": "ສາຂາ ເຊທ່າມວກ  Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ເຊທ່າມວກ",
+      "matched_branch_name": "ເຊທ່າມວກ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-27T12:05:48.857Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ເຊທ່າມວກ: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ເຊທ່າມວກ",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ເຊທ່າມວກ",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=16.569187862815,105.92312463188",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261801626863&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 117,
+      "order_uid": "LAO162_20260627_4",
+      "shipping_order_code": "8261806614764",
+      "carrier": "Anousith Express",
+      "buyer_name": "Phan Long",
+      "buyer_phone": "+8562097224229",
+      "buyer_phone_raw": "02097224229",
+      "buyer_address": "ສາຂາ ຂີ້ນາກ2 Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ຂີ້ນາກ2",
+      "matched_branch_name": "ສາຂາ ຂີ້ນາກ2",
+      "cod_amount": 900000.0,
+      "created_at": "2026-06-27T07:14:55.541Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ຂີ້ນາກ2: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ຂີ້ນາກ2",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ຂີ້ນາກ2",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/ufvYUvRUJFk2iWKN7",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261806614764&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 118,
+      "order_uid": "LAO162_20260627_3",
+      "shipping_order_code": "PXE77979813167",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Rin Tran",
+      "buyer_phone": "+8562059952209",
+      "buyer_phone_raw": "+8562059952209",
+      "buyer_address": "🏬ຮ່ອງໄກ່ແກ້ວ\n🏙️ Tỉnh: GIAO HAL",
+      "dest_branch": "ຮ່ອງໄກ່ແກ້ວ",
+      "matched_branch_name": "ຮ່ອງໄກ່ແກ້ວ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-27T06:43:15.518Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-06-27 17:19:23",
+      "timeline": [
+        {
+          "time": "2026-06-27 17:19:23",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-06-27 17:19:24",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-28 13:55:45",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-28 13:55:47",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-28 13:58:17",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-28 20:18:39",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-29 06:09:50",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-29 11:57:10",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-29 12:38:23",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-29 15:58:53",
+          "location": "ສາຂາ ຮ່ອງໄກ່ແກ້ວ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-07-02 11:54:39",
+          "location": "ສາຂາ ຮ່ອງໄກ່ແກ້ວ",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=17.985862361573,102.62245957106",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE77979813167?lang=la"
+    },
+    {
+      "stt": 119,
+      "order_uid": "LAO162_20260627_2",
+      "shipping_order_code": "PXE27047033011",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Sivanthone Saykousy",
+      "buyer_phone": "+8562055558716",
+      "buyer_phone_raw": "+856 20 55 558 716",
+      "buyer_address": "🏬ສະພັງເມິກ(ຮຮ ພອນສະຫວັນ) \n🏙️ Tỉnh: GIAO HAL",
+      "dest_branch": "ສະພັງເມິກ(ຮຮ ພອນສະຫວັນ)",
+      "matched_branch_name": "ສະພັງເມິກ(ຮຮ ພອນສະຫວັນ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-27T06:27:03.039Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-06-27 16:58:05",
+      "timeline": [
+        {
+          "time": "2026-06-27 16:58:05",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-06-27 16:58:06",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-28 13:56:07",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-28 13:56:09",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-28 13:58:31",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-28 20:24:49",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-29 06:09:54",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-29 12:05:21",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-29 12:50:21",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-29 16:41:42",
+          "location": "ສາຂາ ສະພັງເມິກ(ຮຮ ພອນສະຫວັນ)",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-06-30 16:52:02",
+          "location": "ສາຂາ ສະພັງເມິກ(ຮຮ ພອນສະຫວັນ)",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=18.033104,102.638695",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE27047033011?lang=la"
+    },
+    {
+      "stt": 120,
+      "order_uid": "LAO162_20260627_1",
+      "shipping_order_code": "PXE60013311038",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Minh Hải",
+      "buyer_phone": "+8562058326048",
+      "buyer_phone_raw": "02058326048",
+      "buyer_address": "🏬ຈຸດບໍລິການ ຫນອງບัว(ມ.ສิง)\n🏙️ Tỉnh: GIAO HAL",
+      "dest_branch": "ໜອງບົວ(ມ.ສິງ)",
+      "matched_branch_name": "ໜອງບົວ(ມ.ສິງ)",
+      "cod_amount": 440000.0,
+      "created_at": "2026-06-27T05:07:08.602Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-06-27 16:56:41",
+      "timeline": [
+        {
+          "time": "2026-06-27 16:56:41",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-06-27 16:56:42",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-28 13:56:40",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-28 13:56:42",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-28 13:58:37",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-28 20:15:00",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-29 06:09:47",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-29 11:22:52",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-29 22:43:52",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-01 16:00:45",
+          "location": "ສາງສາຂາໜອງບົວ(ມ.ສິງ)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Wrong Branch Receiver"
+        },
+        {
+          "time": "2026-07-01 16:00:48",
+          "location": "ສາງສາຂາໜອງບົວ(ມ.ສິງ)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-01 16:00:49",
+          "location": "ສາຂາ ໜອງບົວ(ມ.ສິງ)",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-07-06 08:15:37",
+          "location": "ສາຂາ ໜອງບົວ(ມ.ສິງ)",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=21.172266,101.155464",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE60013311038?lang=la"
+    },
+    {
+      "stt": 121,
+      "order_uid": "LAO162_20260625_1",
+      "shipping_order_code": "8261763845110",
+      "carrier": "Anousith Express",
+      "buyer_name": "A Son",
+      "buyer_phone": "+8562098228668",
+      "buyer_phone_raw": "02098228668",
+      "buyer_address": "ສາຂາ ບ້ານເມືອງໝໍ(ເມືອງແກ່ນທ້າວ) Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ບ້ານເມືອງໝໍ(ເມືອງແກ່ນທ້າວ)",
+      "matched_branch_name": "ສາຂາ ບ້ານເມືອງໝໍ(ເມືອງແກ່ນທ້າວ)",
+      "cod_amount": 359000.0,
+      "created_at": "2026-06-25T07:21:05.286Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ບ້ານເມືອງໝໍ(ເມືອງແກ່ນທ້າວ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ບ້ານເມືອງໝໍ(ເມືອງແກ່ນທ້າວ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ບ້ານເມືອງໝໍ(ເມືອງແກ່ນທ້າວ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/iN5ScTaWic74bCU28",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261763845110&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 122,
+      "order_uid": "LAO162_20260623_2",
+      "shipping_order_code": "8261756675212",
+      "carrier": "Anousith Express",
+      "buyer_name": "Lê Đồng",
+      "buyer_phone": "+8562077531288",
+      "buyer_phone_raw": "02077531288",
+      "buyer_address": "ສາຂາ ປາກນໍ້າ ( ເມືອງຫີນບູນ ) Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ປາກນໍ້າ ( ເມືອງຫີນບູນ )",
+      "matched_branch_name": "ສາຂາ ປາກນໍ້າ ( ເມືອງຫີນບູນ )",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-23T06:09:22.144Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ປາກນໍ້າ ( ເມືອງຫີນບູນ ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ປາກນໍ້າ ( ເມືອງຫີນບູນ )",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ປາກນໍ້າ ( ເມືອງຫີນບູນ )",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/FCVAhoyPs67eHJfr8",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261756675212&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 123,
+      "order_uid": "LAO162_20260623_1",
+      "shipping_order_code": "8261750656333",
+      "carrier": "Anousith Express",
+      "buyer_name": "Đong Canh Hoang",
+      "buyer_phone": "+8562097929968",
+      "buyer_phone_raw": "02097929968",
+      "buyer_address": "ສາຂາ ບ້ານວຽງ Giao ANOUSITH",
+      "dest_branch": "ສາຂາ ບ້ານວຽງ",
+      "matched_branch_name": "ສາຂາ ບ້ານວຽງ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-23T05:44:33.929Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ບ້ານວຽງ: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ບ້ານວຽງ",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ບ້ານວຽງ",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/7QGzKR9KaSgQX9qb7",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261750656333&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 124,
+      "order_uid": "LAO162_20260622_3",
+      "shipping_order_code": "PXE27282388556",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Bob Jenn",
+      "buyer_phone": "+8562099585959",
+      "buyer_phone_raw": "+8562099585959",
+      "buyer_address": "ຈັນທະບູລີທົ່ງຂັນຄຳ, ທົ່ງຂັນຄຳ, ຈັນທະບູລີ, ນະຄອນຫຼວງວຽງຈັນ Giao HAL",
+      "dest_branch": "ທົ່ງຂັນຄຳ",
+      "matched_branch_name": "ທົ່ງຂັນຄຳ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-22T11:57:38.183Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-06-23 12:37:48",
+      "timeline": [
+        {
+          "time": "2026-06-23 12:37:48",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-06-23 12:37:49",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-23 16:23:39",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-23 16:23:41",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-23 16:31:48",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-23 20:23:42",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-24 06:16:55",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-24 21:49:13",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-24 22:58:08",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-25 11:13:01",
+          "location": "ສາຂາ ທົ່ງຂັນຄຳ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-06-27 09:53:21",
+          "location": "ສາຂາ ທົ່ງຂັນຄຳ",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=17.975000237755,102.60802190496",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE27282388556?lang=la"
+    },
+    {
+      "stt": 125,
+      "order_uid": "LAO162_20260622_2",
+      "shipping_order_code": "PXE23782814053",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Bẹp Kim Sơn",
+      "buyer_phone": "+8562091628668",
+      "buyer_phone_raw": "02091628668",
+      "buyer_address": "🏬 ທ່າແຕງ\n🏙️ Tỉnh: GIAO HAL",
+      "dest_branch": "ທ່າແຕງ",
+      "matched_branch_name": "ທ່າແຕງ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-22T10:20:38.533Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-06-23 12:39:42",
+      "timeline": [
+        {
+          "time": "2026-06-23 12:39:42",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-06-23 12:39:43",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-23 16:22:40",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-23 16:22:42",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-23 16:28:49",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-23 20:22:08",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-24 06:19:55",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-24 13:47:56",
+          "location": "ສູນຄັດແຍກສາລະວັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-24 14:52:52",
+          "location": "ສູນຄັດແຍກສາລະວັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-24 16:08:24",
+          "location": "ສາງສາຂາທ່າແຕງ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-24 16:08:26",
+          "location": "ສາງສາຂາທ່າແຕງ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-24 16:08:27",
+          "location": "ສາຂາ ທ່າແຕງ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-06-26 08:54:30",
+          "location": "ສາຂາ ທ່າແຕງ",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=15.425993411698,106.38079195026",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE23782814053?lang=la"
+    },
+    {
+      "stt": 126,
+      "order_uid": "LAO162_20260622_1",
+      "shipping_order_code": "8261740496098",
+      "carrier": "Anousith Express",
+      "buyer_name": "Phêrô Siêng",
+      "buyer_phone": "+8562097828737",
+      "buyer_phone_raw": "+856 20 97 828 737",
+      "buyer_address": "ສາຂາ ວຽງຈະເລີນ(ໄຊເສດຖາ)\nນະຄອນຫຼວງວຽງຈັນ\nບ້ານ ວຽງຈະເລີນ , ເມືອງ ໄຊເສດຖາ\nGIAO ANOUSITH",
+      "dest_branch": "ສາຂາ ວຽງຈະເລີນ(ໄຊເສດຖາ)",
+      "matched_branch_name": "ສາຂາ ວຽງຈະເລີນ(ໄຊເສດຖາ)",
+      "cod_amount": 513000.0,
+      "created_at": "2026-06-22T05:59:17.222Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ວຽງຈະເລີນ(ໄຊເສດຖາ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ວຽງຈະເລີນ(ໄຊເສດຖາ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ວຽງຈະເລີນ(ໄຊເສດຖາ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/fJdM1QKdxhDgAyeSA",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261740496098&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 127,
+      "order_uid": "LAO162_20260620_2",
+      "shipping_order_code": "8261740331550",
+      "carrier": "Anousith Express",
+      "buyer_name": "Thai Xuan Trinh",
+      "buyer_phone": "‪+856 20 96 868 998‬",
+      "buyer_phone_raw": "‪+856 20 96 868 998‬",
+      "buyer_address": "ຈອມແກ້ວ,ແກ່ນທ້າວ,ໄຊຍະບູລີ GIAO ANOUSITH",
+      "dest_branch": "ຈອມແກ້ວ,ແກ່ນທ້າວ,ໄຊຍະບູລີ GIAO ANOUSITH",
+      "matched_branch_name": "ແກ່ນທ້າວ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-20T13:24:41.181Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ຈອມແກ້ວ,ແກ່ນທ້າວ,ໄຊຍະບູລີ GIAO ANOUSITH: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ຈອມແກ້ວ,ແກ່ນທ້າວ,ໄຊຍະບູລີ GIAO ANOUSITH",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ຈອມແກ້ວ,ແກ່ນທ້າວ,ໄຊຍະບູລີ GIAO ANOUSITH",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=17.730378546682,101.3925131826",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261740331550&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 128,
+      "order_uid": "LAO162_20260620_1",
+      "shipping_order_code": "8261712355909",
+      "carrier": "Anousith Express",
+      "buyer_name": "Phượng Hoi",
+      "buyer_phone": "+8562091331199",
+      "buyer_phone_raw": "02091331199",
+      "buyer_address": "ສາຂາ ຫຼັກ15(ໄຊທານີ) GIAO ANOUSITH",
+      "dest_branch": "ສາຂາ ຫຼັກ15(ໄຊທານີ)",
+      "matched_branch_name": "ສາຂາ ຫຼັກ15(ໄຊທານີ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-20T08:08:27.310Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ຫຼັກ15(ໄຊທານີ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ຫຼັກ15(ໄຊທານີ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ຫຼັກ15(ໄຊທານີ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/3DWcF5hXqwFQSTSN8",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261712355909&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 129,
+      "order_uid": "LAO162_20260618_2",
+      "shipping_order_code": "PXE38734421544",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Anh Kiet Hoang",
+      "buyer_phone": "+8562092341784",
+      "buyer_phone_raw": "02092341784",
+      "buyer_address": "🏬 ໂພນປາເປົ້າ2 (ວິຈິດສິນ) 🔄 ( HC01-04-0112 )",
+      "dest_branch": "ໂພນປາເປົ້າ2 (ວິຈິດສິນ)",
+      "matched_branch_name": "ໂພນປາເປົ້າ2 (ວິຈິດສິນ)",
+      "cod_amount": 150000.0,
+      "created_at": "2026-06-18T05:36:30.329Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-06-18 16:10:54",
+      "timeline": [
+        {
+          "time": "2026-06-18 16:10:54",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-06-18 16:10:55",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-18 16:36:14",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-18 16:36:16",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-18 16:39:52",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-18 20:20:41",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-19 06:45:59",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-19 09:45:42",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-19 11:44:22",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-19 15:45:34",
+          "location": "ສາຂາ ໂພນປາເປົ້າ2 (ວິຈິດສິນ)",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-06-22 09:06:43",
+          "location": "ສາຂາ ໂພນປາເປົ້າ2 (ວິຈິດສິນ)",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=17.949074870278,102.64097126882",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE38734421544?lang=la"
+    },
+    {
+      "stt": 130,
+      "order_uid": "LAO162_20260618_1",
+      "shipping_order_code": "PXE31096265888",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Hùng Nguyễn",
+      "buyer_phone": "+8562097111168",
+      "buyer_phone_raw": "+8562097111168",
+      "buyer_address": "ໂພນສະຫວັນໃຕ້ GIAO HAL",
+      "dest_branch": "ນາສົ້ມມໍ(ຫຼັກ9)",
+      "matched_branch_name": "ນາສົ້ມມໍ(ຫຼັກ9)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-18T05:26:02.661Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-06-18 16:14:44",
+      "timeline": [
+        {
+          "time": "2026-06-18 16:14:44",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-06-18 16:14:45",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-18 16:38:35",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-18 16:38:37",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-18 16:38:42",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-18 20:22:15",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-19 06:45:58",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-19 11:00:59",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-19 22:47:10",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-20 18:47:29",
+          "location": "ສາຂາ ໂພນສະຫວັນໃຕ້",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-01 19:27:30",
+          "location": "ສາຂາ ໂພນສະຫວັນໃຕ້",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Customer request to return"
+        },
+        {
+          "time": "2026-07-01 19:30:33",
+          "location": "ສາຂາ ໂພນສະຫວັນໃຕ້",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-03 04:01:39",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-04 00:02:18",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-04 06:34:48",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-04 08:44:16",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-04 10:18:25",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-07-04 10:18:27",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-07-04 10:18:28",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-07-05 15:45:28",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=18.376979745217,103.73180602485",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE31096265888?lang=la"
+    },
+    {
+      "stt": 131,
+      "order_uid": "LAO162_20260617_3",
+      "shipping_order_code": "8261698674529",
+      "carrier": "Anousith Express",
+      "buyer_name": "Giao Đinh",
+      "buyer_phone": "+8562091056579",
+      "buyer_phone_raw": "91056579",
+      "buyer_address": "ສາຂາ ປ່າອ້ອຍ (ເມືອງ ຫ້ວຍຊາຍ) GIAO ANOUSITH",
+      "dest_branch": "ສາຂາ ປ່າອ້ອຍ (ເມືອງ ຫ້ວຍຊາຍ)",
+      "matched_branch_name": "ສາຂາ ປ່າອ້ອຍ (ເມືອງ ຫ້ວຍຊາຍ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-17T10:37:07.298Z",
+      "status": {
+        "code": "PENDING",
+        "text": "Chờ bàn giao vận chuyển",
+        "badge_class": "badge-secondary",
+        "action_needed": "Xuất kho đóng gói",
+        "color": "#64748b"
+      },
+      "items": [],
+      "latest_scan_desc": "Chưa có dữ liệu quét",
+      "latest_scan_time": "",
+      "timeline": [],
+      "google_maps_link": "https://maps.app.goo.gl/Rk6RmSecwerWWRV68",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261698674529&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 132,
+      "order_uid": "LAO162_20260617_2",
+      "shipping_order_code": "8261694102221",
+      "carrier": "Anousith Express",
+      "buyer_name": "Lao Nam",
+      "buyer_phone": "+8562055846668",
+      "buyer_phone_raw": "55846668",
+      "buyer_address": "ສາຂາ ສີເກີດ GIAO ANOUSITH",
+      "dest_branch": "ສາຂາ ສີເກີດ",
+      "matched_branch_name": "ສີເກີດ",
+      "cod_amount": 450000.0,
+      "created_at": "2026-06-17T06:28:08.787Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ສີເກີດ: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ສີເກີດ",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ສີເກີດ",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=18.042386598726,102.54618328916",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261694102221&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 133,
+      "order_uid": "LAO162_20260617_1",
+      "shipping_order_code": "8261681028618",
+      "carrier": "Anousith Express",
+      "buyer_name": "Lê Van Bê",
+      "buyer_phone": "+8562059592723",
+      "buyer_phone_raw": "59592723",
+      "buyer_address": "ສາຂາ ດົງໝ້ຽງ (ຈັນທະບູລີ) GIAO ANOUSITH",
+      "dest_branch": "ສາຂາ ດົງໝ້ຽງ (ຈັນທະບູລີ)",
+      "matched_branch_name": "ສາຂາ ດົງໝ້ຽງ (ຈັນທະບູລີ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-17T04:55:48.019Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ດົງໝ້ຽງ (ຈັນທະບູລີ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ດົງໝ້ຽງ (ຈັນທະບູລີ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ດົງໝ້ຽງ (ຈັນທະບູລີ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.google.com/?q=%E0%BA%AA%E0%BA%B2%E0%BA%82%E0%BA%B2+%E0%BA%94%E0%BA%BB%E0%BA%87%E0%BB%9D%E0%BB%89%E0%BA%BD%E0%BA%87+%28%E0%BA%88%E0%BA%B1%E0%BA%99%E0%BA%97%E0%BA%B0%E0%BA%9A%E0%BA%B9%E0%BA%A5%E0%BA%B5%29%2C+Laos",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261681028618&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 134,
+      "order_uid": "LAO162_20260614_2",
+      "shipping_order_code": "8261667336469",
+      "carrier": "Anousith Express",
+      "buyer_name": "Nguyễn Hữu Huyền",
+      "buyer_phone": "+8562091353072",
+      "buyer_phone_raw": "+8562091353072",
+      "buyer_address": "ສາຂາ ໜ້າຮ້ານໂຮມເບຍ(ນະຄອນໄກສອນ) GIAO ANOUSITH",
+      "dest_branch": "ສາຂາ ໜ້າຮ້ານໂຮມເບຍ(ນະຄອນໄກສອນ)",
+      "matched_branch_name": "ສາຂາ ໜ້າຮ້ານໂຮມເບຍ(ນະຄອນໄກສອນ)",
+      "cod_amount": 490000.0,
+      "created_at": "2026-06-14T10:44:26.954Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ໜ້າຮ້ານໂຮມເບຍ(ນະຄອນໄກສອນ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ໜ້າຮ້ານໂຮມເບຍ(ນະຄອນໄກສອນ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ໜ້າຮ້ານໂຮມເບຍ(ນະຄອນໄກສອນ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/BS1tzrGko6MRxgNS7",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261667336469&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 135,
+      "order_uid": "LAO162_20260614_1",
+      "shipping_order_code": "8261666402901",
+      "carrier": "Anousith Express",
+      "buyer_name": "Nguyễn Trung",
+      "buyer_phone": "+8562092918258",
+      "buyer_phone_raw": "02092918258",
+      "buyer_address": "ສາຂາ ບໍໂພນຕີ້ວ(ຄຳມ່ວນ) GIAO ANOUSITH",
+      "dest_branch": "ສາຂາ ບໍໂພນຕີ້ວ(ຄຳມ່ວນ)",
+      "matched_branch_name": "ສາຂາ ບໍໂພນຕີ້ວ(ຄຳມ່ວນ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-14T07:10:35.282Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ບໍໂພນຕີ້ວ(ຄຳມ່ວນ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ບໍໂພນຕີ້ວ(ຄຳມ່ວນ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ບໍໂພນຕີ້ວ(ຄຳມ່ວນ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/7KAtT4dDMdnX3VA38",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261666402901&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 136,
+      "order_uid": "LAO162_20260613_1",
+      "shipping_order_code": "8261675916450",
+      "carrier": "Anousith Express",
+      "buyer_name": "Tuấn Anh 🇻🇳",
+      "buyer_phone": "+8562099544612",
+      "buyer_phone_raw": "+8562099544612",
+      "buyer_address": "ສາຂາ ບ້ານນາໂດນ(ເມືອງທ່າແຂກ) GIAO ANOUSITH",
+      "dest_branch": "ສາຂາ ບ້ານນາໂດນ(ເມືອງທ່າແຂກ)",
+      "matched_branch_name": "ບ້ານນາ",
+      "cod_amount": 550000.0,
+      "created_at": "2026-06-13T02:41:44.639Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ບ້ານນາໂດນ(ເມືອງທ່າແຂກ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ບ້ານນາໂດນ(ເມືອງທ່າແຂກ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ບ້ານນາໂດນ(ເມືອງທ່າແຂກ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=16.7028125,105.1448281",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261675916450&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 137,
+      "order_uid": "LAO162_20260612_5",
+      "shipping_order_code": "8261640372141",
+      "carrier": "Anousith Express",
+      "buyer_name": "Văn Trường",
+      "buyer_phone": "+8562059027889",
+      "buyer_phone_raw": "+8562059027889",
+      "buyer_address": "ສາຂາ ນາສາລາ(ເມືອງໄຊທານີ)",
+      "dest_branch": "ສາຂາ ນາສາລາ(ເມືອງໄຊທານີ)",
+      "matched_branch_name": "ສາຂາ ນາສາລາ(ເມືອງໄຊທານີ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-12T15:01:22.208Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສາລາ(ເມືອງໄຊທານີ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ນາສາລາ(ເມືອງໄຊທານີ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ນາສາລາ(ເມືອງໄຊທານີ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/VsWDGT9jQZdx9EgZ7",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261640372141&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 138,
+      "order_uid": "LAO162_20260612_4",
+      "shipping_order_code": "8261648955073",
+      "carrier": "Anousith Express",
+      "buyer_name": "Quang Thanh",
+      "buyer_phone": "+8562055032447",
+      "buyer_phone_raw": "+8562055032447",
+      "buyer_address": "ສາຂາ ຂົວຫຼວງ",
+      "dest_branch": "ສາຂາ ຂົວຫຼວງ",
+      "matched_branch_name": "ສາຂາ ຂົວຫຼວງ",
+      "cod_amount": 309000.0,
+      "created_at": "2026-06-12T12:41:58.808Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ຂົວຫຼວງ: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ຂົວຫຼວງ",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ຂົວຫຼວງ",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/oVrSNj8iAyKPiqALA",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261648955073&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 139,
+      "order_uid": "LAO162_20260612_3",
+      "shipping_order_code": "8261641881931",
+      "carrier": "Anousith Express",
+      "buyer_name": "Như Hiep Ngo",
+      "buyer_phone": "+8562099199688",
+      "buyer_phone_raw": "+8562099199688",
+      "buyer_address": "ໂພນປາເປົ້າ2 (ວິຈິດສິນ)",
+      "dest_branch": "ໂພນປາເປົ້າ2 (ວິຈິດສິນ)",
+      "matched_branch_name": "ໂພນປາເປົ້າ2 (ວິຈິດສິນ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-12T08:56:35.427Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ໂພນປາເປົ້າ2 (ວິຈິດສິນ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ໂພນປາເປົ້າ2 (ວິຈິດສິນ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ໂພນປາເປົ້າ2 (ວິຈິດສິນ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=17.949074870278,102.64097126882",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261641881931&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 140,
+      "order_uid": "LAO162_20260612_2",
+      "shipping_order_code": null,
+      "carrier": "Anousith Express",
+      "buyer_name": "Mang Thành Tuy",
+      "buyer_phone": "+8562077781486",
+      "buyer_phone_raw": "77781486",
+      "buyer_address": "ສາຂາ ສີບຸນເຮືອງ(ເມືອງ ຈັນທະບູລີ) GIAO ANOUSITH",
+      "dest_branch": "ສາຂາ ສີບຸນເຮືອງ(ເມືອງ ຈັນທະບູລີ)",
+      "matched_branch_name": "ສາຂາ ສີບຸນເຮືອງ(ເມືອງ ຈັນທະບູລີ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-12T07:30:35.374Z",
+      "status": {
+        "code": "PENDING",
+        "text": "Chờ bàn giao vận chuyển",
+        "badge_class": "badge-secondary",
+        "action_needed": "Xuất kho đóng gói",
+        "color": "#64748b"
+      },
+      "items": [],
+      "latest_scan_desc": "Chưa có dữ liệu quét",
+      "latest_scan_time": "",
+      "timeline": [],
+      "google_maps_link": "https://maps.app.goo.gl/6hoKsUX7xjS1gvvr5",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 141,
+      "order_uid": "LAO162_20260612_1",
+      "shipping_order_code": "PXE85937564917",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Mang Thành Tuy",
+      "buyer_phone": "+8562077781486",
+      "buyer_phone_raw": "+856 20 77 781 486",
+      "buyer_address": "🏬 ຮ່ອງໄກ່ແກ້ວ\nGIAO HAL",
+      "dest_branch": "ຮ່ອງໄກ່ແກ້ວ",
+      "matched_branch_name": "ຮ່ອງໄກ່ແກ້ວ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-12T05:40:46.029Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-06-12 17:57:21",
+      "timeline": [
+        {
+          "time": "2026-06-12 17:57:21",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-06-12 17:57:22",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-12 17:57:51",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-12 17:57:53",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-12 17:58:47",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-12 20:51:43",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-13 07:09:40",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-13 09:33:15",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-13 11:21:39",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-14 09:21:29",
+          "location": "ສາຂາ ຮ່ອງໄກ່ແກ້ວ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-06-15 14:20:25",
+          "location": "ສາຂາ ຮ່ອງໄກ່ແກ້ວ",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=17.985862361573,102.62245957106",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE85937564917?lang=la"
+    },
+    {
+      "stt": 142,
+      "order_uid": "LAO162_20260611_3",
+      "shipping_order_code": "8261638700779",
+      "carrier": "Anousith Express",
+      "buyer_name": "Long Van Bach",
+      "buyer_phone": "+8562096764466",
+      "buyer_phone_raw": "+8562096764466",
+      "buyer_address": "ສາຂາ ນາພະນັງ(ບົວລະພາ) GIAO ANOUSITH",
+      "dest_branch": "ສາຂາ ນາພະນັງ(ບົວລະພາ)",
+      "matched_branch_name": "ສາຂາ ນາພະນັງ(ບົວລະພາ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-11T08:49:10.535Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາພະນັງ(ບົວລະພາ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ນາພະນັງ(ບົວລະພາ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ນາພະນັງ(ບົວລະພາ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/3cABFAd95yhABhkX7",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261638700779&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 143,
+      "order_uid": "LAO162_20260611_2",
+      "shipping_order_code": "PXE29347020756",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Minh Nguyên",
+      "buyer_phone": "+8562097727079",
+      "buyer_phone_raw": "+8562097727079",
+      "buyer_address": "ໂພນຄຳ(ຫຼັກ52) GIAO HAL",
+      "dest_branch": "ໂພນຄຳ(ຫຼັກ52)",
+      "matched_branch_name": "ໂພນຄຳ(ຫຼັກ52)",
+      "cod_amount": 490000.0,
+      "created_at": "2026-06-11T07:25:36.387Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-06-12 10:02:53",
+      "timeline": [
+        {
+          "time": "2026-06-12 10:02:53",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-06-12 10:02:54",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-12 15:20:56",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-12 15:21:00",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-12 15:21:14",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-12 20:51:52",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-13 07:09:39",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-13 10:44:22",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-13 23:34:16",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-14 02:24:00",
+          "location": "ສູນຄັດແຍກແຂວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-14 05:07:50",
+          "location": "ສູນຄັດແຍກແຂວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-15 09:01:09",
+          "location": "ສາງສາຂາໂພນຄຳ(ຫຼັກ52)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Wrong Branch Receiver"
+        },
+        {
+          "time": "2026-06-15 09:01:11",
+          "location": "ສາງສາຂາໂພນຄຳ(ຫຼັກ52)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-15 09:01:12",
+          "location": "ສາຂາ ໂພນຄຳ(ຫຼັກ52)",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-06-17 16:31:34",
+          "location": "ສາຂາ ໂພນຄຳ(ຫຼັກ52)",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=18.355075042183,102.42468769825",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE29347020756?lang=la"
+    },
+    {
+      "stt": 144,
+      "order_uid": "LAO162_20260611_1",
+      "shipping_order_code": "8261634535290",
+      "carrier": "Anousith Express",
+      "buyer_name": "Duy Duy",
+      "buyer_phone": "+8562052726868",
+      "buyer_phone_raw": "+8562052726868",
+      "buyer_address": "aສາຂາ ທາງແບ່ງປາກບ້ອງ(ເມືອງ ປາກຊ່ອງ) GIAO ANOUSITH",
+      "dest_branch": "ສາຂາ ທາງແບ່ງປາກບ້ອງ(ເມືອງ ປາກຊ່ອງ)",
+      "matched_branch_name": "aສາຂາ ທາງແບ່ງປາກບ້ອງ(ເມືອງ ປາກຊ່ອງ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-11T07:17:30.723Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ທາງແບ່ງປາກບ້ອງ(ເມືອງ ປາກຊ່ອງ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ທາງແບ່ງປາກບ້ອງ(ເມືອງ ປາກຊ່ອງ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ທາງແບ່ງປາກບ້ອງ(ເມືອງ ປາກຊ່ອງ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/XPUpJP5qtoaNvGLF6",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261634535290&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 145,
+      "order_uid": "LAO162_20260609_1",
+      "shipping_order_code": null,
+      "carrier": "Anousith Express",
+      "buyer_name": "Khoa",
+      "buyer_phone": "+8562057862808",
+      "buyer_phone_raw": "+856 20 57 862 808",
+      "buyer_address": "ສາຂາ ບ້ານນາໂດນ (ເມືອງທ່າແຂກ)",
+      "dest_branch": "ສາຂາ ບ້ານນາໂດນ (ເມືອງທ່າແຂກ)",
+      "matched_branch_name": "ບ້ານນາ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-09T11:25:55.637Z",
+      "status": {
+        "code": "PENDING",
+        "text": "Chờ bàn giao vận chuyển",
+        "badge_class": "badge-secondary",
+        "action_needed": "Xuất kho đóng gói",
+        "color": "#64748b"
+      },
+      "items": [],
+      "latest_scan_desc": "Chưa có dữ liệu quét",
+      "latest_scan_time": "",
+      "timeline": [],
+      "google_maps_link": "https://www.google.com/maps?q=16.7028125,105.1448281",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 146,
+      "order_uid": "LAO162_20260606_2",
+      "shipping_order_code": "8261579259879",
+      "carrier": "Anousith Express",
+      "buyer_name": "Kiepngheo MaitheoAnh",
+      "buyer_phone": "+8562099586486",
+      "buyer_phone_raw": "2099586486",
+      "buyer_address": "ສາຂາ ນອງວິໄລ(ເມືອງນອງ)",
+      "dest_branch": "ສາຂາ ນອງວິໄລ(ເມືອງນອງ)",
+      "matched_branch_name": "ນອງວິໄລ",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-06T07:14:24.911Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນອງວິໄລ(ເມືອງນອງ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ນອງວິໄລ(ເມືອງນອງ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ນອງວິໄລ(ເມືອງນອງ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=16.375448226929,106.50040435791",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261579259879&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 147,
+      "order_uid": "LAO162_20260606_1",
+      "shipping_order_code": "8261572745753",
+      "carrier": "Anousith Express",
+      "buyer_name": "Hùng Nok",
+      "buyer_phone": "+8562051536784",
+      "buyer_phone_raw": "51536784",
+      "buyer_address": "ສາຂາ ທ່າສະໂນ(ນະຄອນໄກສອນ) GIAO ANOUSITH",
+      "dest_branch": "ສາຂາ ທ່າສະໂນ(ນະຄອນໄກສອນ)",
+      "matched_branch_name": "ສາຂາ ທ່າສະໂນ(ນະຄອນໄກສອນ)",
+      "cod_amount": 450000.0,
+      "created_at": "2026-06-06T01:46:04.499Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ທ່າສະໂນ(ນະຄອນໄກສອນ): Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "ສາຂາ ທ່າສະໂນ(ນະຄອນໄກສອນ)",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "ສາຂາ ທ່າສະໂນ(ນະຄອນໄກສອນ)",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/yBo1EVybSHLWiz278",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261572745753&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 148,
+      "order_uid": "LAO162_20260604_1",
+      "shipping_order_code": "PXE35701845332",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Hoang Quang",
+      "buyer_phone": "+8562055298685",
+      "buyer_phone_raw": "55298685",
+      "buyer_address": "ສາຂາ ທ່ານາ GIAO HAL",
+      "dest_branch": "ທ່ານາ",
+      "matched_branch_name": "ທ່ານາ",
+      "cod_amount": 359000.0,
+      "created_at": "2026-06-04T12:51:16.327Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-06-05 15:14:32",
+      "timeline": [
+        {
+          "time": "2026-06-05 15:14:32",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-06-05 15:14:33",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-05 15:40:30",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-05 15:40:34",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-05 15:41:37",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-05 20:27:14",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-06 06:24:24",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-06 10:55:50",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-07 10:56:41",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-07 11:20:24",
+          "location": "ສູນຄັດແຍກໄຊຍະບູລີ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-07 12:26:32",
+          "location": "ສູນຄັດແຍກໄຊຍະບູລີ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-07 12:53:22",
+          "location": "ສາງສາຂາທ່ານາ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-07 12:53:24",
+          "location": "ສາງສາຂາທ່ານາ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-07 12:53:25",
+          "location": "ສາຂາ ທ່ານາ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-06-09 15:07:12",
+          "location": "ສາຂາ ທ່ານາ",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=19.2731018,101.7070897",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE35701845332?lang=la"
+    },
+    {
+      "stt": 149,
+      "order_uid": "LAO162_20260603_1",
+      "shipping_order_code": "PXE78095852527",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Tang Nhun Van",
+      "buyer_phone": "+8562029158887",
+      "buyer_phone_raw": "2029158887",
+      "buyer_address": "ຮຸ່ງອາລຸນສາຂາປາກແຄນ ເມືອງເງິນ ແຂວງໄຊຍະບູລີ",
+      "dest_branch": "ນາສົ້ມມໍ(ຫຼັກ9)",
+      "matched_branch_name": "ນາສົ້ມມໍ(ຫຼັກ9)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-03T08:26:40.965Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-06-06 14:34:55",
+      "timeline": [
+        {
+          "time": "2026-06-06 14:34:55",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-06-06 14:34:56",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-06 15:36:15",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-06 15:36:18",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-06 15:39:22",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-06 19:57:15",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-07 03:56:33",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-07 10:25:46",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-07 22:42:43",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-08 20:40:25",
+          "location": "ສູນຄັດແຍກອຸດົມໄຊ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-08 22:45:12",
+          "location": "ສູນຄັດແຍກອຸດົມໄຊ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-10 08:24:04",
+          "location": "ສາງສາຂາປາກແຄນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-10 08:24:06",
+          "location": "ສາງສາຂາປາກແຄນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-10 08:24:07",
+          "location": "ສາຂາ ປາກແຄນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-21 08:03:13",
+          "location": "ສາຂາ ປາກແຄນ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Customer request to return"
+        },
+        {
+          "time": "2026-06-21 20:22:17",
+          "location": "ສາຂາ ປາກແຄນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-21 20:22:19",
+          "location": "ສາງສາຂາປາກແຄນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-21 20:22:24",
+          "location": "ສາງສາຂາປາກແຄນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-23 09:15:20",
+          "location": "ສູນຄັດແຍກອຸດົມໄຊ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-24 00:01:31",
+          "location": "ສູນຄັດແຍກອຸດົມໄຊ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-25 11:55:07",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-25 23:16:30",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-26 03:39:29",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-26 08:20:52",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-26 09:56:43",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-26 09:56:45",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-26 09:56:46",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-06-26 10:53:58",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=18.376979745217,103.73180602485",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE78095852527?lang=la"
+    },
+    {
+      "stt": 150,
+      "order_uid": "LAO162_20260602_3",
+      "shipping_order_code": "3008767029",
+      "carrier": "Anousith Express",
+      "buyer_name": "Hoa Chu",
+      "buyer_phone": "+8562099219666",
+      "buyer_phone_raw": "02099219666",
+      "buyer_address": "🏬 ບ້ານ ທົ່ງກະຕ່າຍ , ເມືອງ ປາກຊ່ອງ, ຈຳປາສັກ 🔄 ( CHA0305- ບ້ານ ທົ່ງກະຕ່າຍ ) GIAO UNITEL",
+      "dest_branch": "🏬 ບ້ານ ທົ່ງກະຕ່າຍ , ເມືອງ ປາກຊ່ອງ, ຈຳປາສັກ 🔄 ( CHA0305- ບ້ານ ທົ່ງກະຕ່າຍ ) GIAO UNITEL",
+      "matched_branch_name": "ປາກຊ່ອງ",
+      "cod_amount": 833000.0,
+      "created_at": "2026-06-02T02:38:17.361Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "🏬 ບ້ານ ທົ່ງກະຕ່າຍ , ເມືອງ ປາກຊ່ອງ, ຈຳປາສັກ 🔄 ( CHA0305- ບ້ານ ທົ່ງກະຕ່າຍ ) GIAO UNITEL: Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+      "latest_scan_time": "Hoàn tất",
+      "timeline": [
+        {
+          "time": "Hoàn tất",
+          "location": "🏬 ບ້ານ ທົ່ງກະຕ່າຍ , ເມືອງ ປາກຊ່ອງ, ຈຳປາສັກ 🔄 ( CHA0305- ບ້ານ ທົ່ງກະຕ່າຍ ) GIAO UNITEL",
+          "description": "Khách đã đến bưu cục nhận hàng và thanh toán COD thành công",
+          "status": "DELIVERED"
+        },
+        {
+          "time": "Đã đến bưu cục",
+          "location": "🏬 ບ້ານ ທົ່ງກະຕ່າຍ , ເມືອງ ປາກຊ່ອງ, ຈຳປາສັກ 🔄 ( CHA0305- ບ້ານ ທົ່ງກະຕ່າຍ ) GIAO UNITEL",
+          "description": "Kiện hàng đã cập bến bưu cục đích",
+          "status": "ARRIVED"
+        },
+        {
+          "time": "Xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Hàng đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=15.177296250794,106.23488071363",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=3008767029&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 151,
+      "order_uid": "LAO162_20260602_2",
+      "shipping_order_code": null,
+      "carrier": "Anousith Express",
+      "buyer_name": "Ngan Khum",
+      "buyer_phone": "+8562096036362",
+      "buyer_phone_raw": "02096036362",
+      "buyer_address": "🏬 ບຶງຂະຫຍອງ\n🔄 ( HC01-04-0717 )",
+      "dest_branch": "🏬 ບຶງຂະຫຍອງ",
+      "matched_branch_name": "ບຶງຂະຫຍອງ",
+      "cod_amount": 369000.0,
+      "created_at": "2026-06-02T02:32:56.391Z",
+      "status": {
+        "code": "PENDING",
+        "text": "Chờ bàn giao vận chuyển",
+        "badge_class": "badge-secondary",
+        "action_needed": "Xuất kho đóng gói",
+        "color": "#64748b"
+      },
+      "items": [],
+      "latest_scan_desc": "Chưa có dữ liệu quét",
+      "latest_scan_time": "",
+      "timeline": [],
+      "google_maps_link": "https://www.google.com/maps?q=17.949696,102.619217",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 152,
+      "order_uid": "LAO162_20260602_1",
+      "shipping_order_code": null,
+      "carrier": "Anousith Express",
+      "buyer_name": "Ngan Khum",
+      "buyer_phone": "+8562096036362",
+      "buyer_phone_raw": "02096036362",
+      "buyer_address": "🏬 ບຶງຂະຫຍອງ\n🔄 ( HC01-04-0717 )",
+      "dest_branch": "🏬 ບຶງຂະຫຍອງ",
+      "matched_branch_name": "ບຶງຂະຫຍອງ",
+      "cod_amount": 369000.0,
+      "created_at": "2026-06-02T02:07:17.374Z",
+      "status": {
+        "code": "PENDING",
+        "text": "Chờ bàn giao vận chuyển",
+        "badge_class": "badge-secondary",
+        "action_needed": "Xuất kho đóng gói",
+        "color": "#64748b"
+      },
+      "items": [],
+      "latest_scan_desc": "Chưa có dữ liệu quét",
+      "latest_scan_time": "",
+      "timeline": [],
+      "google_maps_link": "https://www.google.com/maps?q=17.949696,102.619217",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 153,
+      "order_uid": "LAO162_20260601_2",
+      "shipping_order_code": "PXE98732249978",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Anh Kiet Hoang",
+      "buyer_phone": "+8562092341784",
+      "buyer_phone_raw": "02092341784",
+      "buyer_address": "🏬 ໂພນປາເປົ້າ2 (ວິຈິດສິນ) 🔄 ( HC01-04-0112 )",
+      "dest_branch": "ໂພນປາເປົ້າ2 (ວິຈິດສິນ)",
+      "matched_branch_name": "ໂພນປາເປົ້າ2 (ວິຈິດສິນ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-06-01T09:19:04.873Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-06-01 16:42:44",
+      "timeline": [
+        {
+          "time": "2026-06-01 16:42:44",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-06-01 16:42:45",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-01 16:45:11",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-01 16:45:14",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-01 16:45:36",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-01 20:17:39",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-02 05:32:02",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-02 16:19:15",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-02 16:33:58",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-03 10:37:30",
+          "location": "ສາຂາ ໂພນປາເປົ້າ2 (ວິຈິດສິນ)",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-06-05 14:19:21",
+          "location": "ສາຂາ ໂພນປາເປົ້າ2 (ວິຈິດສິນ)",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=17.949074870278,102.64097126882",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE98732249978?lang=la"
+    },
+    {
+      "stt": 154,
+      "order_uid": "LAO162_20260601_1",
+      "shipping_order_code": "PXE14568353250",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Ngan Khum",
+      "buyer_phone": "+8562096036362",
+      "buyer_phone_raw": "02096036362",
+      "buyer_address": "🏬 ບຶງຂະຫຍອງ\n🔄 ( HC01-04-0717 )",
+      "dest_branch": "ບຶງຂະຫຍອງ",
+      "matched_branch_name": "ບຶງຂະຫຍອງ",
+      "cod_amount": 369000.0,
+      "created_at": "2026-06-01T08:35:42.156Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-06-01 16:41:44",
+      "timeline": [
+        {
+          "time": "2026-06-01 16:41:44",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-06-01 16:41:45",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-01 16:45:14",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-01 16:45:18",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-01 16:45:30",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-01 20:15:25",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-02 05:32:01",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-02 16:19:53",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-06-02 22:53:44",
+          "location": "ສູນຄັດແຍກນະຄອນຫຼວງວຽງຈັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-06-03 12:08:07",
+          "location": "ສາຂາ ບຶງຂະຫຍອງ",
+          "description": "Sự cố giao hàng / Đang chuyển hoàn",
+          "status": "Delivered"
+        },
+        {
+          "time": "2026-06-09 09:56:43",
+          "location": "ສາຂາ ບຶງຂະຫຍອງ",
+          "description": "Giao hàng thành công (Khách đã nhận kiện)",
+          "status": "Success"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=17.949696,102.619217",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE14568353250?lang=la"
+    },
+    {
+      "stt": 155,
+      "order_uid": "LAO162_20260427_1",
+      "shipping_order_code": "8261203723989",
+      "carrier": "Anousith Express",
+      "buyer_name": "Opening Fressing",
+      "buyer_phone": "+8562091172628",
+      "buyer_phone_raw": "02091172628",
+      "buyer_address": "ສາຂາ ໜອງບອນ(ຂ້າງຮ້ານກ້ອຍປາດອນໂຂງ)",
+      "dest_branch": "ສາຂາ ໜອງບອນ(ຂ້າງຮ້ານກ້ອຍປາດອນໂຂງ)",
+      "matched_branch_name": "ສາຂາ ໜອງບອນ(ຂ້າງຮ້ານກ້ອຍປາດອນໂຂງ)",
+      "cod_amount": 0.0,
+      "created_at": "2026-04-27T09:21:09.638Z",
+      "status": {
+        "code": "IN_TRANSIT",
+        "text": "Đang vận chuyển trung chuyển",
+        "badge_class": "badge-info",
+        "action_needed": "Theo dõi tiến độ xe",
+        "color": "#3b82f6"
+      },
+      "items": [],
+      "latest_scan_desc": "Tuyến liên tỉnh: Đang trên xe tải di chuyển đến bưu cục nhận",
+      "latest_scan_time": "Đang vận chuyển",
+      "timeline": [
+        {
+          "time": "Đang vận chuyển",
+          "location": "Tuyến liên tỉnh",
+          "description": "Đang trên xe tải di chuyển đến bưu cục nhận",
+          "status": "IN_TRANSIT"
+        },
+        {
+          "time": "Đã xuất kho",
+          "location": "Kho Lào - Kho 3",
+          "description": "Đã bàn giao cho đơn vị vận chuyển",
+          "status": "HANDED_OVER"
+        }
+      ],
+      "google_maps_link": "https://maps.app.goo.gl/1qWa88UwMNHBstgV9",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8261203723989&n_home=2",
+      "hal_tracking_url": null
+    },
+    {
+      "stt": 156,
+      "order_uid": "LAO162_20260402_3",
+      "shipping_order_code": "PXE89869531805",
+      "carrier": "HAL Logistics",
+      "buyer_name": "Gà Ju Lúa",
+      "buyer_phone": "+8562094489101",
+      "buyer_phone_raw": "02094489101",
+      "buyer_address": "ສາຂາ ຫ້ວຍຫົງ ( ຕະຫລາດ)",
+      "dest_branch": "ຫ້ວຍຫົງ",
+      "matched_branch_name": "ຫ້ວຍຫົງ",
+      "cod_amount": 359000.0,
+      "created_at": "2026-04-02T16:22:32.489Z",
+      "status": {
+        "code": "COMPLETED",
+        "text": "Khách đã nhận hàng thành công",
+        "badge_class": "badge-success",
+        "action_needed": "Đối soát tiền COD",
+        "color": "#10b981"
+      },
+      "items": [],
+      "latest_scan_desc": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9): Bưu cục gửi đã nhận kiện hàng",
+      "latest_scan_time": "2026-04-03 13:29:26",
+      "timeline": [
+        {
+          "time": "2026-04-03 13:29:26",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Bưu cục gửi đã nhận kiện hàng",
+          "status": "Accept"
+        },
+        {
+          "time": "2026-04-03 13:29:27",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-04-03 15:21:25",
+          "location": "ສາຂາ ນາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-04-03 15:21:29",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-04-03 15:23:53",
+          "location": "ສາງສາຂານາສົ້ມມໍ(ຫຼັກ9)",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        },
+        {
+          "time": "2026-04-03 20:17:34",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Kiện hàng đã đến trạm khai thác",
+          "status": "Packing"
+        },
+        {
+          "time": "2026-04-04 07:19:28",
+          "location": "ສູນຄັດແຍກປາກຊັນ",
+          "description": "Đang trên đường vận chuyển luân chuyển",
+          "status": "On the way"
+        }
+      ],
+      "google_maps_link": "https://www.google.com/maps?q=18.0244969835,102.616887551",
+      "wa_remind_link": null,
+      "anousith_tracking_url": null,
+      "hal_tracking_url": "https://hal.hal-logistics.la/api/v1/orders/tracking/PXE89869531805?lang=la"
+    },
+    {
+      "stt": 157,
+      "order_uid": "LAO162_20260331_1",
+      "shipping_order_code": "8260987422027",
+      "carrier": "Anousith Express",
+      "buyer_name": "Trần Vĩnh Hợi",
+      "buyer_phone": "+8562095033444",
+      "buyer_phone_raw": "02095033444",
+      "buyer_address": "ສາຂາ ທ່າແຕງ(ດ່ານຕິດຊັ່ງ)",
+      "dest_branch": "ສາຂາ ທ່າແຕງ(ດ່ານຕິດຊັ່ງ)",
+      "matched_branch_name": "ສາຂາ ທ່າແຕງ(ດ່ານຕິດຊັ່ງ)",
+      "cod_amount": 499000.0,
+      "created_at": "2026-03-31T02:53:22.505Z",
+      "status": {
+        "code": "PENDING",
+        "text": "Chờ bàn giao vận chuyển",
+        "badge_class": "badge-secondary",
+        "action_needed": "Xuất kho đóng gói",
+        "color": "#64748b"
+      },
+      "items": [],
+      "latest_scan_desc": "Chưa có dữ liệu quét",
+      "latest_scan_time": "",
+      "timeline": [],
+      "google_maps_link": "https://maps.app.goo.gl/GA5YhzrDfgs6o47y9",
+      "wa_remind_link": null,
+      "anousith_tracking_url": "https://app.anousith.express/landing/search_tracking/search_item?_bill_detail=8260987422027&n_home=2",
+      "hal_tracking_url": null
+    }
+  ]
+};

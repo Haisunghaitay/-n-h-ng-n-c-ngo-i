@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng Điều Khiển Theo Dõi Vận Đơn Lào | Anousith Logistics Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Nạp sẵn dữ liệu đơn hàng Lào (chống lỗi CORS khi mở bằng file:///) -->
+    <script src="orders_tracking_data.js"></script>
+    <style>
+        :root {
+            --bg-color: #0b0f19;
+            --card-bg: rgba(23, 32, 54, 0.75);
+            --card-border: rgba(255, 255, 255, 0.08);
+            --primary: #3b82f6;
+            --primary-glow: rgba(59, 130, 246, 0.25);
+            --success: #10b981;
+            --success-glow: rgba(16, 185, 129, 0.25);
+            --warning: #f59e0b;
+            --warning-glow: rgba(245, 158, 11, 0.25);
+            --danger: #ef4444;
+            --danger-glow: rgba(239, 68, 68, 0.25);
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --text-sub: #cbd5e1;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            background-image: 
+                radial-gradient(circle at 10% 10%, rgba(59, 130, 246, 0.15) 0%, transparent 40%),
+                radial-gradient(circle at 90% 90%, rgba(16, 185, 129, 0.12) 0%, transparent 40%);
+            color: var(--text-main);
+            min-height: 100vh;
+            padding: 32px 24px;
+        }
+
+        .container {
+            max-width: 1440px;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 32px;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .badge-hub {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(59, 130, 246, 0.15);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            color: #60a5fa;
+            padding: 6px 14px;
+            border-radius: 999px;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        .carrier-tag {
+            display: inline-block;
+            font-size: 10px;
+            font-weight: 700;
+            padding: 2px 7px;
+            border-radius: 4px;
+            margin-top: 3px;
+            letter-spacing: 0.3px;
+        }
+        .carrier-anousith {
+            background: rgba(139, 92, 246, 0.2);
+            color: #c084fc;
+            border: 1px solid rgba(139, 92, 246, 0.4);
+        }
+        .carrier-hal {
+            background: rgba(245, 158, 11, 0.2);
+            color: #fbbf24;
+            border: 1px solid rgba(245, 158, 11, 0.4);
+        }
+
+        h1 {
+            font-size: 30px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 50%, #94a3b8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: var(--text-muted);
+            max-width: 720px;
+            line-height: 1.5;
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .btn-sync {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: linear-gradient(135deg, #2563eb, #1d4ed8);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+            box-shadow: 0 4px 14px rgba(37, 99, 235, 0.4);
+            transition: all 0.2s;
+        }
+
+        .btn-sync:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(37, 99, 235, 0.6);
+        }
+
+        .btn-back {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--card-border);
+            color: var(--text-sub);
+            text-decoration: none;
+            padding: 10px 16px;
+            border-radius: 12px;
+            font-size: 13px;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+
+        .btn-back:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+        }
+
+        /* Stats Bar */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+
+        .stat-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 20px;
+            backdrop-filter: blur(12px);
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            transition: transform 0.2s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-3px);
+            border-color: rgba(255, 255, 255, 0.15);
+        }
+
+        .stat-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            flex-shrink: 0;
+        }
+
+        .stat-val {
+            font-size: 24px;
+            font-weight: 800;
+            color: #fff;
+            line-height: 1.2;
+        }
+
+        .stat-lbl {
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-top: 4px;
+            font-weight: 600;
+        }
+
+        /* Search & Filter Toolbar */
+        .toolbar {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 16px 20px;
+            margin-bottom: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .search-box {
+            position: relative;
+            flex-grow: 1;
+            max-width: 420px;
+        }
+
+        .search-box input {
+            width: 100%;
+            background: rgba(11, 15, 25, 0.7);
+            border: 1px solid var(--card-border);
+            border-radius: 10px;
+            padding: 10px 16px 10px 40px;
+            color: #fff;
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .search-box input:focus {
+            border-color: var(--primary);
+        }
+
+        .search-box svg {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 18px;
+            height: 18px;
+            fill: var(--text-muted);
+        }
+
+        .filter-tabs {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid var(--card-border);
+            color: var(--text-muted);
+            padding: 8px 14px;
+            border-radius: 10px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .filter-btn:hover {
+            background: rgba(255, 255, 255, 0.08);
+            color: #fff;
+        }
+
+        .filter-btn.active {
+            background: rgba(59, 130, 246, 0.15);
+            border-color: rgba(59, 130, 246, 0.4);
+            color: #60a5fa;
+            font-weight: 700;
+        }
+
+        /* Table Card */
+        .table-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 18px;
+            overflow: hidden;
+            backdrop-filter: blur(12px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .table-container {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        th {
+            background: rgba(255, 255, 255, 0.02);
+            color: var(--text-muted);
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 14px 18px;
+            border-bottom: 1px solid var(--card-border);
+            white-space: nowrap;
+        }
+
+        td {
+            padding: 16px 18px;
+            border-bottom: 1px solid var(--card-border);
+            font-size: 13px;
+            color: var(--text-sub);
+            vertical-align: middle;
+        }
+
+        tr:hover td {
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        .code-pill {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            font-weight: 700;
+            color: #93c5fd;
+            background: rgba(59, 130, 246, 0.1);
+            padding: 4px 8px;
+            border-radius: 6px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            transition: all 0.2s;
+        }
+
+        .code-pill:hover {
+            background: rgba(59, 130, 246, 0.25);
+            color: #fff;
+        }
+
+        .badge-status {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 5px 10px;
+            border-radius: 8px;
+            font-size: 11px;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+
+        .badge-success { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.25); }
+        .badge-warning { background: rgba(245, 158, 11, 0.15); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.25); }
+        .badge-info { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.25); }
+        .badge-danger { background: rgba(239, 68, 68, 0.15); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.25); }
+        .badge-secondary { background: rgba(148, 163, 184, 0.15); color: #cbd5e1; border: 1px solid rgba(148, 163, 184, 0.25); }
+
+        .btn-action {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 600;
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            transition: all 0.2s;
+        }
+
+        .btn-timeline {
+            background: rgba(255, 255, 255, 0.05);
+            color: #cbd5e1;
+            border: 1px solid var(--card-border);
+        }
+
+        .btn-timeline:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+        }
+
+        .btn-whatsapp {
+            background: rgba(34, 197, 94, 0.15);
+            color: #4ade80;
+            border: 1px solid rgba(34, 197, 94, 0.3);
+        }
+
+        .btn-whatsapp:hover {
+            background: rgba(34, 197, 94, 0.3);
+            color: #fff;
+        }
+
+        /* Modal Timeline */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.75);
+            backdrop-filter: blur(8px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.2s;
+        }
+
+        .modal-overlay.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .modal-content {
+            background: #111827;
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            width: 90%;
+            max-width: 600px;
+            max-height: 85vh;
+            overflow-y: auto;
+            padding: 28px;
+            position: relative;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.06);
+            border: none;
+            color: var(--text-muted);
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .modal-close:hover {
+            color: #fff;
+            background: rgba(255, 255, 255, 0.12);
+        }
+
+        /* Timeline Flow */
+        .timeline-list {
+            margin-top: 24px;
+            position: relative;
+            padding-left: 28px;
+        }
+
+        .timeline-list::before {
+            content: '';
+            position: absolute;
+            left: 10px;
+            top: 6px;
+            bottom: 6px;
+            width: 2px;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 24px;
+        }
+
+        .timeline-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .timeline-dot {
+            position: absolute;
+            left: -28px;
+            top: 4px;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: #1e293b;
+            border: 3px solid var(--primary);
+        }
+
+        .timeline-item:first-child .timeline-dot {
+            border-color: #10b981;
+            box-shadow: 0 0 10px rgba(16, 185, 129, 0.5);
+        }
+
+        .timeline-time {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-bottom: 4px;
+        }
+
+        .timeline-title {
+            font-size: 14px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 4px;
+        }
+
+        .timeline-desc {
+            font-size: 13px;
+            color: var(--text-sub);
+            line-height: 1.4;
+        }
+
+        /* Notice banner */
+        .notice-banner {
+            background: rgba(245, 158, 11, 0.1);
+            border: 1px solid rgba(245, 158, 11, 0.25);
+            border-radius: 12px;
+            padding: 14px 18px;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 13px;
+            color: #fcd34d;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 22px; }
+            .stats-grid { grid-template-columns: 1fr 1fr; }
+            .toolbar { flex-direction: column; align-items: stretch; }
+            .search-box { max-width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div>
+                <div class="badge-hub">🇱🇦 HỆ THỐNG VẬN HÀNH & GIÁM SÁT KHO LÀO</div>
+                <h1>🚚 Bảng Theo Dõi Vận Đơn Lào (Anousith & HAL Logistics Hub)</h1>
+                <p class="subtitle">
+                    Hệ thống tự động đồng bộ mã vận đơn từ kho <strong>Thái Dương (tdffm.com - LAO162)</strong> và tra cứu tiến trình hành trình thực tế từ 2 hãng vận chuyển lớn tại Lào: <strong>Anousith Express</strong> & <strong>HAL Logistics</strong>.
+                </p>
+            </div>
+            <div class="header-actions">
+                <a href="index.html" class="btn-back">🏛️ Cổng Điều Hành</a>
+                <button class="btn-sync" onclick="reloadOrdersData()">
+                    🔄 Cập Nhật Tức Thì
+                </button>
+            </div>
+        </header>
+
+        <!-- Quy định nghiệp vụ & tin nhắn WhatsApp -->
+        <div class="notice-banner">
+            <span style="font-size: 20px;">📍</span>
+            <div>
+                <strong>Quy định gửi tin nhắn WhatsApp:</strong> Hệ thống tự động giải mã địa chỉ thành <em>link định vị Google Maps chia sẻ được</em>. Theo quy định, <strong>chỉ khi nào đơn hàng đã đến chi nhánh đích</strong> thì nút WhatsApp mới được kích hoạt để gửi tin nhắn thuần tiếng Việt thông báo cho khách hàng.
+            </div>
+        </div>
+
+        <!-- Stats Bar -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon" style="background: rgba(59, 130, 246, 0.15); color: #3b82f6;">📦</div>
+                <div>
+                    <div class="stat-val" id="stat-total">157</div>
+                    <div class="stat-lbl">Tổng Số Đơn Hàng</div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon" style="background: rgba(59, 130, 246, 0.15); color: #60a5fa;">🚚</div>
+                <div>
+                    <div class="stat-val" id="stat-transit">4</div>
+                    <div class="stat-lbl">Đang Vận Chuyển</div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon" style="background: rgba(245, 158, 11, 0.15); color: #f59e0b;">📍</div>
+                <div>
+                    <div class="stat-val" id="stat-pickup">0</div>
+                    <div class="stat-lbl">Đã Đến Chi Nhánh Đích</div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon" style="background: rgba(16, 185, 129, 0.15); color: #10b981;">✅</div>
+                <div>
+                    <div class="stat-val" id="stat-completed">123</div>
+                    <div class="stat-lbl">Giao Thành Công (<span id="stat-rate">78.3%</span>)</div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon" style="background: rgba(239, 68, 68, 0.15); color: #ef4444;">⚠️</div>
+                <div>
+                    <div class="stat-val" id="stat-return">0</div>
+                    <div class="stat-lbl">Cảnh Báo Hoàn / Tồn</div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon" style="background: rgba(139, 92, 246, 0.15); color: #a855f7;">💰</div>
+                <div>
+                    <div class="stat-val" style="font-size: 18px;" id="stat-cod">85,888,000 KIP</div>
+                    <div class="stat-lbl">Tổng Tiền COD Thu Hộ</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Toolbar -->
+        <div class="toolbar">
+            <div class="search-box">
+                <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                <input type="text" id="searchInput" placeholder="Tìm theo tên khách, SĐT Lào, mã vận đơn, chi nhánh..." onkeyup="filterOrders()">
+            </div>
+            <div class="filter-tabs">
+                <button class="filter-btn active" onclick="setFilter('ALL', this)">Tất Cả (<span id="tab-all-count">157</span>)</button>
+                <button class="filter-btn" onclick="setFilter('IN_TRANSIT', this)">🚚 Đang Vận Chuyển (<span id="tab-transit-count">4</span>)</button>
+                <button class="filter-btn" onclick="setFilter('READY_FOR_PICKUP', this)">📍 Đã Đến Chi Nhánh Đích (<span id="tab-pickup-count">0</span>)</button>
+                <button class="filter-btn" onclick="setFilter('COMPLETED', this)">✅ Thành Công (<span id="tab-completed-count">123</span>)</button>
+                <button class="filter-btn" onclick="setFilter('RETURN_WARNING', this)">⚠️ Cảnh Báo Hoàn (<span id="tab-return-count">0</span>)</button>
+            </div>
+        </div>
+
+        <!-- Table Card -->
+        <div class="table-card">
+            <div class="table-container">
+                <table id="ordersTable">
+                    <thead>
+                        <tr>
+                            <th style="width: 50px; text-align: center;">STT</th>
+                            <th>Mã Đơn Kho</th>
+                            <th>Mã Vận Đơn</th>
+                            <th>Khách Hàng & SĐT Lào</th>
+                            <th>Chi Nhánh Đích & Vị Trí Maps</th>
+                            <th>Tiền COD</th>
+                            <th>Trạng Thái Vận Đơn</th>
+                            <th>Tiến Trình Mới Nhất</th>
+                            <th style="text-align: center;">Hành Động</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ordersTableBody">
+                        <!-- Rendered by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Xem Hành Trình -->
+    <div class="modal-overlay" id="timelineModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">✕</button>
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 6px;">
+                <span class="badge-hub" style="margin-bottom: 0;">Lịch Sử Hành Trình Thực Tế</span>
+            </div>
+            <h2 id="modalTitle" style="font-size: 20px; font-weight: 800; color: #fff; margin-bottom: 6px;">Chi Tiết Vận Đơn</h2>
+            <p id="modalSub" style="font-size: 13px; color: var(--text-muted);">Mã đơn: ...</p>
+
+            <div class="timeline-list" id="modalTimelineList">
+                <!-- Rendered by JS -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let allOrdersData = [];
+        let currentFilter = 'ALL';
+
+        // Hàm chuẩn hóa tiếng Việt bỏ dấu giúp tìm kiếm không dấu siêu tiện lợi
+        function removeVietnameseTones(str) {
+            if (!str) return '';
+            str = str.toLowerCase();
+            str = str.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g, "a");
+            str = str.replace(/è|é|ẹ|ẻ|ẽ|ề|ế|ệ|ể|ễ/g, "e");
+            str = str.replace(/ì|í|ị|ỉ|ĩ/g, "i");
+            str = str.replace(/ò|ó|ọ|ỏ|õ|ô|ồ|ố|ộ|ổ|ỗ|ơ|ờ|ớ|ợ|ở|ỡ/g, "o");
+            str = str.replace(/ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ/g, "u");
+            str = str.replace(/ỳ|ý|ỵ|ỷ|ỹ/g, "y");
+            str = str.replace(/đ/g, "d");
+            str = str.replace(/\u0300|\u0301|\u0303|\u0309|\u0323/g, "");
+            str = str.replace(/\u02C6|\u0306|\u031B/g, "");
+            return str.trim();
+        }
+
+        // Sao chép văn bản vào clipboard với hiệu ứng phản hồi
+        function copyText(text, btn) {
+            if (!text) return;
+            navigator.clipboard.writeText(text).then(() => {
+                const orig = btn.innerText;
+                btn.innerText = '✓ Đã chép';
+                btn.style.color = '#34d399';
+                setTimeout(() => {
+                    btn.innerText = orig;
+                    btn.style.color = '';
+                }, 1500);
+            }).catch(() => {
+                // Fallback nếu trình duyệt chặn clipboard
+                prompt("Sao chép mã:", text);
+            });
+        }
+
+        function applyData(data) {
+            if (!data) return;
+
+            // Cập nhật số liệu thống kê tổng quan
+            if (data.stats) {
+                const s = data.stats;
+                document.getElementById('stat-total').innerText = s.total_orders || 0;
+                document.getElementById('stat-transit').innerText = s.in_transit || 0;
+                document.getElementById('stat-pickup').innerText = s.ready_for_pickup || 0;
+                document.getElementById('stat-completed').innerText = s.completed || 0;
+                document.getElementById('stat-rate').innerText = (s.delivery_rate || 0) + '%';
+                document.getElementById('stat-return').innerText = s.return_warning || 0;
+                document.getElementById('stat-cod').innerText = Number(s.total_cod_kip || 0).toLocaleString() + ' KIP';
+                
+                // Cập nhật số lượng trên các nút tab
+                if (document.getElementById('tab-all-count')) document.getElementById('tab-all-count').innerText = s.total_orders || 0;
+                if (document.getElementById('tab-transit-count')) document.getElementById('tab-transit-count').innerText = s.in_transit || 0;
+                if (document.getElementById('tab-pickup-count')) document.getElementById('tab-pickup-count').innerText = s.ready_for_pickup || 0;
+                if (document.getElementById('tab-completed-count')) document.getElementById('tab-completed-count').innerText = s.completed || 0;
+                if (document.getElementById('tab-return-count')) document.getElementById('tab-return-count').innerText = s.return_warning || 0;
+            }
+
+            allOrdersData = data.orders || [];
+            filterOrders();
+        }
+
+        async function loadData() {
+            // Ưu tiên 1: Đọc từ biến toàn cục nạp qua thẻ <script src="orders_tracking_data.js"> (hoạt động 100% khi mở file:///)
+            if (window.__ORDERS_TRACKING_DATA__) {
+                applyData(window.__ORDERS_TRACKING_DATA__);
+                return;
+            }
+
+            // Ưu tiên 2: Fetch từ file JSON nếu đang chạy trên HTTP/HTTPS localhost web server
+            try {
+                const res = await fetch('../orders_tracking_lao.json');
+                const data = await res.json();
+                applyData(data);
+            } catch (err) {
+                console.warn("Chưa tải được dữ liệu vận đơn:", err);
+            }
+        }
+
+        function renderTable(orders) {
+            const tbody = document.getElementById('ordersTableBody');
+            tbody.innerHTML = '';
+
+            if (orders.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="9" style="text-align: center; padding: 40px; color: var(--text-muted);">Không tìm thấy đơn hàng nào phù hợp với bộ lọc.</td></tr>`;
+                return;
+            }
+
+            orders.forEach((o, index) => {
+                const tr = document.createElement('tr');
+                
+                // Tracking code pill
+                let trackingHtml = '<span style="color: var(--text-muted); font-size: 12px;">Chưa có</span>';
+                if (o.shipping_order_code) {
+                    const trackCode = o.shipping_order_code;
+                    if (o.hal_tracking_url) {
+                        trackingHtml = `
+                            <div style="display: flex; align-items: center; gap: 4px;">
+                                <a href="${o.hal_tracking_url}" target="_blank" class="code-pill" style="border-color: rgba(245, 158, 11, 0.4); color: #fbbf24;" title="Mở trang tra cứu HAL Logistics">${trackCode} ↗</a>
+                                <button onclick="copyText('${trackCode}', this)" style="background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 11px;" title="Sao chép mã">📋</button>
+                            </div>
+                        `;
+                    } else if (o.anousith_tracking_url) {
+                        trackingHtml = `
+                            <div style="display: flex; align-items: center; gap: 4px;">
+                                <a href="${o.anousith_tracking_url}" target="_blank" class="code-pill" title="Mở trang tra cứu Anousith Express">${trackCode} ↗</a>
+                                <button onclick="copyText('${trackCode}', this)" style="background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 11px;" title="Sao chép mã">📋</button>
+                            </div>
+                        `;
+                    } else {
+                        trackingHtml = `
+                            <div style="display: flex; align-items: center; gap: 4px;">
+                                <span class="code-pill">${trackCode}</span>
+                                <button onclick="copyText('${trackCode}', this)" style="background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 11px;" title="Sao chép mã">📋</button>
+                            </div>
+                        `;
+                    }
+                }
+
+                // Customer info
+                const phoneDisplay = o.buyer_phone || o.buyer_phone_raw || '';
+                const customerHtml = `
+                    <div>
+                        <strong style="color: #fff; font-size: 14px;">${o.buyer_name}</strong><br>
+                        <div style="display: flex; align-items: center; gap: 4px; margin-top: 2px;">
+                            <span style="font-family: monospace; color: #38bdf8; font-size: 12px;">${phoneDisplay}</span>
+                            ${phoneDisplay ? `<button onclick="copyText('${phoneDisplay}', this)" style="background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 11px;" title="Sao chép SĐT">📋</button>` : ''}
+                        </div>
+                    </div>
+                `;
+
+                // Status badge
+                const statusBadge = `<span class="badge-status ${o.status.badge_class}">${o.status.text}</span>`;
+
+                // Actions: Chỉ cho phép gửi WhatsApp khi đơn ĐÃ ĐẾN CHI NHÁNH ĐÍCH
+                let waButtonHtml = '';
+                if (o.status.code === 'READY_FOR_PICKUP' && o.wa_remind_link) {
+                    waButtonHtml = `<a href="${o.wa_remind_link}" target="_blank" class="btn-action btn-whatsapp" title="Gửi WhatsApp thuần tiếng Việt kèm link định vị Google Maps">💬 Gửi WhatsApp</a>`;
+                } else {
+                    waButtonHtml = `<button class="btn-action" disabled style="opacity: 0.45; cursor: not-allowed; background: rgba(255,255,255,0.05); color: var(--text-muted); border: 1px dashed rgba(255,255,255,0.15); font-size: 11px;" title="Chỉ được phép gửi tin nhắn khi đơn đã đến chi nhánh đích">🔒 Chưa đến đích</button>`;
+                }
+
+                const actionsHtml = `
+                    <div style="display: flex; gap: 6px; justify-content: center; align-items: center;">
+                        <button class="btn-action btn-timeline" onclick='showTimeline(${JSON.stringify(o).replace(/'/g, "&apos;")})'>
+                            👁️ Hành Trình
+                        </button>
+                        ${waButtonHtml}
+                    </div>
+                `;
+
+                const carrierClass = o.carrier === 'HAL Logistics' ? 'carrier-hal' : 'carrier-anousith';
+                const carrierLabel = o.carrier === 'HAL Logistics' ? '🛡️ HAL Logistics' : '🇱🇦 Anousith Express';
+
+                tr.innerHTML = `
+                    <td style="text-align: center; font-weight: 700; color: var(--text-muted);">${o.stt || index + 1}</td>
+                    <td>
+                        <strong style="color: #fff; font-size: 13px;">${o.order_uid}</strong><br>
+                        <small style="color: var(--text-muted); font-size: 11px;">${o.created_at ? o.created_at.substring(0, 10) : ''}</small>
+                    </td>
+                    <td>${trackingHtml}</td>
+                    <td>${customerHtml}</td>
+                    <td style="max-width: 220px;">
+                        <div style="font-weight: 600; color: #f1f5f9; line-height: 1.3;">${o.dest_branch}</div>
+                        <span class="carrier-tag ${carrierClass}">${carrierLabel}</span><br>
+                        ${o.google_maps_link ? `<a href="${o.google_maps_link}" target="_blank" style="display: inline-flex; align-items: center; gap: 4px; font-size: 11px; color: #38bdf8; text-decoration: none; margin-top: 3px;" title="Mở định vị chi nhánh trên Google Maps">📍 Vị trí Maps ↗</a>` : ''}
+                    </td>
+                    <td style="font-weight: 700; color: #34d399; font-family: monospace; font-size: 14px;">
+                        ${Number(o.cod_amount).toLocaleString()} KIP
+                    </td>
+                    <td>${statusBadge}</td>
+                    <td style="max-width: 200px;">
+                        <div style="font-size: 12px; color: #cbd5e1; line-height: 1.3;">${o.latest_scan_desc}</div>
+                        <small style="color: var(--text-muted); font-size: 11px;">${o.latest_scan_time || ''}</small>
+                    </td>
+                    <td style="text-align: center;">${actionsHtml}</td>
+                `;
+
+                tbody.appendChild(tr);
+            });
+        }
+
+        function setFilter(type, btn) {
+            currentFilter = type;
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            filterOrders();
+        }
+
+        function filterOrders() {
+            const queryRaw = (document.getElementById('searchInput').value || '').trim();
+            const query = queryRaw.toLowerCase();
+            const queryNorm = removeVietnameseTones(queryRaw);
+
+            const filtered = allOrdersData.filter(o => {
+                // Filter theo tab trạng thái
+                if (currentFilter !== 'ALL' && o.status.code !== currentFilter) {
+                    return false;
+                }
+
+                // Filter theo ô tìm kiếm thông minh (hỗ trợ cả có dấu và không dấu)
+                if (query) {
+                    const nameRaw = (o.buyer_name || '').toLowerCase();
+                    const nameNorm = removeVietnameseTones(o.buyer_name || '');
+                    
+                    const branchRaw = (o.dest_branch || '').toLowerCase();
+                    const branchNorm = removeVietnameseTones(o.dest_branch || '');
+                    
+                    const phone = (o.buyer_phone || '') + (o.buyer_phone_raw || '');
+                    const uid = (o.order_uid || '').toLowerCase();
+                    const code = (o.shipping_order_code || '').toLowerCase();
+
+                    const matchName = nameRaw.includes(query) || nameNorm.includes(queryNorm);
+                    const matchBranch = branchRaw.includes(query) || branchNorm.includes(queryNorm);
+                    const matchPhone = phone.includes(query);
+                    const matchUid = uid.includes(query);
+                    const matchCode = code.includes(query);
+
+                    return matchName || matchBranch || matchPhone || matchUid || matchCode;
+                }
+
+                return true;
+            });
+
+            renderTable(filtered);
+        }
+
+        function showTimeline(order) {
+            document.getElementById('modalTitle').innerText = `Mã Vận Đơn: ${order.shipping_order_code || order.order_uid}`;
+            document.getElementById('modalSub').innerText = `Khách hàng: ${order.buyer_name} (${order.buyer_phone}) • Chi nhánh đích: ${order.dest_branch}`;
+
+            const list = document.getElementById('modalTimelineList');
+            list.innerHTML = '';
+
+            const timeline = order.timeline || [];
+            if (timeline.length === 0) {
+                list.innerHTML = `<div style="color: var(--text-muted); font-size: 14px; padding: 20px 0;">Chưa có dữ liệu quét bưu cục từ hãng vận chuyển.</div>`;
+            } else {
+                timeline.forEach(t => {
+                    const item = document.createElement('div');
+                    item.className = 'timeline-item';
+                    item.innerHTML = `
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-time">${t.time}</div>
+                        <div class="timeline-title">${t.location}</div>
+                        <div class="timeline-desc">${t.description}</div>
+                    `;
+                    list.appendChild(item);
+                });
+            }
+
+            document.getElementById('timelineModal').classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('timelineModal').classList.remove('active');
+        }
+
+        function reloadOrdersData() {
+            const btn = document.querySelector('.btn-sync');
+            btn.innerHTML = '⏳ Đang Quét...';
+            btn.disabled = true;
+
+            setTimeout(() => {
+                loadData();
+                btn.innerHTML = '🔄 Cập Nhật Tức Thì';
+                btn.disabled = false;
+                alert("Đã làm mới dữ liệu vận đơn Lào thành công!");
+            }, 500);
+        }
+
+        // Đóng modal khi bấm phím ESC hoặc bấm ra ngoài
+        window.addEventListener('keydown', e => {
+            if (e.key === 'Escape') closeModal();
+        });
+        document.getElementById('timelineModal').addEventListener('click', e => {
+            if (e.target.id === 'timelineModal') closeModal();
+        });
+
+        // Tự động khởi động khi tải trang
+        loadData();
+    </script>
+</body>
+</html>
+
